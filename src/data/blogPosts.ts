@@ -37,242 +37,66 @@ export const blogPosts: BlogPost[] = [
  content: {
  zh: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">关于汇刃 (FX Killer)</h1>
 
-<p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">汇刃 (FX Killer)</strong> 是一个专注于筛选和培养外汇交易员的军事化训练营。</p>
+<p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">汇刃 (FX Killer)</strong> 专注筛选和培养外汇交易员的军事化训练营。</p>
 
 <div class="bg-black dark:bg-white text-white dark:text-black p-8 mb-6 border-2 border-black dark:border-white">
- <p class="text-lg leading-relaxed mb-3 text-white dark:text-black">核心理念</p>
- <p class="text-2xl font-bold mb-4 text-white dark:text-black">培养真正适合的人，留下极少数，劝返大多数</p>
+<p class="text-2xl font-bold mb-4 text-white dark:text-black">培养真正适合的人，留下极少数，劝返大多数</p>
 </div>
 
-<hr class="my-12 border-t-2 border-gray-200 dark:border-gray-800">
-
-<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">什么是汇刃？</h2>
-
-<p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">我们是一个专注于筛选和培养顶尖外汇交易员的训练组织。我们致力于用最短的时间从大量人群中筛选出少数适合做外汇交易的人才并进行培养并给予支持。</p>
-
-<p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">简单来说，我们在招聘外汇交易员，但绝不是从事交易多年、有经验的交易员。因为优秀的交易员不会在人才市场上流通，只能亲自培养。所以换句话说，我们在亲自筛选和培养我们的交易员，并致力于将合格的交易员培养成基金经理。</p>
-
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">我们将在 45天(30个工作日) 内判断新人是否是做外汇交易的可塑之才：</h3>
+<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">30个工作日筛选</h2>
 
 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
- <div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700"><div class="mb-4 w-12 h-12 bg-black dark:bg-white flex items-center justify-center"><span class="text-2xl text-white dark:text-black font-bold">1</span></div>
- <p class="text-gray-600 dark:text-gray-400 leading-relaxed">前20个工作日</p>
- <p class="text-xl font-bold mb-3 text-black dark:text-white">包含5天的交易基本规则学习和15天的盈利练习</p>
- </div>
- <div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">后10个工作日</p>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">连续的盈利考核测试</p>
- </div>
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700"><div class="mb-4 w-12 h-12 bg-black dark:bg-white flex items-center justify-center"><span class="text-2xl text-white dark:text-black font-bold">1</span></div>
+<p class="text-xl font-bold mb-3 text-black dark:text-white">前20天</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed">5天规则学习 + 15天盈利练习</p>
+</div>
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700"><div class="mb-4 w-12 h-12 bg-black dark:bg-white flex items-center justify-center"><span class="text-2xl text-white dark:text-black font-bold">2</span></div>
+<p class="text-xl font-bold mb-3 text-black dark:text-white">后10天</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed">连续盈利考核测试</p>
+</div>
 </div>
 
-<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">若不是</p>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">我们会如实告知，并劝诫其此生不要踏足二级市场</p>
-</div>
-
-<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">若是</p>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">我们会为其分配资金，以独立交易员的身份为起点，将其招募进我们的组织</p>
-</div>
-
-<hr class="my-12 border-t-2 border-gray-200 dark:border-gray-800">
-
-<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">谁是适合的人？</h2>
-
-<p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">在外汇交易的世界里，有些人天生不适合。他们急于求成，却不知自己真正追求什么；他们只瞥一眼表象，便止步不前，无法洞察事物的深层本质；或者，他们压根就该选择那些"稳定"的岗位——当一天和尚，敲一天钟，过着可预测的日子。</p>
-
-<p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">这不是贬低，而是现实：外汇交易如战场，需要冷静、洞察与韧性。如果你属于这一类，或许其他行业更能发挥你的长处。</strong></p>
-
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">基本条件</h3>
+<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">基本条件</h2>
 
 <ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>大专学历以上，35岁以下</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>认真、细心、耐心、心理健康</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>连续30个工作日(约45天)，Windows电脑</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>独立的交易环境</span></li>
+<li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>大专以上，35岁以下，认真细心耐心</span></li>
+<li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>连续30个工作日，Windows电脑，独立环境</span></li>
+<li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>每天13:30-21:30在线，20:00团队复盘</span></li>
+<li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">只有一次机会</strong></span></li>
 </ul>
 
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">时间要求</h3>
-
-<ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>周一到周五，每天最低保证 13:30 - 21:30 在线</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>北京时间20:00 团队长会议室复盘</span></li>
-</ul>
-
-<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">重要提醒</p>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">每个人只有一次进入的机会</strong></p>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">请在充分了解并确认自己符合全部条件后再申请。</p>
-</div>
-
-<hr class="my-12 border-t-2 border-gray-200 dark:border-gray-800">
-
-<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">成长计划（30个工作日）</h2>
-
-<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">第 1 - 5 个工作日 | 完成规则学习</p>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">尽快熟悉交易系统的基本规则</p>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">一阶段规则考核要求：</strong>15 个标准进场点不出错</p>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white"> 重要：</strong>5 个工作日不能完成规则考核，酌情劝退处理</p>
- </div>
-
- <div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">第 6 - 20 个工作日 | 盈利练习</p>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">务必不要想法太多，找到适合自己的品种</p>
- <ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>• 第一周：多练习，找到适合自己的品种（先找4-6个观察，稳定到2个交易品种）</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>• 第二周：按照盈利考核标准进行盈利练习，不错单、不漏单、不亏损</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>• 第三周：务必不能犯低级错误，务必做到操作一致性</span></li>
- </ul>
- </div>
-
- <div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">第 21 - 30 个工作日 | 连续盈利考核测试</p>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">这是最终考核阶段，需要连续10个工作日保持稳定盈利</p>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">盈利考核要求：</strong>连续 10 个工作日，每天做到所选交易品种不错单、不漏单、不亏损</p>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white"> 重要：</strong>30个工作日内不能完成连续 10 天盈利，劝退处理</p>
- </div>
-
- <div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">小额实盘 20 工作日</p>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">小额实盘仍旧只有一次机会，超出回撤要求即视为失败，请珍惜</p>
- <ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>• 小额实盘依旧保持盈利考核要求，1-3 品种，不错单，不漏单，不亏损</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>• 认为自己盈利能力不稳定的，可以申请 1-4 周的小额仿真模拟盘固化</span></li>
- </ul>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white"> 重要：</strong>小额实盘账户：日回撤不超过 20%，周总回撤不得超过 30%，超过劝退</p>
- </div>
-
- <div class="bg-black dark:bg-white text-white dark:text-black p-8 mb-6 border-2 border-black dark:border-white">
- <p class="text-lg leading-relaxed mb-3 text-white dark:text-black">职业交易员阶段 | 大额矩阵</p>
- <p class="text-2xl font-bold mb-4 text-white dark:text-black">小额实盘 20 工作日固化无误，进入大额矩阵</p>
- <ul class="space-y-3 mb-4">
- <li class="text-white dark:text-black leading-relaxed flex items-start gap-2"><span class="text-white dark:text-black font-bold">•</span><span> 拥有完全自由的工作时间，每天不限制交易量，保证每日不亏的底线即可</span></li>
- <li class="text-white dark:text-black leading-relaxed flex items-start gap-2"><span class="text-white dark:text-black font-bold">•</span><span> 资金规模与仓位：随着交易能力的不断稳定，仓位大小逐步提升</span></li>
- <li class="text-white dark:text-black leading-relaxed flex items-start gap-2"><span class="text-white dark:text-black font-bold">•</span><span> 小额实盘：20 美金仓位，配资 100 美金</span></li>
- <li class="text-white dark:text-black leading-relaxed flex items-start gap-2"><span class="text-white dark:text-black font-bold">•</span><span> 大额实盘：依据小额实盘的表现进行设定</span></li>
- <li class="text-white dark:text-black leading-relaxed flex items-start gap-2"><span class="text-white dark:text-black font-bold">•</span><span> 仓位增长：随着盈利曲线的上升，逐步增加仓位规模，逐步增加分润比例</span></li>
- </ul>
- </div>
-</div>
-
-<hr class="my-12 border-t-2 border-gray-200 dark:border-gray-800">
-
-<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">关于收入与分成</h2>
-
-<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">坦率地说</p>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">任何盈利导向的企业，都不会做亏本买卖。即使高薪聘请一个一无所知的应届生，也源于政府补贴或对该人潜力的判断。在我们这个极简行业，所有价值都源于二级市场的买卖差价——简单、直接、残酷。</p>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">在你证明盈利能力（通过考核）之前，我们不会投入一分钱。</strong>考核通过后，你的实际收入，绝不会超过你在"战场"（二级市场）上缴获的"战利品"。</p>
-</div>
+<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">收入与分成</h2>
 
 <div class="bg-black dark:bg-white text-white dark:text-black p-8 mb-6 border-2 border-black dark:border-white">
- <p class="text-lg leading-relaxed mb-3 text-white dark:text-black">分润比例</p>
- <p class="text-lg leading-relaxed mb-3 text-white dark:text-black">你在战场获得的战利品，<strong class="font-bold text-black dark:text-white">至少 60% 属于你个人</strong>，随着你的能力提升，这个比例也会随之提高，<strong class="font-bold text-black dark:text-white">至高可达 90% 以上</strong>。</p>
- <p class="text-2xl font-bold mb-4 text-white dark:text-black">剩下的属于我们，所以我们会用心培养每一位准交易员——你战场战利品多，我们战利品也才会多，我们是一条船上的战友，荣辱与共！</p>
+<p class="text-2xl font-bold mb-4 text-white dark:text-black">分润 60%-90%</p>
+<p class="text-lg leading-relaxed mb-3 text-white dark:text-black">通过考核后，你的盈利至少60%归你，最高可达90%以上</p>
 </div>
-
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">通过率</h3>
 
 <div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">10% - 15%</p>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">最终通过率只有 10%-15%。我们培养真正适合的人，留下极少数，劝返大多数。</p>
+<p class="text-xl font-bold mb-3 text-black dark:text-white">通过率 10%-15%</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed">我们只培养真正适合的人</p>
 </div>
-
-<hr class="my-12 border-t-2 border-gray-200 dark:border-gray-800">
 
 <h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">交易铁律</h2>
 
 <div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">交易纪律就像法律法规，触碰一次就会被标上不信任的标签，一旦触碰，就再也无法进入矩阵团队，第二次触碰红线，直接劝退离开团队。<strong class="font-bold text-black dark:text-white">交易就像做手术，务必严肃，容不得任何不遵守规则的人。</strong></p>
-
- <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
- <div>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">交易规则红线：</p>
- <ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>• 硬止损线不能移动，位置务必设置正确</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>• 只有标准和激进两种进场方式</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>• 不能跨越红折线持仓</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>• 止损和出场必须满足规则条件</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>• 5倍以上利润才能使用止盈线</span></li>
- </ul>
- </div>
- <div>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">会议纪律红线：</p>
- <ul class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>• 学员之间不得加微信、电话等联系方式</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>• 会议室内保持严肃，不得谈论除交易外其他话题</span></li>
- </ul>
- </div>
- </div>
+<p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">交易如手术，严肃对待，不容违规。</strong></p>
+<ul class="space-y-3 mb-6">
+<li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>硬止损不可移动</span></li>
+<li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>只有标准和激进两种进场</span></li>
+<li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>不可跨越红折线持仓</span></li>
+<li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>学员间不得私加联系方式</span></li>
+</ul>
 </div>
-
-<hr class="my-12 border-t-2 border-gray-200 dark:border-gray-800">
-
-<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">写在最后</h2>
-
-<p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">培养真正适合的人，留下极少数，劝返大多数。</p>
-
-<p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">我们这是外汇交易员军队训练营，在这里，我们将严格按照军事管理的方式将你训练成正规军（通过考核）。通过考核之后，我们将给你发放枪支弹药，让你去前线作战（实盘交易）并胜利凯旋（盈利而归）。</p>
-
-<p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">所以，我们会非常认真训练你们，因为没有一个将军希望牺牲自己辛苦训练出来的战士（不能赚钱的交易员我们也不会将他送到前线去当韭菜）。</p>
-
-<p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">通过考核后，我们就是合作共赢的关系。你可以选择独立作战，也可以选择和战友背靠背作战，所以我们不是公司员工隶属的关系，你是一个独立的创业者，独立的个体。</p>
-
-<div class="bg-black dark:bg-white text-white dark:text-black p-8 mb-6 border-2 border-black dark:border-white">
- <p class="text-lg leading-relaxed mb-3 text-white dark:text-black">你在战场获得的战利品，<strong class="font-bold text-black dark:text-white">至少 60% 属于你个人</strong>，随着你的能力提升，这个比例也会随之提高，<strong class="font-bold text-black dark:text-white">至高可达 90% 以上</strong>。</p>
-</div>
-
-<p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">因为这是窄门，你难道没有听说过免费的也许会是比钱更"贵"的？第一，你下决定决心并且被选中，一旦开始职业交易训练，需要全身心投入。第二，真正能坚持下来的人虽然不会为金钱所累，但的确"任重道远"。第三，跟传统学科不同，不需要你付出数万美金的"学费"，毕竟这是一个钱生钱的行当。</p>
-
-<hr class="my-12 border-t-2 border-gray-200 dark:border-gray-800">
 
 <h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">如何申请</h2>
 
 <ol class="space-y-3 mb-6">
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">完成心理测评</strong> - 首先完成心理测评，确保您具备成为职业交易员的心理素质</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">联系团队长</strong> - 通过邮件联系团队长，提交您的申请意向</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">初步面谈</strong> - 团队长将与您联系，安排初步面谈</span></li>
- <li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">正式开始培训</strong> - 通过面试后，正式开始培训课程</span></li>
-</ol>
-
-<h3 class="text-2xl font-bold mb-4 mt-8 text-black dark:text-white">联系方式</h3>
-
-<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">邮箱：</strong>x.stark.dylan@gmail.com</p>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">请在邮件中包含您的基本信息、教育背景、以及为什么想成为外汇交易员。</p>
-</div>
-
-<hr class="my-12 border-t-2 border-gray-200 dark:border-gray-800">
-
-<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">准备好了吗？</p>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">记住：最大风险是淘汰，成本是时间。若明朗、准备就绪，预约面试。通过后，入训。</p>
- <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
- <div>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">10-15%</p>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">最终通过率</p>
- </div>
- <div>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">只有一次</p>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">机会次数</p>
- </div>
- <div>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">45天</p>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">时间成本</p>
- </div>
- <div>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">完全免费</p>
- <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">金钱成本</p>
- </div>
- </div>
-</div>
-
-<hr class="my-12 border-t-2 border-gray-200 dark:border-gray-800">
-
-<p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white"> 风险提示：</strong>外汇交易有风险，投资需谨慎。本站内容仅供学习参考，不构成投资建议。</p>
-
-<p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300">*最后更新：2025年1月*</p>`,
+<li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">完成心理测评</strong></span></li>
+<li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">邮件联系团队长</strong></span></li>
+<li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">初步面谈</strong></span></li>
+<li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span><strong class="font-bold text-black dark:text-white">正式开始培训</strong></span></li>
+</ol>`,
  en: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">About FX Killer</h1>
 
 <p class="text-base leading-relaxed mb-4 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">FX Killer</strong> is a military-style training camp focused on selecting and cultivating forex traders.</p>
