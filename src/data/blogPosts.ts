@@ -1942,30 +1942,94 @@ export const blogPosts: BlogPost[] = [
  content: {
  zh: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">外汇交易的风险管理策略</h1>
 
-<p class="text-base leading-relaxed mb-8 text-center text-gray-700 dark:text-gray-300">成功的交易员不是因为从不亏损，而是因为懂得控制风险。风险管理是交易的生命线。</p>
+<p class="text-base leading-relaxed mb-8 text-center text-gray-700 dark:text-gray-300">成功的交易员不是因为从不亏损，而是因为懂得控制风险。风险管理是交易的生命线，决定了你能在市场中存活多久。</p>
 
-<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">风险管理原则</h2>
+<div class="bg-black dark:bg-white text-white dark:text-black p-8 mb-8 border-2 border-black dark:border-white">
+<p class="text-3xl font-bold mb-4 text-white dark:text-black text-center">90%的交易员失败，不是因为不会盈利，而是因为不懂风险管理</p>
+</div>
+
+<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">风险管理核心原则</h2>
 
 <div class="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
 <div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700"><div class="mb-4 w-12 h-12 bg-black dark:bg-white flex items-center justify-center"><span class="text-2xl text-white dark:text-black font-bold">2%</span></div>
 <p class="text-xl font-bold mb-2 text-black dark:text-white">单笔风险</p>
-<p class="text-gray-600 dark:text-gray-400 leading-relaxed">账户的2%</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed">单笔交易最多风险账户的2%</p>
 </div>
 <div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700"><div class="mb-4 w-12 h-12 bg-black dark:bg-white flex items-center justify-center"><span class="text-2xl text-white dark:text-black font-bold">6%</span></div>
-<p class="text-xl font-bold mb-2 text-black dark:text-white">总风险</p>
-<p class="text-gray-600 dark:text-gray-400 leading-relaxed">所有持仓≤6%</p>
+<p class="text-xl font-bold mb-2 text-black dark:text-white">日总风险</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed">所有持仓总风险≤6%</p>
 </div>
 <div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700"><div class="mb-4 w-12 h-12 bg-black dark:bg-white flex items-center justify-center"><span class="text-2xl text-white dark:text-black font-bold">1:2</span></div>
 <p class="text-xl font-bold mb-2 text-black dark:text-white">盈亏比</p>
-<p class="text-gray-600 dark:text-gray-400 leading-relaxed">最低要求</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed">最低盈亏比要求</p>
 </div>
 <div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700"><div class="mb-4 w-12 h-12 bg-black dark:bg-white flex items-center justify-center"><span class="text-2xl text-white dark:text-black font-bold">100</span></div>
 <p class="text-xl font-bold mb-2 text-black dark:text-white">硬止损</p>
-<p class="text-gray-600 dark:text-gray-400 leading-relaxed">%必须设置</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed">100%必须设置止损</p>
 </div>
 </div>
 
-<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">仓位管理对比</h2>
+<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">为什么风险管理如此重要</h2>
+
+<p class="text-base leading-relaxed mb-6 text-gray-700 dark:text-gray-300">很多新手认为交易的关键是找到好的进场点，但实际上，风险管理才是决定交易成败的关键。一个平庸的交易系统+严格的风险管理，远胜于一个优秀的交易系统+糟糕的风险管理。</p>
+
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-4 text-black dark:text-white">❌ 没有风险管理的后果</p>
+<ul class="space-y-3">
+<li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2">
+<span class="text-black dark:text-white font-bold">•</span>
+<span>一次重仓亏损可能导致爆仓</span>
+</li>
+<li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2">
+<span class="text-black dark:text-white font-bold">•</span>
+<span>连续小亏损积累成大亏损</span>
+</li>
+<li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2">
+<span class="text-black dark:text-white font-bold">•</span>
+<span>情绪失控导致报复性交易</span>
+</li>
+<li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2">
+<span class="text-black dark:text-white font-bold">•</span>
+<span>无法长期稳定盈利</span>
+</li>
+<li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2">
+<span class="text-black dark:text-white font-bold">•</span>
+<span>最终离开市场</span>
+</li>
+</ul>
+</div>
+
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-4 text-black dark:text-white">✓ 严格风险管理的好处</p>
+<ul class="space-y-3">
+<li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2">
+<span class="text-black dark:text-white font-bold">•</span>
+<span>保护本金，确保长期生存</span>
+</li>
+<li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2">
+<span class="text-black dark:text-white font-bold">•</span>
+<span>心态平稳，减少情绪波动</span>
+</li>
+<li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2">
+<span class="text-black dark:text-white font-bold">•</span>
+<span>即使连续亏损也能承受</span>
+</li>
+<li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2">
+<span class="text-black dark:text-white font-bold">•</span>
+<span>复利增长，长期盈利</span>
+</li>
+<li class="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-2">
+<span class="text-black dark:text-white font-bold">•</span>
+<span>成为专业交易员</span>
+</li>
+</ul>
+</div>
+</div>
+
+<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">2%法则详解</h2>
+
+<p class="text-base leading-relaxed mb-6 text-gray-700 dark:text-gray-300">2%法则是风险管理的黄金准则：单笔交易的风险金额不得超过账户总额的2%。这个看似简单的规则，却是大多数失败交易员忽视的。</p>
 
 <div class="overflow-x-auto mb-8">
 <table class="w-full border-2 border-black dark:border-white">
@@ -1973,62 +2037,304 @@ export const blogPosts: BlogPost[] = [
 <tr>
 <th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">账户规模</th>
 <th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">2%风险金额</th>
-<th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">合理手数</th>
-<th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">最大持仓</th>
+<th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">止损50点时手数</th>
+<th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">最大同时持仓</th>
+<th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">连续亏损10次后余额</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">$1,000</td>
 <td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">$20</td>
-<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">0.02手</td>
-<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">0.06手</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">0.04手</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">3笔(6%风险)</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">$817</td>
 </tr>
 <tr>
 <td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">$5,000</td>
 <td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">$100</td>
-<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">0.1手</td>
-<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">0.3手</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">0.2手</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">3笔(6%风险)</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">$4,085</td>
 </tr>
 <tr>
 <td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">$10,000</strong></td>
 <td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">$200</strong></td>
-<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">0.2手</strong></td>
-<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">0.6手</strong></td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">0.4手</strong></td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">3笔(6%风险)</strong></td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">$8,171</strong></td>
 </tr>
 <tr>
 <td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">$50,000</td>
 <td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">$1,000</td>
-<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">1.0手</td>
-<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">3.0手</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">2.0手</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">3笔(6%风险)</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">$40,853</td>
 </tr>
 </tbody>
 </table>
 </div>
 
 <div class="bg-black dark:bg-white text-white dark:text-black p-8 mb-8 border-2 border-black dark:border-white">
-<p class="text-2xl font-bold mb-4 text-white dark:text-black text-center">⚠️ 风险管理铁律</p>
-<p class="text-lg leading-relaxed text-center text-white dark:text-black">永远不要因为一笔交易而毁掉整个账户。严格执行2%单笔风险原则。</p>
+<p class="text-2xl font-bold mb-4 text-white dark:text-black text-center">⚠️ 重要发现</p>
+<p class="text-lg leading-relaxed text-center text-white dark:text-black mb-4">即使连续亏损10次，2%法则也只会损失账户的约18%</p>
+<p class="text-center text-white dark:text-black">这意味着你还有82%的资金可以继续交易！这就是风险管理的威力。</p>
 </div>
 
-<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">止损策略</h2>
+<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">仓位计算实战</h2>
+
+<p class="text-base leading-relaxed mb-6 text-gray-700 dark:text-gray-300">很多交易员不知道如何正确计算仓位。这里提供一个简单但精确的计算方法：</p>
+
+<div class="space-y-6 mb-8">
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-4 text-black dark:text-white">📐 仓位计算公式</p>
+<div class="bg-gray-100 dark:bg-gray-900 p-4 mb-4">
+<p class="text-center text-black dark:text-white font-mono text-lg">
+手数 = (账户余额 × 风险百分比) ÷ (止损点数 × 每点价值)
+</p>
+</div>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-3"><strong class="font-bold text-black dark:text-white">实例1：</strong>账户$10,000，风险2%，止损50点</p>
+<ul class="space-y-2">
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>风险金额 = $10,000 × 2% = $200</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>每点价值 = $10 (标准手)</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>手数 = $200 ÷ (50 × $10) = 0.4手</span></li>
+</ul>
+</div>
+
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-4 text-black dark:text-white">💡 不同止损点数的仓位对照</p>
+<div class="overflow-x-auto">
+<table class="w-full border-2 border-gray-300 dark:border-gray-700">
+<thead>
+<tr class="bg-gray-200 dark:bg-gray-800">
+<th class="px-4 py-2 text-left text-black dark:text-white">止损点数</th>
+<th class="px-4 py-2 text-left text-black dark:text-white">$1,000账户</th>
+<th class="px-4 py-2 text-left text-black dark:text-white">$5,000账户</th>
+<th class="px-4 py-2 text-left text-black dark:text-white">$10,000账户</th>
+</tr>
+</thead>
+<tbody>
+<tr class="border-b border-gray-200 dark:border-gray-800">
+<td class="px-4 py-2 text-gray-700 dark:text-gray-300">20点</td>
+<td class="px-4 py-2 text-gray-700 dark:text-gray-300">0.1手</td>
+<td class="px-4 py-2 text-gray-700 dark:text-gray-300">0.5手</td>
+<td class="px-4 py-2 text-gray-700 dark:text-gray-300">1.0手</td>
+</tr>
+<tr class="border-b border-gray-200 dark:border-gray-800">
+<td class="px-4 py-2 text-gray-700 dark:text-gray-300">50点</td>
+<td class="px-4 py-2 text-gray-700 dark:text-gray-300">0.04手</td>
+<td class="px-4 py-2 text-gray-700 dark:text-gray-300">0.2手</td>
+<td class="px-4 py-2 text-gray-700 dark:text-gray-300">0.4手</td>
+</tr>
+<tr class="border-b border-gray-200 dark:border-gray-800">
+<td class="px-4 py-2 text-gray-700 dark:text-gray-300">100点</td>
+<td class="px-4 py-2 text-gray-700 dark:text-gray-300">0.02手</td>
+<td class="px-4 py-2 text-gray-700 dark:text-gray-300">0.1手</td>
+<td class="px-4 py-2 text-gray-700 dark:text-gray-300">0.2手</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+
+<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">止损策略详解</h2>
+
+<p class="text-base leading-relaxed mb-6 text-gray-700 dark:text-gray-300">止损是风险管理的核心工具。不设止损的交易不是交易，是赌博。</p>
 
 <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
 <div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<div class="mb-4 w-12 h-12 bg-black dark:bg-white flex items-center justify-center">
+<span class="text-2xl text-white dark:text-black font-bold">1</span>
+</div>
 <p class="text-xl font-bold mb-3 text-black dark:text-white">📍 技术止损</p>
-<p class="text-gray-600 dark:text-gray-400 leading-relaxed">设置在关键支撑/阻力位外侧，给价格足够呼吸空间</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-3">基于技术分析设置止损位，通常放在关键支撑/阻力位外侧。</p>
+<p class="text-sm font-bold text-black dark:text-white mb-2">适用场景：</p>
+<ul class="space-y-1">
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>趋势交易</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>突破交易</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>形态交易</span></li>
+</ul>
+<p class="text-sm font-bold text-black dark:text-white mb-2 mt-3">示例：</p>
+<p class="text-gray-600 dark:text-gray-400 text-sm">在上升趋势中买入，将止损设在最近低点下方5-10点</p>
 </div>
+
 <div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<div class="mb-4 w-12 h-12 bg-black dark:bg-white flex items-center justify-center">
+<span class="text-2xl text-white dark:text-black font-bold">2</span>
+</div>
 <p class="text-xl font-bold mb-3 text-black dark:text-white">💰 固定金额止损</p>
-<p class="text-gray-600 dark:text-gray-400 leading-relaxed">根据账户2%原则，计算固定金额止损点位</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-3">根据账户2%原则，先确定风险金额，再计算止损点位。</p>
+<p class="text-sm font-bold text-black dark:text-white mb-2">适用场景：</p>
+<ul class="space-y-1">
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>小账户交易</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>严格资金管理</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>新手交易</span></li>
+</ul>
+<p class="text-sm font-bold text-black dark:text-white mb-2 mt-3">示例：</p>
+<p class="text-gray-600 dark:text-gray-400 text-sm">$10,000账户，每笔最多亏$200，根据这个反推止损位置</p>
 </div>
+
 <div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<div class="mb-4 w-12 h-12 bg-black dark:bg-white flex items-center justify-center">
+<span class="text-2xl text-white dark:text-black font-bold">3</span>
+</div>
 <p class="text-xl font-bold mb-3 text-black dark:text-white">⏰ 时间止损</p>
-<p class="text-gray-600 dark:text-gray-400 leading-relaxed">如果持仓超过预期时间未达目标，主动离场</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-3">如果持仓超过预期时间未达到目标，主动平仓离场。</p>
+<p class="text-sm font-bold text-black dark:text-white mb-2">适用场景：</p>
+<ul class="space-y-1">
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>日内交易</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>新闻交易</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>震荡行情</span></li>
+</ul>
+<p class="text-sm font-bold text-black dark:text-white mb-2 mt-3">示例：</p>
+<p class="text-gray-600 dark:text-gray-400 text-sm">日内交易超过4小时未盈利，无论盈亏都平仓</p>
 </div>
 </div>
 
-<p class="text-base leading-relaxed mb-4 text-center text-gray-700 dark:text-gray-300 italic">风险管理不是限制盈利，而是保护本金，让你能在市场中长期生存。</p>`,
+<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">盈亏比管理</h2>
+
+<p class="text-base leading-relaxed mb-6 text-gray-700 dark:text-gray-300">盈亏比（Risk-Reward Ratio）是指每笔交易潜在盈利与潜在亏损的比例。专业交易员要求最低1:2的盈亏比。</p>
+
+<div class="overflow-x-auto mb-8">
+<table class="w-full border-2 border-black dark:border-white">
+<thead>
+<tr>
+<th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">盈亏比</th>
+<th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">所需胜率</th>
+<th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">100笔后盈亏</th>
+<th class="bg-black dark:bg-white text-white dark:text-black font-bold px-6 py-3 text-left">评价</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">1:1</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">50%</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">±0 (持平)</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">❌ 不可接受</td>
+</tr>
+<tr>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">1:2</strong></td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">34%</strong></td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">+34R</strong></td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300"><strong class="font-bold text-black dark:text-white">✓ 最低标准</strong></td>
+</tr>
+<tr>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">1:3</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">25%</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">+50R</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">✓ 优秀</td>
+</tr>
+<tr>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">1:4</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">20%</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">+60R</td>
+<td class="px-6 py-3 border-b border-gray-200 dark:border-gray-800 text-gray-700 dark:text-gray-300">✓ 卓越</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div class="bg-black dark:bg-white text-white dark:text-black p-8 mb-8 border-2 border-black dark:border-white">
+<p class="text-2xl font-bold mb-4 text-white dark:text-black text-center">关键洞察</p>
+<p class="text-lg text-center text-white dark:text-black mb-4">1:2的盈亏比意味着：即使你只有34%的胜率，长期仍然盈利！</p>
+<p class="text-center text-white dark:text-black">这就是为什么专业交易员更关注盈亏比，而不是胜率。</p>
+</div>
+
+<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">常见风险管理错误</h2>
+
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-4 text-black dark:text-white">❌ 错误1：不设止损</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-3">认为"价格会回来"，结果小亏损变成大亏损，最终爆仓。</p>
+<p class="text-sm font-bold text-black dark:text-white mb-2">正确做法：</p>
+<p class="text-gray-600 dark:text-gray-400 text-sm">每笔交易开仓同时设置止损，并且绝不移动止损扩大亏损。</p>
+</div>
+
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-4 text-black dark:text-white">❌ 错误2：止损太近</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-3">为了降低风险而设置很近的止损，结果频繁被扫损。</p>
+<p class="text-sm font-bold text-black dark:text-white mb-2">正确做法：</p>
+<p class="text-gray-600 dark:text-gray-400 text-sm">止损应该基于技术分析，给价格足够的波动空间，通过减少手数来控制风险。</p>
+</div>
+
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-4 text-black dark:text-white">❌ 错误3：移动止损扩大亏损</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-3">看到价格接近止损就把止损往外移，希望"再给一次机会"。</p>
+<p class="text-sm font-bold text-black dark:text-white mb-2">正确做法：</p>
+<p class="text-gray-600 dark:text-gray-400 text-sm">止损一旦设置，只能向盈利方向移动（跟踪止损），绝不向亏损方向移动。</p>
+</div>
+
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-4 text-black dark:text-white">❌ 错误4：重仓交易</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-3">使用过大的仓位，一次亏损就损失账户的10%甚至更多。</p>
+<p class="text-sm font-bold text-black dark:text-white mb-2">正确做法：</p>
+<p class="text-gray-600 dark:text-gray-400 text-sm">严格遵守2%法则，永远不要因为"非常确定"而加大仓位。</p>
+</div>
+
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-4 text-black dark:text-white">❌ 错误5：报复性交易</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-3">亏损后想快速回本，加大仓位频繁交易，结果越亏越多。</p>
+<p class="text-sm font-bold text-black dark:text-white mb-2">正确做法：</p>
+<p class="text-gray-600 dark:text-gray-400 text-sm">亏损后停止交易，冷静分析，等待真正的机会。</p>
+</div>
+
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-4 text-black dark:text-white">❌ 错误6：同时持有相关品种</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-3">同时做多EUR/USD和GBP/USD，以为是两笔交易，实际风险翻倍。</p>
+<p class="text-sm font-bold text-black dark:text-white mb-2">正确做法：</p>
+<p class="text-gray-600 dark:text-gray-400 text-sm">注意货币对的相关性，避免重复风险暴露。</p>
+</div>
+</div>
+
+<h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">进阶风险管理技巧</h2>
+
+<div class="space-y-6 mb-8">
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-4 text-black dark:text-white">1. 跟踪止损 (Trailing Stop)</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-3">当持仓盈利后，逐步将止损向盈利方向移动，锁定利润同时给价格继续运行的空间。</p>
+<p class="text-sm font-bold text-black dark:text-white mb-2">实例：</p>
+<ul class="space-y-2">
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>在1.1000买入EUR/USD，初始止损1.0950（50点）</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>价格上涨到1.1050，移动止损到1.1000（保本）</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>价格上涨到1.1100，移动止损到1.1050（锁定50点利润）</span></li>
+</ul>
+</div>
+
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-4 text-black dark:text-white">2. 分批进场</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-3">不要一次性开满仓位，而是分2-3次进场，降低平均成本，提高胜率。</p>
+<p class="text-sm font-bold text-black dark:text-white mb-2">策略：</p>
+<ul class="space-y-2">
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>第一次进场：50%仓位，测试市场</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>第二次进场：30%仓位，确认趋势</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>第三次进场：20%仓位，趋势明确</span></li>
+</ul>
+</div>
+
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-4 text-black dark:text-white">3. 分批离场</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-3">达到目标后不要一次性全平，而是分批获利了结，既保护利润又不错过更大行情。</p>
+<p class="text-sm font-bold text-black dark:text-white mb-2">策略：</p>
+<ul class="space-y-2">
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>达到1:1盈亏比：平仓50%，保本止损</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>达到1:2盈亏比：平仓30%，跟踪止损</span></li>
+<li class="text-gray-600 dark:text-gray-400 text-sm flex items-start gap-2"><span class="text-black dark:text-white font-bold">•</span><span>剩余20%：让利润奔跑</span></li>
+</ul>
+</div>
+
+<div class="bg-white dark:bg-gray-800 p-6 border-2 border-gray-200 dark:border-gray-700">
+<p class="text-xl font-bold mb-4 text-black dark:text-white">4. 每日损失上限</p>
+<p class="text-gray-600 dark:text-gray-400 leading-relaxed mb-3">设置每日最大亏损限额（如账户的5%），达到后立即停止交易。</p>
+<p class="text-sm font-bold text-black dark:text-white mb-2">示例：</p>
+<p class="text-gray-600 dark:text-gray-400 text-sm">$10,000账户，每日亏损达到$500就停止交易，明天再来。这避免了情绪失控导致的连续亏损。</p>
+</div>
+</div>
+
+<div class="bg-black dark:bg-white text-white dark:text-black p-8 mb-8 border-2 border-black dark:border-white">
+<p class="text-2xl font-bold mb-4 text-white dark:text-black text-center">风险管理的终极目标</p>
+<p class="text-lg text-center text-white dark:text-black">不是避免亏损，而是确保你能在市场中长期生存，等待并抓住那些真正的大机会。记住：保护本金永远是第一位的。</p>
+</div>`,
  en: `<h1 class="text-4xl font-bold text-center mb-8 text-black dark:text-white">Forex Risk Management Strategies</h1>
 
 <h2 class="text-3xl font-bold text-center mb-4 text-black dark:text-white border-b-4 border-black dark:border-white inline-block pb-2 w-full">Why is Risk Management So Important?</h2>
