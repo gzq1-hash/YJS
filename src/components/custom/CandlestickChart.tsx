@@ -57,6 +57,103 @@ export default function CandlestickChart() {
       return emaData;
     };
 
+    // Calculate Simple Moving Average (SMA)
+    const calculateSMA = (data: number[], period: number): number[] => {
+      const smaData: number[] = [];
+      for (let i = 0; i < data.length; i++) {
+        if (i < period - 1) {
+          smaData[i] = data[i]; // Not enough data yet
+        } else {
+          const sum = data.slice(i - period + 1, i + 1).reduce((a, b) => a + b, 0);
+          smaData[i] = sum / period;
+        }
+      }
+      return smaData;
+    };
+
+    // Calculate ATR (Average True Range)
+    const calculateATR = (candles: Candle[], period: number): number[] => {
+      const atrData: number[] = [];
+      const trueRanges: number[] = [];
+
+      for (let i = 0; i < candles.length; i++) {
+        if (i === 0) {
+          trueRanges[i] = candles[i].high - candles[i].low;
+        } else {
+          const tr1 = candles[i].high - candles[i].low;
+          const tr2 = Math.abs(candles[i].high - candles[i - 1].close);
+          const tr3 = Math.abs(candles[i].low - candles[i - 1].close);
+          trueRanges[i] = Math.max(tr1, tr2, tr3);
+        }
+      }
+
+      // Calculate ATR using SMA of true ranges
+      for (let i = 0; i < trueRanges.length; i++) {
+        if (i < period - 1) {
+          atrData[i] = trueRanges[i];
+        } else {
+          const sum = trueRanges.slice(i - period + 1, i + 1).reduce((a, b) => a + b, 0);
+          atrData[i] = sum / period;
+        }
+      }
+
+      return atrData;
+    };
+
+    // Calculate Keltner Channel
+    const calculateKeltnerChannel = (candles: Candle[], period: number, atrMultiplier: number): { middle: number[], upper: number[], lower: number[] } => {
+      const closes = candles.map(c => c.close);
+      const middle = calculateSMA(closes, period);
+      const atr = calculateATR(candles, period);
+
+      const upper = middle.map((m, i) => m + atr[i] * atrMultiplier);
+      const lower = middle.map((m, i) => m - atr[i] * atrMultiplier);
+
+      return { middle, upper, lower };
+    };
+
+    // Calculate ZigZag indicator
+    const calculateZigZag = (candles: Candle[], depth: number): Array<{ index: number; price: number; type: 'high' | 'low' }> => {
+      if (candles.length < depth) return [];
+
+      const zigzagPoints: Array<{ index: number; price: number; type: 'high' | 'low' }> = [];
+      let lastHighIndex = 0;
+      let lastLowIndex = 0;
+      let lastHigh = candles[0].high;
+      let lastLow = candles[0].low;
+      let searchingForHigh = true;
+
+      for (let i = 0; i < candles.length; i++) {
+        if (searchingForHigh) {
+          if (candles[i].high > lastHigh) {
+            lastHigh = candles[i].high;
+            lastHighIndex = i;
+          }
+          // Check if we found a significant low
+          if (lastHigh - candles[i].low >= depth * 0.01) {
+            zigzagPoints.push({ index: lastHighIndex, price: lastHigh, type: 'high' });
+            lastLow = candles[i].low;
+            lastLowIndex = i;
+            searchingForHigh = false;
+          }
+        } else {
+          if (candles[i].low < lastLow) {
+            lastLow = candles[i].low;
+            lastLowIndex = i;
+          }
+          // Check if we found a significant high
+          if (candles[i].high - lastLow >= depth * 0.01) {
+            zigzagPoints.push({ index: lastLowIndex, price: lastLow, type: 'low' });
+            lastHigh = candles[i].high;
+            lastHighIndex = i;
+            searchingForHigh = true;
+          }
+        }
+      }
+
+      return zigzagPoints;
+    };
+
     // Initialize
     let candles: Candle[] = [];
     let lastPrice = 1000;
@@ -209,6 +306,80 @@ export default function CandlestickChart() {
         });
 
         ctx.stroke();
+      }
+
+      // Draw Keltner Channel (MA20, ATR multiplier 0.5, purple 1px)
+      if (candles.length >= 20) {
+        const keltner = calculateKeltnerChannel(candles, 20, 0.5);
+
+        // Draw upper band
+        ctx.strokeStyle = 'rgba(147, 51, 234, 0.8)'; // Purple
+        ctx.lineWidth = 1;
+        ctx.beginPath();
+        keltner.upper.forEach((value, index) => {
+          const x = index * candleSpacing + candleWidth / 2;
+          const y = padding.top + ((maxPrice - value) / priceRange) * chartHeight;
+          if (index === 0) {
+            ctx.moveTo(x, y);
+          } else {
+            ctx.lineTo(x, y);
+          }
+        });
+        ctx.stroke();
+
+        // Draw middle line (MA20)
+        ctx.strokeStyle = 'rgba(147, 51, 234, 0.8)'; // Purple
+        ctx.lineWidth = 1;
+        ctx.beginPath();
+        keltner.middle.forEach((value, index) => {
+          const x = index * candleSpacing + candleWidth / 2;
+          const y = padding.top + ((maxPrice - value) / priceRange) * chartHeight;
+          if (index === 0) {
+            ctx.moveTo(x, y);
+          } else {
+            ctx.lineTo(x, y);
+          }
+        });
+        ctx.stroke();
+
+        // Draw lower band
+        ctx.strokeStyle = 'rgba(147, 51, 234, 0.8)'; // Purple
+        ctx.lineWidth = 1;
+        ctx.beginPath();
+        keltner.lower.forEach((value, index) => {
+          const x = index * candleSpacing + candleWidth / 2;
+          const y = padding.top + ((maxPrice - value) / priceRange) * chartHeight;
+          if (index === 0) {
+            ctx.moveTo(x, y);
+          } else {
+            ctx.lineTo(x, y);
+          }
+        });
+        ctx.stroke();
+      }
+
+      // Draw ZigZag indicator (depth 35, 2px line)
+      if (candles.length >= 10) {
+        const zigzagPoints = calculateZigZag(candles, 35);
+
+        if (zigzagPoints.length >= 2) {
+          ctx.strokeStyle = 'rgba(59, 130, 246, 0.8)'; // Blue
+          ctx.lineWidth = 2;
+          ctx.beginPath();
+
+          zigzagPoints.forEach((point, index) => {
+            const x = point.index * candleSpacing + candleWidth / 2;
+            const y = padding.top + ((maxPrice - point.price) / priceRange) * chartHeight;
+
+            if (index === 0) {
+              ctx.moveTo(x, y);
+            } else {
+              ctx.lineTo(x, y);
+            }
+          });
+
+          ctx.stroke();
+        }
       }
 
       animationId = requestAnimationFrame(draw);
