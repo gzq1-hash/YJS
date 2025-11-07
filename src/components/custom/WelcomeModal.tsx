@@ -122,21 +122,26 @@ const WelcomeModal = forwardRef<WelcomeModalHandle>((props, ref) => {
           scale: 1,
           opacity: 1,
         }}
-        className="fixed z-50 bg-white dark:bg-gray-900 border-2 border-black dark:border-white shadow-2xl"
+        className="fixed z-50 bg-white dark:bg-gray-900 border-2 border-black dark:border-white shadow-2xl overflow-hidden flex flex-col"
         style={
           isExpanded
             ? {
                 top: '50%',
                 left: '50%',
+                right: 'auto',
+                bottom: 'auto',
                 transform: 'translate(-50%, -50%)',
                 width: 'calc(100% - 2rem)',
                 maxWidth: '56rem',
                 maxHeight: '90vh',
               }
             : {
+                top: 'auto',
+                left: 'auto',
                 right: '2rem',
                 bottom: '10rem',
                 width: '20rem',
+                transform: 'none',
               }
         }
       >
