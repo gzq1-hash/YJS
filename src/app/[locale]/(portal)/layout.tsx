@@ -8,6 +8,7 @@ import SubscriptionNotification from "@/components/custom/SubscriptionNotificati
 import FloatingContactForm from "@/components/custom/FloatingContactForm";
 import WelcomeModalWrapper from "@/components/custom/WelcomeModalWrapper";
 import CalendlyWidget from "@/components/custom/CalendlyWidget";
+import StructuredData from "@/components/seo/StructuredData";
 import Providers from "@/components/providers/Providers";
 import MouseFollower from "@/components/effects/MouseFollower";
 import ScrollProgress, { BackToTop } from "@/components/effects/ScrollProgress";
@@ -24,39 +25,80 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL('https://fxkiller.com'),
   title: {
-    default: "FX Killer - Professional FX Trader Training Platform | 外汇交易职业交易员培训",
+    default: "FX Killer - Professional FX Trader Training Platform | 汇刃·外汇交易职业交易员培训",
     template: "%s | FX Killer"
   },
-  description: "FX Killer - 专注于外汇交易的职业交易员培训平台。提供系统化外汇交易培训、实战训练和资金支持。通过专业考核即可获得资金管理权限，分润比例高达90%。培养真正适合外汇市场的专业交易员。",
-  keywords: ["FX Killer", "外汇交易", "外汇培训", "职业交易员", "FX交易", "外汇交易员", "外汇培训平台", "forex交易", "专业交易员培训", "外汇实战", "外汇技能培训"],
-  authors: [{ name: "FX Killer" }],
+  description: "FX Killer (汇刃) - 专注于外汇交易的职业交易员培训平台。提供系统化外汇交易培训、实战训练和资金支持。通过专业考核即可获得资金管理权限，分润比例高达90%。培养真正适合外汇市场的专业交易员。",
+  keywords: [
+    "FX Killer",
+    "汇刃",
+    "外汇交易",
+    "外汇培训",
+    "职业交易员",
+    "FX交易",
+    "外汇交易员",
+    "外汇培训平台",
+    "forex交易",
+    "专业交易员培训",
+    "外汇实战",
+    "外汇技能培训",
+    "funded trader",
+    "prop trading",
+    "forex education",
+    "trading course",
+    "forex strategy",
+    "risk management",
+    "technical analysis",
+    "外汇分析",
+    "交易策略",
+    "资金管理",
+    "技术分析",
+  ],
+  authors: [{ name: "FX Killer Team" }],
   creator: "FX Killer",
   publisher: "FX Killer",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  alternates: {
+    canonical: "https://fxkiller.com",
+    languages: {
+      'zh-CN': 'https://fxkiller.com/zh',
+      'en-US': 'https://fxkiller.com/en',
+    },
+  },
   openGraph: {
     type: "website",
     locale: "zh_CN",
+    alternateLocale: ["en_US"],
     url: "https://fxkiller.com",
-    siteName: "FX Killer",
-    title: "FX Killer - Professional FX Trader Training Platform",
+    siteName: "FX Killer | 汇刃",
+    title: "FX Killer - Professional FX Trader Training Platform | 汇刃·职业交易员培训",
     description: "专注于外汇交易的职业交易员培训平台。提供系统化外汇交易培训、实战训练和资金支持。通过专业考核即可获得资金管理权限，分润比例高达90%。",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "FX Killer"
+        alt: "FX Killer - Professional FX Trader Training Platform",
+        type: "image/jpeg",
       }
-    ]
+    ],
   },
   twitter: {
     card: "summary_large_image",
+    site: "@fxkiller",
+    creator: "@fxkiller",
     title: "FX Killer - Professional FX Trader Training Platform",
     description: "专注于外汇交易的职业交易员培训平台。提供系统化外汇交易培训、实战训练和资金支持。",
-    images: ["/og-image.jpg"]
+    images: ["/og-image.jpg"],
   },
   robots: {
     index: true,
     follow: true,
+    nocache: false,
     googleBot: {
       index: true,
       follow: true,
@@ -66,12 +108,17 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    // 可以添加 Google Search Console 验证码
-    // google: 'google-site-verification-code',
+    google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || undefined,
+    yandex: process.env.NEXT_PUBLIC_YANDEX_VERIFICATION || undefined,
     other: {
       'baidu-site-verification': 'codeva-kDRjETSiUu',
+      ...(process.env.NEXT_PUBLIC_BING_VERIFICATION && {
+        'msvalidate.01': process.env.NEXT_PUBLIC_BING_VERIFICATION
+      }),
     },
   },
+  category: 'education',
+  classification: 'Financial Education & Trading Training',
 };
 
 export default async function PortalLayout({
@@ -107,6 +154,7 @@ export default async function PortalLayout({
       </head>
       <body suppressHydrationWarning>
         <Providers>
+          <StructuredData />
           <PageLoader />
           <MouseFollower />
           <ScrollProgress />

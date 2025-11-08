@@ -7,17 +7,30 @@ export default function robots(): MetadataRoute.Robots {
     rules: [
       {
         userAgent: '*',
-        allow: '*',
+        allow: '/',
+        disallow: [
+          '/api/',
+          '/animation-test',
+          '/particle-test',
+          '/_next/',
+          '/admin',
+        ],
       },
-      // 针对百度爬虫的特殊规则
+      // 针对百度爬虫
       {
         userAgent: 'Baiduspider',
-        allow: '*',
+        allow: '/',
+        crawlDelay: 1,
       },
-      // 针对Google爬虫的特殊规则
+      // 针对Google爬虫
       {
         userAgent: 'Googlebot',
-        allow: '*',
+        allow: '/',
+      },
+      // 针对Bing爬虫
+      {
+        userAgent: 'bingbot',
+        allow: '/',
       },
     ],
     sitemap: `${baseUrl}/sitemap.xml`,
