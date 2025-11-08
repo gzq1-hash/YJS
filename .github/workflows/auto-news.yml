@@ -21,8 +21,13 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+
       - name: Install dependencies
-        run: npm install rss-parser axios dayjs
+        run: pnpm add rss-parser axios dayjs gray-matter
 
       - name: Generate SEO content
         run: node scripts/seo-content-generator.js
