@@ -9,7 +9,8 @@ const RSS_SOURCES = [
   'https://www.fxstreet.com/rss/news/latest'
 ];
 
-const GROQ_API_KEY = process.env.GROQ_API_KEY;
+const OPENAI_API_KEY = process.env.SKEY;
+const OPENAI_BASE_URL = 'https://api.oneabc.org';
 const NEWS_DIR = path.join(__dirname, '../src/content/news');
 const HISTORY_FILE = path.join(__dirname, '../.news-history.json');
 
@@ -113,17 +114,17 @@ function cleanContent(content) {
   return content;
 }
 
-// 使用Groq AI改写（中文版本）
+// 使用OpenAI API改写（中文版本）
 async function rewriteWithGroqZh(content) {
-  if (!GROQ_API_KEY) {
+  if (!OPENAI_API_KEY) {
     return simpleRewriteZh(content);
   }
 
   try {
     const response = await axios.post(
-      'https://api.groq.com/openai/v1/chat/completions',
+      `${OPENAI_BASE_URL}/v1/chat/completions`,
       {
-        model: 'groq/compound',
+        model: 'gpt-4o-mini',
         messages: [
           {
             role: 'user',
@@ -150,7 +151,7 @@ ${content}
       },
       {
         headers: {
-          'Authorization': `Bearer ${GROQ_API_KEY}`,
+          'Authorization': `Bearer ${OPENAI_API_KEY}`,
           'Content-Type': 'application/json'
         },
         timeout: 30000
@@ -159,22 +160,22 @@ ${content}
 
     return response.data.choices[0].message.content.trim();
   } catch (error) {
-    console.error('Groq API错误（中文）:', error.message);
+    console.error('OpenAI API错误（中文）:', error.message);
     return simpleRewriteZh(content);
   }
 }
 
-// 使用Groq AI改写（英文版本）
+// 使用OpenAI API改写（英文版本）
 async function rewriteWithGroqEn(content) {
-  if (!GROQ_API_KEY) {
+  if (!OPENAI_API_KEY) {
     return simpleRewriteEn(content);
   }
 
   try {
     const response = await axios.post(
-      'https://api.groq.com/openai/v1/chat/completions',
+      `${OPENAI_BASE_URL}/v1/chat/completions`,
       {
-        model: 'groq/compound',
+        model: 'gpt-4o-mini',
         messages: [
           {
             role: 'user',
@@ -200,7 +201,7 @@ Begin:`
       },
       {
         headers: {
-          'Authorization': `Bearer ${GROQ_API_KEY}`,
+          'Authorization': `Bearer ${OPENAI_API_KEY}`,
           'Content-Type': 'application/json'
         },
         timeout: 30000
@@ -209,7 +210,7 @@ Begin:`
 
     return response.data.choices[0].message.content.trim();
   } catch (error) {
-    console.error('Groq API错误（英文）:', error.message);
+    console.error('OpenAI API错误（英文）:', error.message);
     return simpleRewriteEn(content);
   }
 }
