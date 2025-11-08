@@ -30,7 +30,7 @@ export default function ParticleText({
   className = '',
 }: ParticleTextProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
-  const animationRef = useRef<number>();
+  const animationRef = useRef<number | undefined>(undefined);
   const particlesRef = useRef<Particle[]>([]);
   const startTimeRef = useRef<number>(0);
   const isDarkMode = useRef<boolean>(false);

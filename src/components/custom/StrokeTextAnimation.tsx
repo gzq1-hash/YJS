@@ -54,7 +54,7 @@ export default function StrokeTextAnimation({ className = "", loop = true }: Str
   // 循环动画配置
   const transition = {
     duration: 2,
-    ease: "easeInOut",
+    ease: "easeInOut" as const,
     repeat: loop ? Infinity : 0,
     repeatDelay: 1,
   };

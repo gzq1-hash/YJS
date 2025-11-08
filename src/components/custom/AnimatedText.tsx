@@ -50,7 +50,7 @@ export default function AnimatedText({ className = "", loop = true, delay = 0 }:
       y: 0,
       rotateX: 0,
       transition: {
-        type: "spring",
+        type: "spring" as const,
         damping: 12,
         stiffness: 100,
       },
@@ -69,7 +69,7 @@ export default function AnimatedText({ className = "", loop = true, delay = 0 }:
       y: 0,
       scale: 1,
       transition: {
-        type: "spring",
+        type: "spring" as const,
         damping: 10,
         stiffness: 100,
         delay: 0.15,
@@ -86,7 +86,7 @@ export default function AnimatedText({ className = "", loop = true, delay = 0 }:
       opacity: 1,
       x: 0,
       transition: {
-        type: "spring",
+        type: "spring" as const,
         damping: 10,
         stiffness: 100,
         delay: 0.3,
@@ -105,7 +105,7 @@ export default function AnimatedText({ className = "", loop = true, delay = 0 }:
       opacity: 1,
       transition: {
         duration: 0.6,
-        ease: "easeOut",
+        ease: "easeOut" as const,
       },
     },
   };
