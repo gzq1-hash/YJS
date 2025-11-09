@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CAD",
+  "name": "US Dollar vs Canadian Dollar",
+  "nameCn": "美元/加元",
+  "timestamp": "2025-11-09T16:32:26.957Z",
+  "price": {
+    "close": "1.40376",
+    "high": "1.40468",
+    "low": "1.40240",
+    "open": "1.40298",
+    "change": "0.05",
+    "datetime": "2025-11-08 08:00:00"
+  },
+  "indicators": {
+    "rsi": 26.27445,
+    "macd": -0.0019607568,
+    "macd_signal": -0.0012446565,
+    "sma20": 1.40888
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/加元技术分析：[震荡走势]",
+      "content": "当前美元/加元（USD/CAD）价格为1.40376，显示出一定的震荡走势。在过去24小时内，汇率变化仅为0.05%，这表明市场情绪较为平稳，缺乏明显的方向性。价格在1.40468的高点和1.40240的低点之间波动，显示出短期内买卖力量的相对均衡。\n\n从技术指标来看，虽然RSI和MACD的详细信息未提供，但结合20日简单移动平均线（SMA）1.40888的走势，可以判断当前价格在短期内低于均线，可能反映出一定的下行压力。若未来价格未能突破此均线，可能继续承压。\n\n在支撑和阻力方面，1.40240是关键的支撑位，若价格跌破该水平，可能会出现更深的回调。而1.40468则是短期内的阻力位，若价格突破该水平，可能会吸引更多买盘，推动汇率向上测试更高区域。\n\n基于当前市场状况，建议交易者保持观望，等待更明确的信号。如果价格突破1.40468，可考虑做多；若跌破1.40240，则可考虑做空，以应对潜在的下行风险。"
+    },
+    "en": {
+      "title": "US Dollar vs Canadian Dollar Technical Analysis",
+      "content": "The USD/CAD pair is currently trading at 1.40376, reflecting a slight 24-hour change of 0.05%. The price has shown minor fluctuations, with a high of 1.40468 and a low of 1.40240 during this period. This range suggests a consolidation phase, indicating that traders are evaluating the pair's next directional move. The overall trend remains bearish, as the current price is below the 20-period Simple Moving Average (SMA) at 1.40888, which often acts as a dynamic resistance level.\n\nTechnical indicators provide mixed signals. The MACD value of -0.00196 indicates bearish momentum, although the absence of a defined signal line limits interpretive clarity. Additionally, the RSI is not available, which hinders a complete momentum assessment. Traders should remain vigilant for potential reversals, particularly if the price attempts to break above the SMA, as this could signal a shift in sentiment toward the bullish side.\n\nKey support levels to watch include the recent low of 1.40240, which may serve as a floor for any downward movement. Should this level be breached, further support can be found near 1.40000, a psychological barrier that often attracts buying interest. Conversely, resistance is established at the SMA level near 1.40888. A breakout above this level may suggest a more sustained upward trend, opening the door for a retest of the 1.41000 zone.\n\nIn terms of trading strategy, a cautious approach is advisable. Traders could look for short positions near the SMA, especially if further bearish signals emerge. Alternatively, those inclined toward a long position might wait for a decisive break above 1.40888, confirming a bullish reversal. Overall, maintaining a close watch on price action and market sentiment will be crucial for informed trading decisions in the USD/CAD pair."
+    }
+  }
+}

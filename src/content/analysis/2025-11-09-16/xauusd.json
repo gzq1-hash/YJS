@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-09T16:34:36.325Z",
+  "price": {
+    "close": "3992.44",
+    "high": "3992.72",
+    "low": "3987.9",
+    "open": "3990.91",
+    "change": "0.04",
+    "datetime": "2025-11-08 23:00:00"
+  },
+  "indicators": {
+    "rsi": 49.4964,
+    "macd": -0.75801438,
+    "macd_signal": -0.16287453,
+    "sma20": 3994.802
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理中，短期关注支撑位]",
+      "content": "当前黄金/美元(XAU/USD)价格为3992.44，走势呈现震荡整理的态势。最近24小时内价格小幅上涨0.04%，显示出市场情绪相对平稳。在高点3992.72和低点3987.9之间波动，表明市场尚未找到明确的方向。\n\n从技术指标来看，MACD值为-0.758，虽然未能提供强烈的买入或卖出信号，但显示出卖方力量仍然占据主导。SMA(20)位于3994.80，表明短期内价格在这一水平附近波动。RSI(14)数据缺失，限制了对超买或超卖状态的评估。\n\n在支撑位方面，3987.9将成为短期关注的关键支撑水平；若价格跌破，将可能引发进一步回调。上行阻力则在3994.80附近，突破该点位将有助于开启新的上涨空间。建议投资者在支撑位附近寻找买入机会，同时关注市场情绪变化，适时调整策略。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of Gold against the US Dollar (XAU/USD) stands at 3992.44, showing a slight 24-hour change of 0.04%. The price action remains within a tight range, with a high of 3992.72 and a low of 3987.9. This consolidation phase suggests indecision among traders, with neither bulls nor bears asserting dominance. Given the recent price movements, the market appears to be in a short-term bearish trend, particularly as it hovers below the 20-day Simple Moving Average (SMA) at 3994.80.\n\nIn terms of technical indicators, the MACD is currently negative at -0.758, indicating that bearish momentum is present. However, the absence of the RSI data leaves a gap in understanding potential overbought or oversold conditions. Traders should keep an eye on the MACD for potential crossovers, which could signal a change in momentum. If the MACD line starts to rise closer to zero, it may indicate a potential bullish reversal, prompting traders to reconsider their positions.\n\nKey support levels are identified around the recent low of 3987.9, which, if breached, could trigger further selling pressure. Conversely, immediate resistance is noted at the 20-day SMA of 3994.80, which serves as a critical barrier for any upward movement. A successful break above this level might invite buying interest, pushing prices toward the next resistance level around 4000. \n\nTraders should consider a cautious approach in the current market environment. A sell signal could be activated if the price breaks below the support level of 3987.9, while a break above the 20-day SMA might present a buying opportunity. It is advisable to maintain tight stop losses to manage potential risks, given the current market volatility and indecision."
+    }
+  }
+}
