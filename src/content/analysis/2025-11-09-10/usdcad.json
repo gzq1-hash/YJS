@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CAD",
+  "name": "US Dollar vs Canadian Dollar",
+  "nameCn": "美元/加元",
+  "timestamp": "2025-11-09T10:28:48.188Z",
+  "price": {
+    "close": "1.40376",
+    "high": "1.40468",
+    "low": "1.40240",
+    "open": "1.40298",
+    "change": "0.05",
+    "datetime": "2025-11-08 08:00:00"
+  },
+  "indicators": {
+    "rsi": 26.27445,
+    "macd": -0.0019607568,
+    "macd_signal": -0.0012446565,
+    "sma20": 1.40888
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/加元技术分析：[震荡整理趋势]",
+      "content": "当前美元/加元（USD/CAD）在1.40376附近徘徊，显示出震荡整理的趋势。价格在过去24小时内变化不大，波动幅度有限，表明市场参与者对当前价格水平的看法较为谨慎。短期内，若价格突破1.40468的高点，可能会引发进一步的上涨趋势。\n\n从技术指标来看，MACD目前处于负值区域，显示出卖方力量依然存在。尽管RSI未提供具体数值，但若RSI持续低于50，可能会表明市场仍偏向疲软。同时，SMA（20）位于1.40888，作为短期阻力位，进一步的上涨需要克服这一阻力。\n\n在支撑位方面，1.40240是一个关键支撑水平，若价格跌破该水平，可能会加剧下行风险。反之，若价格能够稳住在1.40376以上，则有可能探测1.40468的阻力位。综合考虑，建议投资者在此区间内谨慎操作，关注突破信号以决定后续的交易策略。"
+    },
+    "en": {
+      "title": "US Dollar vs Canadian Dollar Technical Analysis",
+      "content": "The USD/CAD pair currently exhibits a slight upward trend, with a latest price of 1.40376. The 24-hour change of 0.05% indicates a stable market environment, albeit lacking significant volatility. The recent high of 1.40468 suggests resistance at this level, while the low of 1.40240 provides a clear support base. Traders should monitor these boundaries closely, as price action around them could determine the next significant move.\n\nThe absence of the RSI(14) limits our ability to assess momentum, but the MACD value of -0.00196 indicates a bearish sentiment in the short term. This suggests that sellers may still have some control over the market, though the proximity to the SMA(20) at 1.40888 could act as a catalyst for a potential reversal. A sustained move above the SMA could shift momentum in favor of buyers, prompting a bullish outlook.\n\nSupport levels appear robust at 1.40240, which may serve as a key indicator for potential buy opportunities if the price bounces off this level. Conversely, if the price breaks below this support, it could lead to further declines. Resistance is evident at 1.40468, and a failure to breach this level may solidify bearish sentiments, leading to a retest of the support zone.\n\nFor traders, a cautious approach is recommended. Consider short positions if the price fails to break above the resistance level, especially if accompanied by bearish signals from MACD or other indicators. In contrast, a breakout above the SMA could present a buying opportunity, with targets set towards 1.40888 and beyond. Risk management strategies should be employed to navigate this range-bound environment."
+    }
+  }
+}

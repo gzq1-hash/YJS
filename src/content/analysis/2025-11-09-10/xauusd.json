@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-09T10:31:02.088Z",
+  "price": {
+    "close": "3992.44",
+    "high": "3992.72",
+    "low": "3987.9",
+    "open": "3990.91",
+    "change": "0.04",
+    "datetime": "2025-11-08 23:00:00"
+  },
+  "indicators": {
+    "rsi": 49.4964,
+    "macd": -0.75801438,
+    "macd_signal": -0.16287453,
+    "sma20": 3994.802
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理趋势]",
+      "content": "当前黄金/美元的价格在3992.44附近震荡整理，短期内呈现出横盘走势。24小时变化仅为0.04%，表明市场参与者对当前价格的共识较强，缺乏明显的方向性。高点3992.72和低点3987.9的区间也进一步表明市场处于相对窄幅的波动中。\n\n从技术指标来看，MACD目前为负值-0.758，表明短期内卖压较重。此外，20日简单移动平均线(SMA)为3994.802，价格略低于此水平，显示出一定的下行压力。由于RSI数据缺失，无法进一步分析超买或超卖情况。\n\n支撑位方面，3987.9是关键支撑区域，若价格跌破该点位，可能会引发进一步下行。而阻力位则在3995附近，若能突破该水平，可能会引发短期反弹。投资者应关注这些关键价位的突破情况。\n\n建议短线交易者可以考虑在支撑位附近寻找买入机会，若价格跌破支撑位，则应及时止损。而突破阻力位后，可能会是更好的进场时机，适合追涨的策略。在当前震荡行情中，保持灵活应变的操作策略尤为重要。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of gold against the US dollar (XAU/USD) is at 3992.44, reflecting a slight upward movement of 0.04% over the last 24 hours. The price has seen a range between 3992.72 and 3987.9, indicating a relatively tight trading range. The market sentiment appears neutral, with neither bulls nor bears gaining substantial traction. Currently, the price is below the 20-period simple moving average (SMA) of 3994.80, suggesting a potential bearish bias in the short term.\n\nThe MACD indicator shows a negative value of -0.758, indicating that the momentum is currently favoring sellers. This bearish momentum is reinforced by the absence of a clear bullish signal, as the MACD line has not crossed above its signal line. Traders should remain cautious and look for further confirmation before entering long positions. A bounce from the current lows might offer a buying opportunity if accompanied by a shift in momentum indicators.\n\nIn terms of support and resistance levels, the immediate support can be identified around the recent low of 3987.9, while resistance is situated near the recent high of 3992.72. A breakout above this resistance level could signal a bullish reversal, encouraging buyers to enter the market. Conversely, if prices break below the support level, it may open the door for a deeper correction, potentially targeting lower support areas.\n\nIn summary, traders should consider monitoring the price action closely around the identified support and resistance levels. A cautious approach is advisable, especially given the current bearish momentum indicated by the MACD. Entering long positions should be considered only upon a confirmed breakout above resistance or a strong reversal pattern near support, while maintaining tight stop-loss levels to manage risk effectively."
+    }
+  }
+}
