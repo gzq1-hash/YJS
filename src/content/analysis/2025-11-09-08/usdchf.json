@@ -2,7 +2,7 @@
   "symbol": "USD/CHF",
   "name": "US Dollar vs Swiss Franc",
   "nameCn": "美元/瑞郎",
-  "timestamp": "2025-11-09T08:08:15.322Z",
+  "timestamp": "2025-11-09T08:34:35.250Z",
   "price": {
     "close": "0.80453998",
     "high": "0.80549997",
@@ -19,12 +19,12 @@
   },
   "analysis": {
     "zh": {
-      "title": "美元/瑞郎技术分析：[震荡整理趋势]",
-      "content": "当前美元/瑞郎(USD/CHF)的价格为0.8045，显示出市场在震荡整理中运行。过去24小时内，价格变化幅度较小，仅下降了0.06%，表明市场情绪相对谨慎，缺乏明显的方向性。高点0.8055和低点0.8044的区间限制了价格波动，投资者需关注后续的突破信号。\n\n从技术指标来看，尽管RSI(14)尚未提供数据，但MACD显示出微弱的负值，表明短期内卖方略占优势。20日简单移动平均线(SMA)在0.8061附近，成为近期的重要阻力位。如果价格能够突破此阻力，可能会引发一波反弹；反之，持续在此之下则可能继续承压。\n\n支撑位方面，0.8044是关键的短期支撑，若价格跌破此水平，可能会引发更大幅度的下行调整。相对而言，0.8055为主要的阻力位，若价格突破该水平，则有可能进一步上行至0.8070附近。投资者应密切关注这些价格水平，以制定相应的交易策略。\n\n综上所述，当前美元/瑞郎在震荡整理中，建议投资者在关键支撑和阻力位附近寻找交易机会。在未出现明确突破信号之前，保持谨慎交易态度，以规避潜在风险。"
+      "title": "美元/瑞郎技术分析：[短期震荡，趋势待明]",
+      "content": "当前美元/瑞郎（USD/CHF）在0.8045附近震荡整理，短期内缺乏明显的趋势动能。价格在高点0.8055与低点0.8044之间波动，显示出市场参与者的谨慎情绪，等待进一步的市场指引。\n\n技术指标方面，虽然RSI和MACD的具体值尚未提供，但从当前的价格走势来看，市场情绪偏向中性。20日简单移动平均线（SMA）在0.8061附近，为当前价格提供了一定的阻力，若价格突破该水平，可能会引发进一步的上行动能。\n\n支撑位方面，0.8044是近期关键支撑，若出现有效跌破，可能会引发更多的卖压，目标指向0.8030。然而，如果价格能维持在此支撑之上，且突破0.8061的阻力，可能会重新点燃多头情绪，目标指向0.8075。\n\n综合来看，建议交易者在当前震荡区间内保持观望，耐心等待关键支撑与阻力的突破信号，避免在市场不确定性较高时进行冒险交易。若突破0.8061，可以考虑轻仓做多，反之则在支撑位附近寻找做空机会。"
     },
     "en": {
       "title": "US Dollar vs Swiss Franc Technical Analysis",
-      "content": "The USD/CHF pair is currently exhibiting a slight bearish trend, with the latest price at 0.80454, reflecting a 24-hour change of -0.06%. The recent high and low levels of 0.80550 and 0.80438 respectively suggest a narrow trading range, indicating a period of consolidation. The market appears to be hesitant, with traders potentially waiting for a clearer directional signal. Overall, the trend remains cautious as the pair hovers just above critical support levels.\n\nIn terms of technical indicators, the lack of an available RSI value prevents a full momentum analysis, but the MACD shows a negative value of -0.00082, which could suggest a bearish sentiment in the short term. The absence of a confirmed signal line further complicates the analysis, indicating that market participants should exercise caution. The 20-day Simple Moving Average (SMA) at 0.80610 serves as a potential resistance point, illustrating the struggle of the USD against the CHF in maintaining upward momentum.\n\nKey support levels are found around the recent low of 0.80438, which, if breached, could lead to further declines toward 0.80300. On the upside, the SMA at 0.80610 will likely act as a resistance level, and a break above this could signal a potential reversal in sentiment. Traders should closely monitor these levels for potential entry or exit points, as the market dynamics could shift rapidly.\n\nGiven the current technical landscape, a cautious trading approach is advisable. Short positions may be considered if the price breaks below 0.80438, with targets set around 0.80300. Conversely, a move above the SMA could provide a buying opportunity, allowing for a test of resistance at higher levels. Maintaining strict risk management will be crucial in this environment of uncertainty."
+      "content": "The USD/CHF pair is currently trading at 0.8045, reflecting a minor decline of 0.06% over the last 24 hours. This slight downturn suggests a consolidation phase as the currency pair navigates the upper boundary of its recent range. The high and low for the day, at 0.8055 and 0.8044 respectively, indicate a narrowing trading range, which may lead to increased volatility in the near term as traders assess future direction.\n\nTechnical indicators offer mixed signals for traders. The current MACD value of -0.0008 suggests bearish momentum, yet without the signal line data, the interpretation remains limited. The absence of an RSI reading complicates momentum analysis, but the SMA(20) at 0.8061 serves as a potential resistance level. Should the price break above this level, it could indicate a reversal and attract bullish sentiment, while sustained trading below may reinforce bearish trends.\n\nKey support levels can be identified around the recent low of 0.8044, which may act as a psychological barrier for traders. A break below this level could expose further downside potential, testing lower levels. Conversely, if the price holds above this support, it may retest the nearby resistance at 0.8061. Traders should watch these price points closely, as they will dictate short-term trading strategies.\n\nGiven this analysis, a cautious approach is advisable. Traders might consider entering short positions if the price convincingly breaks below 0.8044, with targets set towards the next support level. Alternatively, a break above 0.8061 could signal a bullish reversal, presenting opportunities for long positions. As always, risk management through appropriate stop-loss orders is essential in this uncertain environment."
     }
   }
 }
