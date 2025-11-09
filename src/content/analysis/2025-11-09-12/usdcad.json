@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CAD",
+  "name": "US Dollar vs Canadian Dollar",
+  "nameCn": "美元/加元",
+  "timestamp": "2025-11-09T12:52:48.408Z",
+  "price": {
+    "close": "1.40376",
+    "high": "1.40468",
+    "low": "1.40240",
+    "open": "1.40298",
+    "change": "0.05",
+    "datetime": "2025-11-08 08:00:00"
+  },
+  "indicators": {
+    "rsi": 26.27445,
+    "macd": -0.0019607568,
+    "macd_signal": -0.0012446565,
+    "sma20": 1.40888
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/加元技术分析：[短期震荡，可能回调]",
+      "content": "当前美元/加元的价格为1.40376，近期的走势显示出一定的震荡行情。虽然价格在1.40240和1.40468之间波动，但整体趋势并未明确突破。短期内，市场情绪相对谨慎，投资者需密切关注即将发布的经济数据及相关消息。\n\n在技术指标方面，RSI未提供，但目前的MACD值为负，说明市场可能处于卖方主导的状态。20日简单移动平均线(SMA)为1.40888，当前价格低于该水平，进一步验证了短期内的下行压力。若价格继续维持在该均线之下，可能会吸引更多卖盘。\n\n支撑位方面，1.40240是短期关键支撑，若跌破该水平，可能会进一步向下测试1.40000的重要心理关口。阻力位方面，1.40468是当前的阻力，若价格企稳并突破该水平，有望重新测试1.40888的SMA。\n\n综合分析，短期内建议以观望为主，待市场出现明确的突破信号后再考虑进场。若价格回调至支撑位附近，适当的买入机会可能会出现，但需谨慎管理风险。"
+    },
+    "en": {
+      "title": "US Dollar vs Canadian Dollar Technical Analysis",
+      "content": "The USD/CAD pair is currently trading at 1.40376, showing a slight 24-hour change of 0.05%. The recent price action has been relatively stable, fluctuating between a high of 1.40468 and a low of 1.40240. This tight range suggests a period of consolidation, indicating that traders are assessing the next directional move. Given the current price is below the 20-day Simple Moving Average (SMA) of 1.40888, it may indicate a bearish sentiment in the near term, suggesting potential downward pressure if the price fails to recover above this level.\n\nFrom a technical standpoint, the absence of a current RSI reading limits the analysis of momentum; however, the MACD value of -0.00196 implies a bearish crossover, indicating that selling pressure might be intensifying. Traders should monitor the MACD closely, as a continued decline could lead to further weakness in the USD/CAD pair. It is essential to watch for potential divergence on the MACD as well, which could foreshadow a shift in momentum.\n\nKey support levels to watch are situated around 1.40240, which was recently tested and held, while resistance appears at the 1.40888 SMA level. If the price can break above this resistance, it could signal a shift in trend, inviting more bullish sentiment. Conversely, a sustained breach below the support level may open the door for further downside, potentially targeting lower levels.\n\nFor traders, the current market presents a cautious approach. A wait-and-see strategy may be prudent until clearer signals emerge from either the MACD or price action relative to the SMA. Consider placing buy orders above the 20-day SMA if bullish momentum builds, while setting sell orders just below 1.40240 could capitalize on potential bearish moves. Proper risk management should always be employed to navigate this uncertain environment."
+    }
+  }
+}
