@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-10T02:14:45.976Z",
+  "price": {
+    "close": "4031.46",
+    "high": "4037.83",
+    "low": "4029.72",
+    "open": "4034.5",
+    "change": "-0.08",
+    "datetime": "2025-11-10 13:00:00"
+  },
+  "indicators": {
+    "rsi": 73.35013,
+    "macd": 7.048422,
+    "macd_signal": 2.47651,
+    "sma20": 3998.8055
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理趋势]",
+      "content": "当前黄金/美元(XAU/USD)价格保持在4031.46附近，呈现出震荡整理的趋势。近期价格波动有限，未能突破4037.83的高点，显示出市场多头力量有所减弱。在这种情形下，投资者需保持警惕，关注价格是否会向下测试支撑位。\n\n从技术指标来看，MACD指标显示出弱势反弹的迹象，当前值为7.048422，可能表明短期内买入压力减弱。虽然无法获取RSI(14)的最新数据，但在当前价格区间内，若RSI维持在中性水平，可能预示着市场仍有进一步整理的空间。\n\n在支撑和阻力方面，4037.83为重要阻力位，而4029.72则构成关键支撑位。如果价格跌破4029.72，可能会引发更深的调整。反之，若突破4037.83，则可能重新点燃多头趋势，吸引更多买入资金。\n\n基于以上分析，建议投资者在当前区间内谨慎操作，关注价格走势的变化。若价格接近支撑位，可以考虑小幅买入；若突破阻力位，则可适时跟进多头仓位。同时，建议设置合理的止损，控制风险。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The XAU/USD pair is currently trading at 4031.46, showing a slight decline of 0.08% over the past 24 hours. The price action remains within a narrow range, as evidenced by the recent high of 4037.83 and a low of 4029.72. This consolidation phase indicates indecision among traders, which may precede a more significant move. A break above the recent high could signal a bullish trend continuation, while a drop below the low may suggest bearish sentiment.\n\nAnalyzing the indicators, the MACD is currently at 7.048422, indicating bullish momentum as it remains above the zero line. However, without a signal line for comparison, caution is advised for any potential reversals. The absence of an RSI reading makes it challenging to assess overbought or oversold conditions. Traders should watch for developments in these indicators to confirm the direction of the next major price movement.\n\nIn terms of support and resistance levels, immediate support is seen around 4029.72, with a more substantial support area at the SMA(20) of 3998.81. Resistance is positioned at 4037.83, with the potential for a breakout to extend towards 4050. A failure to hold above the support level may lead to a test of lower supports, while a breach above resistance could open up further upside potential for gold prices.\n\nFor trading strategies, a cautious approach is recommended. Traders might consider a buy position if the price breaks above 4037.83, targeting the next resistance level around 4050. Conversely, if the price falls below 4029.72, a sell position could be warranted, with targets aligned towards the SMA(20). Maintaining a close watch on the MACD and any emerging RSI values will be crucial for effective decision-making in the current market environment."
+    }
+  }
+}

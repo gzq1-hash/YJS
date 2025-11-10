@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-10T02:11:57.215Z",
+  "price": {
+    "close": "0.65150827",
+    "high": "0.65180552",
+    "low": "0.65150827",
+    "open": "0.65180552",
+    "change": "-0.07",
+    "datetime": "2025-11-10 13:00:00"
+  },
+  "indicators": {
+    "rsi": 65.27394,
+    "macd": 0.00057392193,
+    "macd_signal": 0.00016023811,
+    "sma20": 0.64911461
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡整理走势]",
+      "content": "当前澳元/美元汇率在0.6515附近震荡整理，24小时内小幅下跌0.07%。从价格走势来看，近期未能突破0.6520的阻力位，显示出市场缺乏强烈的买盘动力，可能在短期内继续维持震荡格局。\n\n技术指标方面，虽然RSI尚不可用，但MACD指标显示出微弱的正值，表明短期内多头力量仍然存在。20日简单移动平均线（SMA）在0.6491附近提供了一定的支撑，若价格跌破该水平，可能会引发进一步的下行压力。\n\n在支撑和阻力位方面，0.6518是近期的短期阻力位，而0.6491则是关键支撑位。若价格突破0.6520，可能会吸引更多买盘，进一步向上测试0.6540的水平。反之，若跌破0.6491，市场将可能面临更大的下行风险。\n\n基于当前的市场情况，建议投资者在0.6515附近采取观望策略，等待价格突破关键水平后再考虑进场交易。若价格突破阻力位，可考虑做多；若跌破支撑位，则应考虑做空。保持谨慎，灵活应对市场变化是成功交易的关键。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The AUD/USD pair is currently trading at 0.6515, reflecting a marginal decline of 0.07% over the last 24 hours. This latest price is situated near the session's low of 0.6515, suggesting a bearish sentiment in the short term. The absence of upward momentum could indicate that sellers are maintaining control. A failure to breach the recent high of 0.6518 may reinforce the prevailing downtrend unless bullish signals emerge to reverse this trajectory.\n\nFrom a technical perspective, the 20-day Simple Moving Average (SMA) at 0.6491 serves as a critical support level. Should the price break below this level, it could trigger further selling pressure, potentially targeting the next support area around 0.6450. Conversely, if the price rallies and surpasses the immediate resistance at 0.6518, it may signal a short-term reversal, allowing for a test of higher resistance levels, particularly around 0.6540.\n\nThe MACD value of 0.00057 indicates a slight bullish divergence, though a confirmed signal cannot be established without the accompanying signal line. The lack of RSI data limits our ability to gauge overbought or oversold conditions, making it essential to monitor price action closely for any emerging patterns. Traders should watch for potential breakout scenarios or reversals while remaining cautious of the underlying bearish trend.\n\nIn terms of trading strategy, a conservative approach would involve waiting for a clear signal to enter a position. A break below 0.6491 could present a short opportunity, while a successful move above 0.6518 may offer a buy signal. Utilizing stop-loss orders to manage risk in either scenario is advisable, ensuring that traders can navigate the volatile environment effectively while protecting their capital."
+    }
+  }
+}
