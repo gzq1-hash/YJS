@@ -134,7 +134,7 @@ export default function InterviewCTA() {
                 transition={{ duration: 0.4, delay: 0.5 + index * 0.1 }}
                 className="bg-white/10 dark:bg-black/10 backdrop-blur-sm border-2 border-white/20 dark:border-black/20 p-4 text-center hover:bg-white/20 dark:hover:bg-black/20 transition-colors"
               >
-                <div className="text-3xl mb-2">{feature.icon}</div>
+                <div className="text-3xl mb-2 text-white dark:text-black">{feature.icon}</div>
                 <div className="text-sm font-bold text-white dark:text-black">{feature.text}</div>
               </motion.div>
             ))}
