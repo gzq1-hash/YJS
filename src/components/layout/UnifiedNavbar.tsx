@@ -42,6 +42,10 @@ export default function UnifiedNavbar() {
       link: "/market-analysis",
     },
     {
+      name: t('nav.liveTrading'),
+      link: "/live-trading",
+    },
+    {
       name: t('nav.blog'),
       link: "/splan/blog",
     },
