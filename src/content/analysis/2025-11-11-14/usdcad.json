@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CAD",
+  "name": "US Dollar vs Canadian Dollar",
+  "nameCn": "美元/加元",
+  "timestamp": "2025-11-11T14:55:02.601Z",
+  "price": {
+    "close": "1.40080",
+    "high": "1.40125",
+    "low": "1.40000",
+    "open": "1.40058",
+    "change": "0.03",
+    "datetime": "2025-11-12 01:00:00"
+  },
+  "indicators": {
+    "rsi": 34.74267,
+    "macd": -0.00040645901,
+    "macd_signal": -0.00025939186,
+    "sma20": 1.40259
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/加元技术分析：[震荡整理中]",
+      "content": "当前美元/加元（USD/CAD）价格为1.40080，整体走势表现出震荡整理的特征。过去24小时内，价格波动幅度较小，仅有0.03%的变化，表明市场参与者对于未来走势持谨慎态度。在高点1.40125和低点1.40000之间，可能形成短期的区间交易模式。\n\n技术指标方面，虽然RSI（14）数据缺失，但MACD显示出微弱的负值，表明市场可能面临一定的卖压。20日简单移动平均线（SMA）在1.40259附近，对价格形成了阻力，若价格突破此水平，可能会引发更强劲的上涨趋势。若未能突破，则可能继续在当前区间内震荡。\n\n支撑位方面，1.40000是关键心理关口，若价格跌破该水平，可能会加速下行，并测试更低的支撑位。相对而言，1.40125则是主要的阻力位，突破后将有助于确认反弹信号。在操作策略上，建议投资者关注区间内的交易机会，适时进行短线操作，同时设定止损以控制风险。\n\n综上所述，美元/加元当前处于震荡整理阶段，投资者应密切关注市场动向，以便在合适的时机进行布局。"
+    },
+    "en": {
+      "title": "US Dollar vs Canadian Dollar Technical Analysis",
+      "content": "The USD/CAD currency pair is currently trading at 1.40080, showing a slight gain of 0.03% over the past 24 hours. This stability suggests a consolidation phase after a recent fluctuation between 1.40125 and 1.40000. The price action is hovering near the psychological level of 1.4000, which has historically acted as a support zone. If this level holds, traders may anticipate a potential rebound towards the 20-day Simple Moving Average (SMA) at 1.40259, which serves as a key resistance point.\n\nIn terms of indicators, the MACD is showing a negative value of -0.00040645901, indicating a bearish momentum. However, without the signal line data, the strength of this signal is hard to gauge. The lack of an RSI reading makes it difficult to assess overbought or oversold conditions at this time. Traders should keep an eye on the MACD for potential crossovers that could signal a shift in momentum, which would be crucial for determining entry and exit points.\n\nSupport levels are identified at 1.40000 and 1.39850, while resistance is expected at 1.40200 and the SMA at 1.40259. A decisive break below 1.40000 could lead to further declines, opening the door toward the next support level. Conversely, a breakout above 1.40259 may indicate a bullish turnaround, prompting traders to look for further upward movement. \n\nFor trading strategies, it may be prudent to adopt a wait-and-see approach until a clearer trend emerges. A bounce off the support at 1.40000 could provide a buying opportunity, particularly if confirmation from momentum indicators appears. Conversely, if the pair breaks below this level, short positions could be considered, targeting the next support level while managing risk with tight stop-loss orders."
+    }
+  }
+}

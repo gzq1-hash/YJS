@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-11T14:57:14.573Z",
+  "price": {
+    "close": "4122.94953",
+    "high": "4144.2114",
+    "low": "4121.44478",
+    "open": "4144.16503",
+    "change": "-0.51",
+    "datetime": "2025-11-12 01:00:00"
+  },
+  "indicators": {
+    "rsi": 57.017337,
+    "macd": 15.69133,
+    "macd_signal": 18.11581,
+    "sma20": 4123.21915
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理，短期承压]",
+      "content": "当前黄金/美元(XAU/USD)价格处于震荡整理阶段，最新价格为4122.95，较前一日下跌0.51%。在高点4144.21和低点4121.44之间波动，显示出市场在缺乏明确方向时的谨慎态度。短期内，黄金价格可能继续在这一区间内波动，投资者需密切关注市场情绪变化。\n\n从技术指标来看，MACD显示出15.69的正值，表明短期内买方力量相对强劲，但信号线数据缺失使得信号的可靠性降低。而20日简单移动平均线(SMA)的值为4123.22，价格略微低于此水平，可能暗示市场仍存在一定的下行压力。RSI数据缺失使得超买或超卖的判断难以进行。\n\n支撑位方面，4121.44是关键支撑，若突破该水平，可能加速下行。而上方阻力位则在4144.21附近，突破后可能引发进一步上涨。在这一背景下，投资者可以在支撑位附近考虑建立多头仓位，但需设置止损以防止意外波动带来的损失。\n\n综合来看，黄金/美元目前处于震荡整理阶段，短期内仍受压于20日SMA的阻力。建议投资者保持灵活的交易策略，关注市场动态，并在关键支撑和阻力位附近进行操作，以把握短期交易机会。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of XAU/USD at 4122.95 reflects a slight decline of 0.51% over the past 24 hours. This minor retracement suggests that the market is experiencing some consolidation following recent upward movements. The recent high of 4144.21 indicates a potential resistance level, while the low of 4121.44 signals a key support area. Traders should monitor these levels closely, as they could provide opportunities for both breakout and reversal strategies.\n\nThe absence of an RSI reading hampers momentum analysis, but the MACD value of 15.69 indicates a bullish momentum, albeit potentially weakening. This could imply that the upward trend may be losing steam, and a crossover below the signal line could suggest a shift in sentiment. The 20-day simple moving average at 4123.22 is in proximity to the current price, reinforcing the idea of a potential consolidation phase, with the SMA acting as dynamic support.\n\nSupport levels can be identified around 4121.44, while the 4144.21 level remains critical for resistance. A break below 4121.44 could lead to further declines, possibly testing lower support levels. Conversely, if the price breaks above 4144.21, it could signal a renewed bullish trend, opening the way for higher targets. Traders should watch for volume confirmations around these levels to validate any breakout or reversal signals.\n\nIn terms of trading suggestions, a cautious approach may be prudent given the current market conditions. Long positions could be considered if the price convincingly breaks above 4144.21, while a stop-loss should be placed just below the recent low to manage risk. Conversely, if the price falls below 4121.44, short positions may be warranted, taking advantage of potential downward momentum. Maintaining a close watch on the MACD and any emerging RSI data will be essential for informed decision-making."
+    }
+  }
+}
