@@ -1,0 +1,30 @@
+{
+  "symbol": "AUD/USD",
+  "name": "Australian Dollar vs US Dollar",
+  "nameCn": "澳元/美元",
+  "timestamp": "2025-11-11T18:56:16.405Z",
+  "price": {
+    "close": "0.65324",
+    "high": "0.65337",
+    "low": "0.65301",
+    "open": "0.65318",
+    "change": "0.01",
+    "datetime": "2025-11-12 05:00:00"
+  },
+  "indicators": {
+    "rsi": 54.60908,
+    "macd": 0.00013418044,
+    "macd_signal": 0.00013083536,
+    "sma20": 0.65278343
+  },
+  "analysis": {
+    "zh": {
+      "title": "澳元/美元技术分析：[震荡整理中]",
+      "content": "当前AUD/USD在0.65324附近交易，显示出震荡整理的态势。从24小时变化来看，价格轻微上升0.01%，表明市场缺乏明显的方向性。高点和低点分别为0.65337和0.65301，显示出当前区间的窄幅波动，投资者需密切关注价格突破的可能性。\n\n技术指标方面，虽然RSI(14)数据缺失，但根据MACD的值0.00013418044来看，买卖力量几乎持平，市场情绪中性。SMA(20)的0.65278343为价格提供了一定的支撑，若价格持续维持在此水平之上，可能会吸引更多的买盘。\n\n在支撑和阻力位方面，支撑位位于0.65278附近，若跌破该水平，可能会导致进一步回调。阻力位则在0.6535附近，突破后可能引发进一步上涨。因此，建议投资者在0.65278附近寻找买入机会，若反弹至阻力位可考虑部分获利了结。\n\n总体而言，AUD/USD在短期内显示出震荡整理的特征，投资者应保持谨慎，关注技术指标的变化，合理布局以应对潜在的价格波动。"
+    },
+    "en": {
+      "title": "Australian Dollar vs US Dollar Technical Analysis",
+      "content": "The AUD/USD pair is currently trading at 0.65324, showing a marginal increase of 0.01% over the past 24 hours. This slight upward movement indicates a consolidation phase following recent volatility. The price has oscillated between a high of 0.65337 and a low of 0.65301, suggesting a tight range that traders should monitor closely. The lack of significant price action may reflect market indecision, but it also sets the stage for potential breakout opportunities.\n\nIn terms of trend analysis, the AUD/USD appears to be in a sideways trend, with the price hovering around the 20-period simple moving average (SMA) at 0.65278343. This SMA level serves as a critical support point; a drop below this level could lead to bearish pressure, while a bounce could signal a potential upward move. Traders should watch for confirmation in either direction to establish a clearer trend. \n\nTechnical indicators provide additional insights, although the RSI(14) is not available for this analysis. The MACD shows a value of 0.00013418044, indicating a very slight bullish momentum, but without a signal line for comparison, it is difficult to ascertain the strength of this momentum. Traders should pay attention to these indicators in conjunction with price action for more reliable signals.\n\nKey support is seen at the psychological level of 0.65250, while immediate resistance lies at 0.65400. A breakout above this resistance could trigger buying interest and potentially push the price toward 0.65500. Conversely, if support at 0.65250 is breached, it would open up the possibility for further declines, with the next support target around 0.65000. Given the current market conditions, traders may consider range-bound strategies, capitalizing on price oscillations within these levels until a clearer trend emerges."
+    }
+  }
+}

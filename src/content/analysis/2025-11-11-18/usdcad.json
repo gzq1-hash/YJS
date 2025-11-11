@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CAD",
+  "name": "US Dollar vs Canadian Dollar",
+  "nameCn": "美元/加元",
+  "timestamp": "2025-11-11T18:57:00.967Z",
+  "price": {
+    "close": "1.40056",
+    "high": "1.40076",
+    "low": "1.39970",
+    "open": "1.40022",
+    "change": "0.03",
+    "datetime": "2025-11-12 05:00:00"
+  },
+  "indicators": {
+    "rsi": 32.77989,
+    "macd": -0.00072506641,
+    "macd_signal": -0.00048503528,
+    "sma20": 1.40236
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/加元技术分析：[震荡走势中的短期支撑与阻力]",
+      "content": "当前美元/加元（USD/CAD）在1.40050附近震荡，未能突破短期阻力位1.40236，显示出市场缺乏明确的方向性。整体来看，汇率在高点1.40076与低点1.39970之间波动，表明市场情绪较为谨慎，投资者在等待更明确的经济数据或政策指引。\n\n从技术指标来看，当前的MACD显示出微弱的看跌信号，尽管RSI未提供数据，但如果RSI在未来几天内保持在中性区域，可能会进一步确认汇率的震荡趋势。20日简单移动平均线（SMA）位于1.40236，表明该价位是一个重要的阻力位，若突破，则可能迎来更强的上涨动能。\n\n在支撑方面，1.39970为短期关键支撑位，若价格跌破此水平，将可能开启进一步下行空间。反之，若价格在该支撑位附近获得支撑，则可能形成反弹。建议短期交易者关注这两个关键价位，利用震荡区间进行高卖低买的策略，同时保持关注即将发布的经济数据，以把握潜在的交易机会。"
+    },
+    "en": {
+      "title": "US Dollar vs Canadian Dollar Technical Analysis",
+      "content": "The USD/CAD currency pair is currently trading at 1.40056, showing a slight increase of 0.03% over the past 24 hours. The price action suggests a consolidation phase, with the recent high at 1.40076 and a low of 1.39970. This narrow trading range indicates indecision among traders, potentially setting the stage for a breakout in either direction. A close above the recent high could lead to further bullish momentum, while a drop below the low might trigger bearish sentiment.\n\nIn terms of technical indicators, the absence of a current RSI value limits our ability to gauge overbought or oversold conditions effectively. However, the MACD is slightly negative at -0.00072506641, indicating a potential bearish bias, although this is not yet decisive. The SMA(20) at 1.40236 serves as a key resistance level. Traders should monitor how the price interacts with this moving average, as a breach could signal a reversal in the current trend.\n\nSupport levels are established at the recent low of 1.39970, which, if broken, may lead to further declines toward the next psychological support at 1.39700. Conversely, resistance is clearly defined at 1.40236, creating a range where traders can capitalize on price oscillations. If the price holds above the SMA(20), it may suggest a bullish reversal, making it a crucial level to watch.\n\nFor trading strategies, consider a cautious approach. If the price breaks above 1.40236, it may be prudent to enter long positions, targeting the next resistance level around 1.40500. Conversely, if the price declines below 1.39970, short positions may be beneficial, with targets set toward the 1.39700 support level. As always, employing stop-loss orders to manage risk is essential in this unpredictable market environment."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "symbol": "GBP/USD",
+  "name": "British Pound vs US Dollar",
+  "nameCn": "英镑/美元",
+  "timestamp": "2025-11-11T18:54:44.935Z",
+  "price": {
+    "close": "1.31740",
+    "high": "1.31785",
+    "low": "1.31719",
+    "open": "1.31738",
+    "change": "-0.02",
+    "datetime": "2025-11-12 05:00:00"
+  },
+  "indicators": {
+    "rsi": 56.287,
+    "macd": 0.00033904568,
+    "macd_signal": 0.000046390526,
+    "sma20": 1.31593
+  },
+  "analysis": {
+    "zh": {
+      "title": "英镑/美元技术分析：[震荡整理趋势]",
+      "content": "当前英镑/美元（GBP/USD）价格为1.31740，24小时内微幅下跌0.02%。从技术面来看，价格在1.31700附近震荡整理，未能有效突破近期的高点1.31785，显示出市场缺乏明确的方向。整体趋势偏向于横盘整理，投资者需保持警惕。\n\n在技术指标方面，虽然RSI（14）数据缺失，但MACD显示出微弱的多头信号，当前MACD值为0.000339，表明短期内存在一定的上行动能。20日简单移动平均线（SMA）位于1.31593，提供了一定的支撑力度，若价格回落至此水平，可能会吸引买盘介入。\n\n支撑位方面，关注1.31500和1.31350两个重要关口，突破这些支撑可能引发进一步下跌。阻力位则集中在1.31800和1.32000，若价格突破这些阻力，可能会重新开启上涨通道。投资者可考虑在接近支撑位时建立多头仓位，而在接近阻力位时则应谨慎对待，适时获利了结。"
+    },
+    "en": {
+      "title": "British Pound vs US Dollar Technical Analysis",
+      "content": "The GBP/USD pair is currently exhibiting a narrow trading range, with the latest price at 1.31740 and a slight 24-hour change of -0.02%. The market appears to be consolidating just above the 20-period simple moving average (SMA) of 1.31593, suggesting a potential bullish bias if the price can maintain this level. However, the lack of significant momentum in recent price action indicates that traders should remain cautious and attentive to any developments that could trigger a breakout.\n\nThe high and low for the day at 1.31785 and 1.31719, respectively, reflect a tight range, which often precedes a more significant price movement. The absence of a definitive trend in the RSI and MACD indicators suggests indecision among market participants. A sustained move above the recent high could signal a bullish continuation, while a drop below the low could lead to bearish sentiment, emphasizing the importance of watching these levels closely.\n\nSupport for GBP/USD is found around the SMA level at 1.31593, which may act as a critical barrier against downward pressure. Conversely, resistance is observed at 1.31800, which, if breached, could open the door for further gains towards the next psychological level at 1.32000. Traders may consider entering long positions if the price breaks above resistance with strong volume, while short positions could be warranted if the pair closes below the support level, indicating a potential reversal.\n\nIn summary, GBP/USD is currently in a state of consolidation with key levels to watch for potential trading opportunities. A breakout above 1.31800 could lead to bullish momentum, while a drop below 1.31593 may signal a bearish shift. Given the current market conditions, traders should remain vigilant and ready to adjust their strategies based on price action and confirmation from technical indicators."
+    }
+  }
+}
