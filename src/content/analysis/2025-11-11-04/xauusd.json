@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-11T04:37:56.640Z",
+  "price": {
+    "close": "4134.1",
+    "high": "4135.9",
+    "low": "4131.03",
+    "open": "4132.3",
+    "change": "0.04",
+    "datetime": "2025-11-11 15:00:00"
+  },
+  "indicators": {
+    "rsi": 79.96122,
+    "macd": 23.43733,
+    "macd_signal": 22.7806,
+    "sma20": 4102.217
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理，短期谨慎]",
+      "content": "当前黄金/美元(XAU/USD)在4134.1附近震荡整理，整体趋势相对平稳。由于价格在4135.9和4131.03之间波动，市场尚未形成明确的多头或空头趋势。投资者需关注该区间的突破情况，以判断后市的方向。\n\n在技术指标方面，MACD显示出23.43733的正值，暗示短期内存在一定的买盘动能，但由于缺乏RSI数据，尚无法全面评估超买或超卖状态。20日简单移动平均线(SMA)位于4102.217，作为支撑位，若价格跌破该水平，可能会引发更大幅度的回调。\n\n从支撑和阻力的角度来看，4135.9为近期的阻力位，若突破该阻力，可能引发进一步上涨。相反，4131.03则是关键支撑位，若跌破，将增加看空的可能。投资者应密切关注这两个价位的表现，以制定相应的交易策略。\n\n建议投资者在当前区间内采取谨慎态度，适当利用短线交易机会。如果价格突破阻力位，考虑建立多头仓位；若跌破支撑位，则可以考虑空头交易。但无论如何，风险管理是交易中不可或缺的一部分。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of gold against the US dollar (XAU/USD) is observed at 4134.1, showing a modest 24-hour change of 0.04%. The price action is hovering near the upper end of its recent trading range, with a high of 4135.9 and a low of 4131.03. This suggests a consolidating market, where buyers and sellers are vying for control. Key to this analysis is the upward trend evident over the short term, supported by the recent price movements and the SMA(20) currently at 4102.21700, indicating bullish sentiment.\n\nIn terms of technical indicators, the MACD value of 23.43733 points to a strong bullish momentum, although the lack of a signal line makes it difficult to assess its current strength fully. The RSI is not available, which limits the assessment of overbought or oversold conditions. However, given the current price action, a potential overbought condition may develop if the upward trend continues without a corrective pullback. Traders should remain cautious and watch for any divergence that could signal a reversal.\n\nSupport levels are established at 4131.03, which coincides with the recent low, while resistance is identified at 4135.9, the recent high. A breakout above this resistance level could lead to further upward momentum, possibly targeting psychological levels around 4140 or higher. Conversely, if prices dip below the support level, it could trigger a sell-off, with the next support found around the SMA(20). \n\nFor trading suggestions, traders might consider entering a long position if the price breaks above 4135.9 with strong volume, while setting a stop-loss just below 4131.03 to manage risk. Alternatively, if a reversal begins to materialize, short positions could be explored below the support level, targeting the SMA(20) as a profit-taking point. Overall, maintaining a flexible approach will be crucial in navigating the current market dynamics."
+    }
+  }
+}

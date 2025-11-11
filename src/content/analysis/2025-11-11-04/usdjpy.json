@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-11T04:34:15.430Z",
+  "price": {
+    "close": "154.34399",
+    "high": "154.35201",
+    "low": "154.21899",
+    "open": "154.25900",
+    "change": "0.05",
+    "datetime": "2025-11-11 15:00:00"
+  },
+  "indicators": {
+    "rsi": 65.46208,
+    "macd": 0.1468526,
+    "macd_signal": 0.14079443,
+    "sma20": 154.13195
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[震荡整理，关注关键支撑与阻力]",
+      "content": "当前美元/日元的价格为154.34399，整体呈现震荡整理的趋势。从日线图来看，价格在154.35附近形成了短期的阻力，而154.22则是关键的支撑位。价格在这一区间内波动，暗示市场交易情绪较为谨慎，投资者需关注即将发布的经济数据和市场情绪变化。\n\n在技术指标方面，当前RSI数据尚不可用，但从MACD来看，当前值为0.14685260，显示出市场略微偏向多头。SMA(20)线在154.13195附近，为价格提供了支持，表明短期内买方仍有一定的力量。若价格突破154.35，将可能引发更多的买盘，推动价格进一步上涨。\n\n支撑位154.22一旦被有效突破，可能会引发更大的卖压，从而导致价格回调至154.00甚至更低。在此背景下，投资者应密切关注价格在关键支撑和阻力位的表现，及时调整交易策略。\n\n综合考虑，建议短期内以区间交易为主，关注154.35的突破信号，若突破成功，则可考虑做多进场；若价格向下突破154.22，则应考虑减仓或做空，控制风险。市场的不确定性依然存在，理性交易尤为重要。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY currency pair is currently trading at 154.34, reflecting a slight increase of 0.05% over the past 24 hours. The price action has been contained within a range defined by the recent high of 154.35 and a low of 154.22. This range-bound movement suggests a period of consolidation, with potential for either a breakout or a reversal. Traders should monitor for momentum shifts as the pair approaches these key levels to gauge the next move.\n\nFrom a technical standpoint, the absence of the RSI and Signal for MACD limits our ability to assess overbought or oversold conditions. However, the MACD value of 0.147 indicates a bullish momentum that could support further upward movement if it gains strength. Additionally, the 20-period Simple Moving Average (SMA) at 154.13 acts as a dynamic support level. A pullback towards the SMA could present an attractive entry point for long positions, while a decisive break below this level may indicate a shift in market sentiment.\n\nSupport and resistance levels are crucial for traders in navigating potential price movements. The immediate support level is established at 154.22, while resistance is observed at 154.35. A sustained move above the resistance could pave the way for further gains, possibly targeting the psychological level of 155. Conversely, confirming a break below the support could open the door for a deeper retracement, potentially down to 154.00.\n\nTraders may consider a strategy that involves waiting for confirmation of a breakout above 154.35 or a reversal at the support level of 154.22. Entering long positions on bullish confirmations could be rewarding, while short positions might be warranted if the price breaks below 154.22 with significant volume. Maintaining a close eye on macroeconomic indicators and geopolitical developments will be essential for making informed trading decisions in this volatile environment."
+    }
+  }
+}
