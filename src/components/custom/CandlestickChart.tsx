@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 interface Candle {
   time: number;
@@ -13,6 +13,19 @@ interface Candle {
 
 export default function CandlestickChart() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
+  const [isDark, setIsDark] = useState(false);
+
+  // Detect dark mode
+  useEffect(() => {
+    const checkDarkMode = () => {
+      setIsDark(document.documentElement.classList.contains('dark'));
+    };
+
+    checkDarkMode();
+    // Check periodically in case theme changes
+    const interval = setInterval(checkDarkMode, 1000);
+    return () => clearInterval(interval);
+  }, []);
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -172,21 +185,39 @@ export default function CandlestickChart() {
     };
 
     // Get candle color based on CCI (NS Indicator logic)
-    const getCandleColor = (cci1: number, cci2: number, isBullish: boolean): { body: string; wick: string; hollow: boolean } => {
+    const getCandleColor = (cci1: number, cci2: number, isBullish: boolean, isDarkMode: boolean): { body: string; wick: string; hollow: boolean } => {
       // Sensitivity = 1 (default): CCI1 period = 7, CCI2 period = 49
 
-      if (cci1 >= 0 && cci2 >= 0) {
-        // Strong uptrend - Black border, hollow
-        return { body: 'rgba(0, 0, 0, 1)', wick: 'rgba(0, 0, 0, 1)', hollow: true };
-      } else if (cci1 < 0 && cci2 >= 0) {
-        // Weak/warning - Light gray, bullish candles hollow
-        return { body: 'rgba(180, 180, 180, 1)', wick: 'rgba(180, 180, 180, 1)', hollow: isBullish };
-      } else if (cci1 < 0 && cci2 < 0) {
-        // Strong downtrend - Black, filled
-        return { body: 'rgba(0, 0, 0, 1)', wick: 'rgba(0, 0, 0, 1)', hollow: false };
-      } else { // cci1 > 0 && cci2 < 0
-        // Bounce/weak - Light gray, bullish candles hollow
-        return { body: 'rgba(180, 180, 180, 1)', wick: 'rgba(180, 180, 180, 1)', hollow: isBullish };
+      if (isDarkMode) {
+        // Dark mode: use red/green colors
+        if (cci1 >= 0 && cci2 >= 0) {
+          // Strong uptrend - Green border, hollow
+          return { body: 'rgba(34, 197, 94, 1)', wick: 'rgba(34, 197, 94, 1)', hollow: true };
+        } else if (cci1 < 0 && cci2 >= 0) {
+          // Weak/warning - Light gray, bullish candles hollow
+          return { body: 'rgba(180, 180, 180, 1)', wick: 'rgba(180, 180, 180, 1)', hollow: isBullish };
+        } else if (cci1 < 0 && cci2 < 0) {
+          // Strong downtrend - Red, filled
+          return { body: 'rgba(239, 68, 68, 1)', wick: 'rgba(239, 68, 68, 1)', hollow: false };
+        } else { // cci1 > 0 && cci2 < 0
+          // Bounce/weak - Light gray, bullish candles hollow
+          return { body: 'rgba(180, 180, 180, 1)', wick: 'rgba(180, 180, 180, 1)', hollow: isBullish };
+        }
+      } else {
+        // Light mode: use black/gray colors
+        if (cci1 >= 0 && cci2 >= 0) {
+          // Strong uptrend - Black border, hollow
+          return { body: 'rgba(0, 0, 0, 1)', wick: 'rgba(0, 0, 0, 1)', hollow: true };
+        } else if (cci1 < 0 && cci2 >= 0) {
+          // Weak/warning - Light gray, bullish candles hollow
+          return { body: 'rgba(180, 180, 180, 1)', wick: 'rgba(180, 180, 180, 1)', hollow: isBullish };
+        } else if (cci1 < 0 && cci2 < 0) {
+          // Strong downtrend - Black, filled
+          return { body: 'rgba(0, 0, 0, 1)', wick: 'rgba(0, 0, 0, 1)', hollow: false };
+        } else { // cci1 > 0 && cci2 < 0
+          // Bounce/weak - Light gray, bullish candles hollow
+          return { body: 'rgba(180, 180, 180, 1)', wick: 'rgba(180, 180, 180, 1)', hollow: isBullish };
+        }
       }
     };
 
@@ -550,7 +581,7 @@ export default function CandlestickChart() {
         const globalIndex = displayStartIndex + index;
         const currentCCI1 = cci1[globalIndex] || 0;
         const currentCCI2 = cci2[globalIndex] || 0;
-        const candleColor = getCandleColor(currentCCI1, currentCCI2, isBullish);
+        const candleColor = getCandleColor(currentCCI1, currentCCI2, isBullish, isDark);
 
         // Draw wick with CCI color
         ctx.strokeStyle = candleColor.wick;
@@ -564,7 +595,7 @@ export default function CandlestickChart() {
         if (candleColor.hollow) {
           // Hollow candle (空心)
           // First fill with background color to hide the wick
-          ctx.fillStyle = 'rgba(255, 255, 255, 1)'; // White background
+          ctx.fillStyle = isDark ? 'rgba(0, 0, 0, 1)' : 'rgba(255, 255, 255, 1)';
           ctx.fillRect(x - candleWidth / 2, bodyTop, candleWidth, bodyHeight);
           // Then draw the border
           ctx.strokeStyle = candleColor.body;
@@ -629,7 +660,7 @@ export default function CandlestickChart() {
       cancelAnimationFrame(animationId);
       window.removeEventListener('resize', updateCanvasSize);
     };
-  }, []);
+  }, [isDark]);
 
   return (
     <div className="w-full h-full">
