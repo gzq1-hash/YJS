@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { useEffect, useState } from 'react';
+import { NeuralBackground } from '@/components/ui/neural-background';
 
 interface StatItem {
   id: string;
@@ -164,8 +165,28 @@ export default function StatsSection() {
   const [isVisible, setIsVisible] = useState(false);
 
   return (
-    <section className="py-20 bg-black dark:bg-white">
-      <div className="max-w-7xl mx-auto px-6">
+    <section className="relative py-20 bg-black dark:bg-gray-950 overflow-hidden">
+      {/* Neural Background - 仅在黑色背景（浅色模式）时显示白色神经网络 */}
+      <div className="dark:hidden">
+        <NeuralBackground
+          hue={200}
+          saturation={0.5}
+          chroma={0.4}
+          isDark={false}
+        />
+      </div>
+
+      {/* Neural Background - 暗色模式下显示黑色神经网络 */}
+      <div className="hidden dark:block">
+        <NeuralBackground
+          hue={200}
+          saturation={0.5}
+          chroma={0.4}
+          isDark={true}
+        />
+      </div>
+
+      <div className="relative z-10 max-w-7xl mx-auto px-6">
         {/* Title */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -175,10 +196,10 @@ export default function StatsSection() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white dark:text-black">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white dark:text-white">
             {language === 'zh' ? '平台数据' : 'Platform Statistics'}
           </h2>
-          <p className="text-gray-400 dark:text-gray-600 max-w-2xl mx-auto">
+          <p className="text-gray-400 dark:text-gray-400 max-w-2xl mx-auto">
             {language === 'zh'
               ? '真实数据展示我们的培训成果和合作网络'
               : 'Real data showcasing our training results and partnership network'}

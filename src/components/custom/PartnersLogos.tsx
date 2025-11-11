@@ -58,7 +58,7 @@ export default function PartnersLogos() {
   ];
 
   return (
-    <section className="py-16 bg-white dark:bg-white overflow-hidden">
+    <section className="py-16 bg-white dark:bg-gray-950 overflow-hidden">
       <div className="max-w-7xl mx-auto px-6">
         {/* Title */}
         <motion.div
@@ -68,10 +68,10 @@ export default function PartnersLogos() {
           transition={{ duration: 0.6 }}
           className="text-center mb-12"
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-black mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-black dark:text-white mb-4">
             {isZh ? '合作伙伴' : 'Our Partners'}
           </h2>
-          <p className="text-gray-600 max-w-2xl mx-auto">
+          <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
             {isZh
               ? '与全球领先的金融机构和平台建立战略合作伙伴关系'
               : 'Strategic partnerships with leading global financial institutions and platforms'}

@@ -16,6 +16,7 @@ import CandlestickChart from '@/components/custom/CandlestickChart';
 import Image from 'next/image';
 import { useLanguage } from '@/contexts/LanguageContext';
 import ShineButton from '@/components/custom/ShineButton';
+import { NeuralBackground } from '@/components/ui/neural-background';
 
 const DummyContent = () => {
   const router = useRouter();
@@ -56,13 +57,13 @@ const DummyContent = () => {
 
   return (
     <div className="w-full -mt-20">
-      {/* Hero Section - Full Width K-line Background */}
-      <div className="relative bg-white dark:bg-black overflow-hidden h-screen">
-        {/* K-line Chart Background */}
-        <div className="absolute inset-0 w-full h-full">
-          <CandlestickChart />
-        </div>
+      {/* K-line Chart Background - Full Page */}
+      <div className="fixed inset-0 w-full h-full -z-10">
+        <CandlestickChart />
+      </div>
 
+      {/* Hero Section */}
+      <div className="relative overflow-hidden h-screen">
         {/* Gradient Overlay - from left (opaque) to right (transparent) */}
         <div
           className="absolute inset-0 w-full h-full pointer-events-none"
@@ -135,7 +136,8 @@ const DummyContent = () => {
       </div>
 
       {/* 为什么选择 FX Killer - 增强版 */}
-      <div className="max-w-7xl mx-auto px-6 py-20">
+      <div className="relative bg-white dark:bg-black w-full">
+        <div className="max-w-7xl mx-auto px-6 py-20">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold mb-4 text-black dark:text-white">
             {t('why.title')}
@@ -277,6 +279,7 @@ const DummyContent = () => {
               {t('comparison.emphasis')}
             </p>
           </div>
+        </div>
         </div>
       </div>
 
@@ -665,8 +668,28 @@ const DummyContent = () => {
       </div>
 
       {/* CTA - 优化版 */}
-      <div className="bg-black dark:bg-gray-950 py-20 w-full border-y-2 border-gray-800">
-        <div className="max-w-4xl mx-auto px-6 text-center">
+      <div className="relative bg-black dark:bg-gray-950 py-20 w-full border-y-2 border-gray-800 overflow-hidden">
+        {/* Neural Background - Light mode (白色神经网络) */}
+        <div className="dark:hidden">
+          <NeuralBackground
+            hue={200}
+            saturation={0.5}
+            chroma={0.4}
+            isDark={false}
+          />
+        </div>
+
+        {/* Neural Background - Dark mode (黑色神经网络) */}
+        <div className="hidden dark:block">
+          <NeuralBackground
+            hue={200}
+            saturation={0.5}
+            chroma={0.4}
+            isDark={true}
+          />
+        </div>
+
+        <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
           <h2 className="text-4xl font-bold text-white mb-6">
             {t('cta.title')}
           </h2>

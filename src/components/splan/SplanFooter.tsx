@@ -5,6 +5,7 @@ import LocaleLink from '@/components/navigation/LocaleLink';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { ShineLinkButton } from '@/components/custom/ShineButton';
 import EmailContactModal from '@/components/custom/EmailContactModal';
+import { NeuralBackground } from '@/components/ui/neural-background';
 
 export default function SplanFooter() {
   const { t, language } = useLanguage();
@@ -12,8 +13,28 @@ export default function SplanFooter() {
   const [showEmailModal, setShowEmailModal] = React.useState(false);
 
   return (
-    <footer className="bg-black dark:bg-gray-950 text-white py-12 border-t border-gray-800">
-      <div className="max-w-7xl mx-auto px-6">
+    <footer className="relative bg-black dark:bg-gray-950 text-white py-12 border-t border-gray-800 overflow-hidden">
+      {/* Neural Background - Light mode (白色神经网络) */}
+      <div className="dark:hidden">
+        <NeuralBackground
+          hue={200}
+          saturation={0.5}
+          chroma={0.4}
+          isDark={false}
+        />
+      </div>
+
+      {/* Neural Background - Dark mode (黑色神经网络) */}
+      <div className="hidden dark:block">
+        <NeuralBackground
+          hue={200}
+          saturation={0.5}
+          chroma={0.4}
+          isDark={true}
+        />
+      </div>
+
+      <div className="relative z-10 max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           {/* About */}
           <div>
@@ -317,7 +338,7 @@ export default function SplanFooter() {
       </div>
 
       {/* Affiliate Banners - Full Width */}
-      <div className="border-t border-gray-800 mt-8 pt-8 pb-8">
+      <div className="relative z-20 border-t border-gray-800 mt-8 pt-8 pb-8">
         <div className="mx-auto px-8 md:px-12 lg:px-16">
           <div className="flex flex-col md:flex-row justify-center items-center gap-6 md:gap-8">
             {/* FTMO Banner */}
@@ -325,7 +346,7 @@ export default function SplanFooter() {
               href="https://trader.ftmo.com/?affiliates=UUdNjacFYttdgsZcEozt"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block hover:opacity-80 transition-opacity"
+              className="relative inline-block hover:opacity-80 transition-opacity"
             >
               <img
                 src="https://cdn.ftmo.com/ed1811ad91444ae687a19020a9997a86"
@@ -340,7 +361,7 @@ export default function SplanFooter() {
               href="https://my.tickmill.com?utm_campaign=ib_link&utm_content=IB47958600&utm_medium=IB+Loyalty&utm_source=link&lp=https%3A%2F%2Fwww.tickmill.com%2Fpartners%2Fib-loyalty"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block hover:opacity-80 transition-opacity"
+              className="relative inline-block hover:opacity-80 transition-opacity"
             >
               <img
                 src="https://cdn.tickmill.com/prod/promotional/3/referral-materials/banner/static/IB_Loyalty_-_CN-728x90-Chinese.jpg"

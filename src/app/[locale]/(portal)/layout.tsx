@@ -15,6 +15,7 @@ import ScrollProgress, { BackToTop } from "@/components/effects/ScrollProgress";
 import PageLoader from "@/components/effects/PageLoader";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import DarkModeBackground from "@/components/layout/DarkModeBackground";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -154,12 +155,13 @@ export default async function PortalLayout({
       </head>
       <body suppressHydrationWarning>
         <Providers>
+          <DarkModeBackground />
           <StructuredData />
           <PageLoader />
           <MouseFollower />
           <ScrollProgress />
           <UnifiedNavbar />
-          <main className="pt-16">
+          <main className="pt-16 relative">
             <Theme accentColor="gray" scaling="90%" grayColor="slate" appearance="inherit" radius="none">
               {children}
             </Theme>
