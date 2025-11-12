@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CAD",
+  "name": "US Dollar vs Canadian Dollar",
+  "nameCn": "美元/加元",
+  "timestamp": "2025-11-12T12:24:10.340Z",
+  "price": {
+    "close": "1.40089",
+    "high": "1.40172",
+    "low": "1.40050",
+    "open": "1.40165",
+    "change": "-0.05",
+    "datetime": "2025-11-12 23:00:00"
+  },
+  "indicators": {
+    "rsi": 43.0059378,
+    "macd": -0.00021711617,
+    "macd_signal": -0.00027997575,
+    "sma20": 1.40126
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/加元技术分析：[震荡整理中]",
+      "content": "当前美元/加元（USD/CAD）在1.40089附近震荡整理，显示出一定的疲软迹象。价格在24小时内小幅下跌0.05%，高点和低点分别为1.40172和1.40050，这表明市场缺乏强烈的方向性。整体来看，短期趋势呈现横盘整理状态，投资者需关注后续的突破情况。\n\n从技术指标来看，RSI（相对强弱指数）尚未提供明确的超买或超卖信号，而MACD指标显示出微弱的负值，暗示短期内可能存在卖压。20日简单移动平均线（SMA）位于1.40126，价格略低于此水平，给市场带来一定的下行压力。整体技术面上，市场情绪仍偏向谨慎。\n\n支撑位方面，1.40050是一个重要的支撑水平，若价格跌破，将可能引发进一步回调。而上方的阻力位在1.40172，突破该水平可能会吸引更多的买盘。交易者可以关注这些关键价位，以便在价格触及时采取相应的操作。\n\n建议短期内保持观望，待价格突破1.40172或跌破1.40050后再考虑入场交易。若突破阻力位，可以考虑做多；反之若跌破支撑位，则建议做空，以控制风险并把握市场动态。"
+    },
+    "en": {
+      "title": "US Dollar vs Canadian Dollar Technical Analysis",
+      "content": "The USD/CAD pair is currently trading at 1.40089, reflecting a slight decline of 0.05% over the past 24 hours. Analyzing the recent price action, we observe a range-bound market with a high of 1.40172 and a low of 1.40050. The stability within this range suggests a consolidation phase, indicating indecision among traders. If the pair can break above the recent high, it may signal a bullish reversal, while a move below the low could trigger a bearish trend.\n\nIn terms of technical indicators, the MACD is currently negative at -0.00021711617, which suggests that there is a slight bearish momentum in the market. The SMA(20) at 1.40126 is positioned above the current price, further indicating that the short-term trend may be leaning bearish. However, without the RSI data, we lack additional insight into potential overbought or oversold conditions. Traders should monitor these indicators closely for any signs of reversal or continuation.\n\nKey support and resistance levels are critical in guiding trading strategies. The immediate support level appears to be around 1.40050, where the price has previously found buying interest. Conversely, resistance is observed near 1.40172, which, if breached, could pave the way for further upside movement. A confirmed breakout above this resistance level would be a strong bullish signal, whereas a drop below support could lead to a test of lower levels.\n\nFor traders looking to enter the market, a cautious approach is warranted. A buy position could be considered on a confirmed breakout above the resistance level, with a target aligned with the next resistance at approximately 1.40300. Conversely, a sell opportunity may arise if the price breaks below the support level of 1.40050, targeting further declines. As always, maintaining a robust risk management strategy is essential to navigate the inherent volatility of the forex market."
+    }
+  }
+}

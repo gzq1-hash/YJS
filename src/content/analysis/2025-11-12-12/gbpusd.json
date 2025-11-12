@@ -1,0 +1,30 @@
+{
+  "symbol": "GBP/USD",
+  "name": "British Pound vs US Dollar",
+  "nameCn": "英镑/美元",
+  "timestamp": "2025-11-12T12:21:34.072Z",
+  "price": {
+    "close": "1.31254",
+    "high": "1.31382",
+    "low": "1.31254",
+    "open": "1.31382",
+    "change": "-0.08",
+    "datetime": "2025-11-12 23:00:00"
+  },
+  "indicators": {
+    "rsi": 41.32321,
+    "macd": -0.00085374299,
+    "macd_signal": -0.00070804778,
+    "sma20": 1.31437
+  },
+  "analysis": {
+    "zh": {
+      "title": "英镑/美元技术分析：[短期震荡走势]",
+      "content": "当前的英镑/美元价格为1.31254，显示出短期内的震荡走势。虽然价格在24小时内小幅下跌0.08%，但依然维持在1.31254附近，表明市场缺乏明确的突破动力。高点1.31382和低点1.31254的区间波动反映出买卖双方的博弈，短期内可能会继续在此区间内徘徊。\n\n从技术指标来看，虽然RSI和MACD的缺失数据使得分析受到限制，但SMA(20)的值为1.31437，显示出价格相对均值有所偏离。若价格持续低于SMA，可能会对后市构成一定的压力。MACD处于负值区域，暗示卖方力量较强，可能需要关注后续的反弹机会。\n\n在支撑和阻力位方面，1.3120可视为短期支撑位，而1.3150则是重要的阻力位。若价格突破1.3150，可能会引发进一步上涨，反之，跌破1.3120可能加速下行。因此，投资者应密切关注这些关键价位，以判断市场的进一步走向。\n\n基于当前的市场情况，建议投资者采取观望策略，等待价格在支撑和阻力位附近的明确信号再做决策。在此期间，设定适当的止损位以降低风险，将是明智之举。"
+    },
+    "en": {
+      "title": "British Pound vs US Dollar Technical Analysis",
+      "content": "The GBP/USD pair is currently trading at 1.31254, experiencing a slight decline of 0.08% over the past 24 hours. This price action suggests a consolidation phase following a recent uptick, with the high of 1.31382 indicating a potential resistance level. Traders should watch for signs of volatility around this level, as a break above could signal a continuation of bullish momentum, while failure to breach could lead to a deeper retracement.\n\nTechnical indicators are mixed at this point. The MACD reading of -0.00085 suggests a bearish divergence, indicating that selling pressure may be present. However, with the absence of an RSI value, it’s critical to monitor price movements closely for divergences that could provide clues about potential reversals. The SMA(20) at 1.31437 is also slightly above the current price, acting as resistance. A sustained move above this moving average could indicate a shift in momentum.\n\nSupport levels are vital in this scenario, with immediate support found near the recent low of 1.31254. Should the price breach this level, further support can be anticipated around 1.31000, which is a psychological level that may attract buyers. Conversely, if the price holds above 1.31254, it could create an opportunity for buyers to enter at a perceived discount, especially if accompanied by positive news or economic indicators.\n\nFor trading strategies, a cautious approach is recommended. Traders might consider waiting for a clear breakout above the SMA(20) or the recent high at 1.31382 before entering long positions. Conversely, a break below 1.31254 could prompt short positions, targeting the support at 1.31000. Employing a stop-loss strategy will be crucial to manage risk effectively in this fluctuating market environment."
+    }
+  }
+}

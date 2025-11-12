@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-12T12:26:49.183Z",
+  "price": {
+    "close": "4133.56826",
+    "high": "4133.92312",
+    "low": "4125.05689",
+    "open": "4125.05689",
+    "change": "0.20",
+    "datetime": "2025-11-12 23:00:00"
+  },
+  "indicators": {
+    "rsi": 57.11273,
+    "macd": 3.21051,
+    "macd_signal": 3.23826,
+    "sma20": 4123.68591
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理中的小幅上行趋势]",
+      "content": "当前黄金/美元(XAU/USD)价格维持在4133.56826附近，表现出一定的上涨动能。近期价格在4125.05689至4133.92312区间内震荡整理，显示出市场参与者在此水平附近有较强的买入意愿。整体来看，短期趋势偏向于温和的上行，但仍需关注市场情绪的变化。\n\n从技术指标来看，当前未提供RSI数据，但MACD指标显示出3.21051的正值，反映出短期内的上涨动能依然存在。20日简单移动平均线(SMA)处于4123.68591，提供了较强的支撑位。若价格持续维持在此均线上方，将增强多头的信心，可能进一步推动价格上行。\n\n在支撑位方面，4125.05689是关键水平，若价格跌破将可能引发更大幅度的回调。而在阻力位方面，4133.92312则是当前的上方压力区。若价格能够突破这一水平，后市有望向4140及以上区域迈进。\n\n建议交易者在当前价格附近采取谨慎的多头策略，若价格回调至4125.05689附近可考虑逢低买入。同时，设定合理的止损位，以控制风险。密切关注技术指标的变化，以便及时调整交易策略。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of gold against the US dollar (XAU/USD) stands at 4133.57, reflecting a modest 0.20% increase over the last 24 hours. This slight uptick indicates a consolidation phase following recent volatility. The price is currently trading within a narrow range, oscillating between a high of 4133.92 and a low of 4125.06. Traders should monitor these boundaries closely, as a breakout above the resistance level at 4134 could signal a continuation of bullish momentum, while a drop below the support level at 4125 may trigger further selling pressure.\n\nIn terms of indicators, the MACD reading is at 3.21, suggesting a bullish momentum in the short term. However, without the signal line data, caution is warranted. The absence of an RSI reading makes it challenging to assess overbought or oversold conditions. The SMA(20) at 4123.69 provides a useful reference point, indicating that the market may find support around this level. If the price pulls back to this moving average, it may present a buying opportunity, especially if accompanied by a bullish reversal pattern.\n\nTraders should be vigilant about the broader market context, particularly any geopolitical developments or economic data releases that could impact gold prices. The metal often reacts to fluctuations in the US dollar and shifts in investor sentiment towards risk. Therefore, it is advisable to implement stop-loss orders to manage risk effectively, particularly if entering long positions around current levels.\n\nIn summary, XAU/USD is currently in a consolidation phase, with key support at 4125 and resistance at 4134. Traders should look for confirmation signals from indicators before committing to positions. A cautious approach, combined with a clear risk management strategy, will be essential as the market navigates potential price movements in the coming sessions."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-12T12:25:01.474Z",
+  "price": {
+    "close": "0.56644386",
+    "high": "0.56644386",
+    "low": "0.56593096",
+    "open": "0.56593096",
+    "change": "0.09",
+    "datetime": "2025-11-12 23:00:00"
+  },
+  "indicators": {
+    "rsi": 61.87384,
+    "macd": 0.00025881225,
+    "macd_signal": 0.00024080521,
+    "sma20": 0.56571504
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[震荡整理中]",
+      "content": "当前纽元/美元(NZD/USD)在0.5660附近震荡整理，短期内未能形成明确的趋势。考虑到24小时变化仅为0.09%，市场情绪较为谨慎，显示出投资者对于未来走势的观望态度。价格在高点0.56644386和低点0.56593096之间波动，表明市场缺乏强烈的买卖动力。\n\n从技术指标来看，MACD为正，但信号线尚未形成，RSI数据缺失使得趋势判断受到限制。20日简单移动平均线(SMA)在0.56571504附近提供一定支撑，若价格下破此位，则可能引发进一步下行压力。反之，若能够突破0.5665的阻力水平，则可能开启新的上涨空间。\n\n支撑位方面，0.5657为关键支撑，若跌破此位，可能引发更深的回调。阻力位在0.5670和0.5680附近，突破后有望吸引更多买盘。建议交易者密切关注价格在这些技术水平的表现，以决定进出场时机。\n\n综上所述，当前市场处于震荡整理阶段，建议投资者保持谨慎，观察价格是否能够打破当前区间，结合技术指标进行合理布局。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The NZD/USD currency pair is currently trading at 0.5664, showing a slight upward movement of 0.09% over the last 24 hours. This modest rise indicates a potential short-term bullish sentiment. However, given the recent low of 0.5659, the price is still hovering near its recent range, suggesting a consolidation phase. A breakout above the current high may signal renewed buying interest, while a drop below the recent low could trigger bearish sentiment.\n\nIn terms of technical indicators, the absence of an RSI value prevents a thorough evaluation of overbought or oversold conditions. The MACD reading of 0.00025881225, while slightly positive, lacks a corresponding signal line for confirmation. Traders should monitor the MACD closely as it could provide insights into momentum shifts. The 20-period Simple Moving Average (SMA) at 0.5657 serves as a dynamic support level, indicating that the price has potential stability around this area.\n\nKey support can be identified at the recent low of 0.5659, which could serve as a critical level for buyers. If the price manages to maintain above this support, it may encourage further upward movement. Conversely, resistance is found around the psychological level of 0.5700, which could pose a challenge for buyers looking to push higher. Traders should keep an eye on these levels for potential breakout or reversal signals.\n\nFor trading strategies, a conservative approach may involve waiting for confirmation signals, such as a close above the 20 SMA or a bullish cross in the MACD. For aggressive traders, a buy position could be considered if the price breaks above the recent high, with a stop loss set just below the support level. Conversely, if bearish signals emerge, short positions could be explored, especially if the price breaches the 0.5659 support. Overall, a careful watch on price action and indicators will be essential in navigating this pair."
+    }
+  }
+}

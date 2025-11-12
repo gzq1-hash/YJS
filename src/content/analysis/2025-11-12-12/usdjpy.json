@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/JPY",
+  "name": "US Dollar vs Japanese Yen",
+  "nameCn": "美元/日元",
+  "timestamp": "2025-11-12T12:22:24.409Z",
+  "price": {
+    "close": "154.75301",
+    "high": "154.83000",
+    "low": "154.74699",
+    "open": "154.80099",
+    "change": "-0.03",
+    "datetime": "2025-11-12 23:00:00"
+  },
+  "indicators": {
+    "rsi": 65.33511,
+    "macd": 0.18628603,
+    "macd_signal": 0.14889082,
+    "sma20": 154.4282
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/日元技术分析：[震荡整理，关注支撑与阻力]",
+      "content": "当前美元/日元的价格为154.75301，近期表现出震荡整理的趋势。在过去24小时内，该货币对的变化幅度较小，仅为-0.03%。从高点154.83000和低点154.74699来看，市场情绪似乎较为谨慎，投资者在等待更明确的市场信号。\n\n技术指标方面，虽然RSI(14)数据缺失，但从MACD来看，其值为0.18628603，表明当前市场处于弱势多头状态。这可能意味着短期内仍有一定的上涨潜力。然而，SMA(20)为154.42820，显示出价格走势在这一均线之上，表明短期趋势保持看涨。\n\n在支撑和阻力位方面，154.74699构成了近期的重要支撑位，而154.83000则是阻力位的关键水平。若价格突破154.83000，将可能引发进一步的上涨；反之，若跌破154.74699，则可能向下探测更低的支撑位。建议投资者在当前区间内谨慎操作，关注突破信号，并做好风险控制。"
+    },
+    "en": {
+      "title": "US Dollar vs Japanese Yen Technical Analysis",
+      "content": "The USD/JPY pair is currently trading at 154.75301, exhibiting a slight decline of 0.03% over the last 24 hours. The market has shown some volatility, reaching a high of 154.83000 and a low of 154.74699. The current price is above the 20-period Simple Moving Average (SMA) of 154.42820, suggesting a bullish trend in the medium term. However, a closer examination reveals that the recent price action may indicate a consolidation phase, as the pair trades in a narrow range just below the recent high.\n\nIn terms of indicators, while the Relative Strength Index (RSI) is unavailable, the MACD reading of 0.18628603 suggests that the upward momentum remains intact but may be losing some strength. This could point to a potential reversal or a pullback if the price fails to break through the immediate resistance level near 154.83. Traders should watch for any divergence between price action and the MACD, as this could provide further clues on potential trend changes.\n\nSupport levels are identified around 154.74699, which corresponds to the recent low. A breach below this level could trigger further selling pressure, possibly targeting the next support at around 154.42820. Conversely, a sustained move above 154.83 may open up higher targets for the pair, indicating a continuation of the bullish trend. \n\nIn terms of trading suggestions, a cautious approach is warranted. Traders could consider entering long positions if the price breaks above 154.83 with strong volume, while setting a stop-loss just below the recent support level. Alternatively, if the price fails to overcome the resistance and begins to drop, short positions could be considered, particularly if the price closes below the support level at 154.74699. As always, risk management is key in navigating the inherent volatility of the forex market."
+    }
+  }
+}
