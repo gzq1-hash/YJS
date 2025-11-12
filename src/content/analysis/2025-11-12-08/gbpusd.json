@@ -1,0 +1,30 @@
+{
+  "symbol": "GBP/USD",
+  "name": "British Pound vs US Dollar",
+  "nameCn": "英镑/美元",
+  "timestamp": "2025-11-12T08:16:28.608Z",
+  "price": {
+    "close": "1.31534",
+    "high": "1.31553",
+    "low": "1.31453",
+    "open": "1.31473",
+    "change": "0.07",
+    "datetime": "2025-11-12 19:00:00"
+  },
+  "indicators": {
+    "rsi": 51.43927,
+    "macd": -0.00045815554,
+    "macd_signal": -0.00042408382,
+    "sma20": 1.31554
+  },
+  "analysis": {
+    "zh": {
+      "title": "英镑/美元技术分析：[震荡整理走势]",
+      "content": "当前英镑/美元价格在1.31534附近波动，显示出短期内的震荡整理态势。该货币对在过去24小时内变化幅度较小，仅为0.07%，且高低点相对接近，表明市场参与者的观望情绪较为浓厚。在这种背景下，短期内可能会继续维持区间震荡。\n\n从技术指标来看，当前没有RSI数据，但MACD显示出微弱的负值，暗示出当前多头力量不足。20日简单移动平均线（SMA）位于1.31554，略高于现价，提供了一定的下行支撑。若价格能够突破此均线，将有可能引发进一步的买入信号。\n\n支撑位方面，1.31450附近形成强支撑，若跌破此点位，可能会引发更深的回调。阻力位则在1.31600和1.31700区域，突破这些阻力位将有助于恢复多头趋势。因此，投资者需密切关注这些关键点位，以判断后市走势。\n\n综合来看，建议投资者在当前区间内采取区间交易策略，关注1.31450的支撑和1.31600的阻力。如价格突破阻力位，可考虑适度跟进多单；而若跌破支撑位，则需谨慎应对，考虑止损出场。"
+    },
+    "en": {
+      "title": "British Pound vs US Dollar Technical Analysis",
+      "content": "The GBP/USD currency pair is currently trading at 1.31534, showing a slight 24-hour change of 0.07%. The price has remained relatively stable within a narrow range, with a high of 1.31553 and a low of 1.31453. This consolidation phase indicates indecision in the market, suggesting that traders are awaiting further catalysts that could drive the pair in either direction. Given the current price level, a breakout beyond these established highs or lows could signal the next significant move.\n\nFrom a trend analysis perspective, the pair appears to be in a short-term sideways trend, as indicated by its proximity to the 20-period Simple Moving Average (SMA) at 1.31554. The SMA serves as a dynamic support and resistance level, and the current price hovering just below it suggests that the market may be testing this level. A sustained move above the SMA could indicate bullish momentum, while a failure to hold above it may lead to further consolidation or a potential bearish reversal.\n\nIn terms of indicators, the MACD is currently negative at -0.00045815554, which may suggest a weakening momentum for the GBP against the USD. However, the absence of the RSI data limits a comprehensive assessment of overbought or oversold conditions. Traders should monitor these indicators closely, as shifts in momentum could provide valuable insights into potential trading opportunities. A bullish crossover in the MACD could act as a buy signal, while a continuation of negative momentum may warrant caution.\n\nKey support levels are identified at 1.31453, which could provide a safety net for buyers, while resistance is found at 1.31553. Traders may consider employing a range-bound strategy, buying near support and selling near resistance until a breakout occurs. Maintaining a watchful eye on economic data releases and geopolitical developments will be essential, as these factors can swiftly alter market sentiment and influence GBP/USD price action."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CAD",
+  "name": "US Dollar vs Canadian Dollar",
+  "nameCn": "美元/加元",
+  "timestamp": "2025-11-12T08:18:52.969Z",
+  "price": {
+    "close": "1.40080",
+    "high": "1.40097",
+    "low": "1.40010",
+    "open": "1.40061",
+    "change": "0.02",
+    "datetime": "2025-11-12 19:00:00"
+  },
+  "indicators": {
+    "rsi": 41.15709,
+    "macd": -0.0003781351,
+    "macd_signal": -0.00036537039,
+    "sma20": 1.40108
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/加元技术分析：[市场震荡中寻找方向]",
+      "content": "当前美元/加元（USD/CAD）价格为1.40080，整体走势呈现震荡状态。近期价格波动较小，24小时内仅变化0.02%。在高点1.40097与低点1.40010之间的区间表明，市场缺乏明确的方向，可能受多重因素影响，包括油价波动和美加经济数据的发布。\n\n技术指标方面，20日简单移动平均线（SMA）在1.40108附近，显示出短期内的阻力位。虽然当前RSI未提供，但若价格持续在该阻力位附近徘徊，可能会引发超买信号，进而导致价格回调。MACD为负值，暗示短期内卖压仍在。\n\n支撑位方面，1.40010是关键的支撑区域，一旦跌破，可能会加剧下行风险。而若价格突破1.40108，则将为多头提供更多入场机会。交易者应密切关注这些关键水平，以便采取适当的交易策略。\n\n综合来看，建议交易者在当前震荡行情中保持观望，待价格突破关键阻力或支撑位后再考虑进场。同时，关注相关经济数据和地缘政治消息在短期内可能带来的市场波动与机会。"
+    },
+    "en": {
+      "title": "US Dollar vs Canadian Dollar Technical Analysis",
+      "content": "The USD/CAD pair is currently trading at 1.40080, exhibiting a slight upward movement of 0.02% over the past 24 hours. This price action suggests a consolidation phase following the recent volatility in the forex markets. The pair has shown resilience around the 1.4000 level, which indicates a potential support zone. Traders should observe this level closely, as a firm break below could lead to increased selling pressure, while a bounce could reinforce bullish sentiment.\n\nIn terms of technical indicators, the lack of an available RSI(14) makes it challenging to gauge overbought or oversold conditions. However, the MACD is currently negative at -0.00037813510, suggesting bearish momentum in the near term. This negative reading could indicate that sellers are more active, although it’s crucial to monitor any potential crossovers in the MACD line that may signal a shift in momentum. The SMA(20) at 1.40108 serves as a dynamic resistance level, further emphasizing the importance of this area for any bullish attempts.\n\nSupport and resistance levels are essential for traders to identify potential entry and exit points. The immediate support level is observed at 1.40010, which coincides with the recent low. A failure to hold this level could open the door for further declines toward the next support at 1.3980. Conversely, resistance is firmly placed at 1.40108, which aligns with the SMA(20). A breakout above this level could provide a bullish signal, attracting buyers and potentially targeting 1.4050.\n\nGiven the current technical landscape, traders may consider a cautious approach. A buy position could be initiated if the price breaks above the SMA(20) at 1.40108, ideally accompanied by bullish confirmation from the MACD. Conversely, if the price manages to break below 1.40010, traders should look for short opportunities, especially if accompanied by increasing volume and negative momentum indicators. Monitoring these key levels will be vital for making informed trading decisions in the USD/CAD pair."
+    }
+  }
+}

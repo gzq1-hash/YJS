@@ -1,0 +1,30 @@
+{
+  "symbol": "EUR/USD",
+  "name": "Euro vs US Dollar",
+  "nameCn": "欧元/美元",
+  "timestamp": "2025-11-12T08:15:44.910Z",
+  "price": {
+    "close": "1.15826",
+    "high": "1.1584",
+    "low": "1.15793",
+    "open": "1.15830",
+    "change": "-0.00",
+    "datetime": "2025-11-12 19:00:00"
+  },
+  "indicators": {
+    "rsi": 54.37717,
+    "macd": 0.00024507979,
+    "macd_signal": 0.00035764812,
+    "sma20": 1.15855
+  },
+  "analysis": {
+    "zh": {
+      "title": "欧元/美元技术分析：[震荡整理，谨慎观望]",
+      "content": "当前欧元/美元在1.15826附近震荡整理，未能显著突破近期的高点1.1584。短期内，市场情绪相对平稳，价格波动幅度较小，显示出多空双方的拉锯状态。若价格持续维持在此区间内，可能会迎来更大的波动。\n\n从技术指标来看，尽管RSI和MACD数据尚不完整，但SMA(20)显示出轻微的下行趋势。若价格降破1.15793的低点，可能会引发更多卖盘，进一步测试支撑位1.1565。反之，若能突破1.1584，将可能刺激多头进场，推动价格向1.1600靠近。\n\n在支撑与阻力方面，1.15793为短期支撑位，而1.1584则是关键阻力位。交易者应密切关注这两个位置的突破情况，以制定相应的交易策略。若价格稳定在支撑位上方，可以考虑适当布局多单，反之则需谨慎防范下行风险。\n\n综上所述，当前欧元/美元处于震荡整理阶段，建议投资者保持观望，等待更明确的趋势信号出现后再进行操作，以降低交易风险。"
+    },
+    "en": {
+      "title": "Euro vs US Dollar Technical Analysis",
+      "content": "The current price of EUR/USD at 1.15826 indicates a period of consolidation following a recent upward trend. The high and low of the past 24 hours suggest limited volatility, with the pair trading within a narrow range. This market behavior often signifies indecision among traders, which could lead to a breakout in either direction. Observing the price action around these levels will be crucial for determining the next significant move.\n\nThe SMA(20) at 1.15855 is slightly above the current price, indicating a potential bearish sentiment in the short term. However, without a clear RSI reading and considering the MACD signal is unavailable, it is challenging to gauge momentum accurately. A close above the SMA could suggest a bullish reversal, while a sustained move below could reinforce a bearish outlook. Traders should closely monitor these indicators for confirmation.\n\nSupport can be identified around the low of the previous day at 1.15793, while resistance is evident near the recent high at 1.1584. If the price breaks below the support level, it could trigger further selling pressure, possibly leading to a retest of lower levels. Conversely, a break above 1.1584 may initiate a rally toward higher resistance levels. Positioning trades in alignment with these key levels could provide strategic entry and exit points.\n\nGiven the current market conditions, a wait-and-see approach is advisable. Traders might consider entering long positions if the price decisively breaks above the SMA and resistance levels, while short positions could be warranted if the support level fails. Managing risk with appropriate stop-loss orders is crucial, especially in this environment of low volatility and uncertain momentum indicators."
+    }
+  }
+}

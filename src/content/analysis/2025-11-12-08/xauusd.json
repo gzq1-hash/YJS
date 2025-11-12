@@ -1,0 +1,30 @@
+{
+  "symbol": "XAU/USD",
+  "name": "Gold vs US Dollar",
+  "nameCn": "黄金/美元",
+  "timestamp": "2025-11-12T08:21:07.705Z",
+  "price": {
+    "close": "4120.84317",
+    "high": "4122.17948",
+    "low": "4112.57532",
+    "open": "4117.30144",
+    "change": "0.09",
+    "datetime": "2025-11-12 19:00:00"
+  },
+  "indicators": {
+    "rsi": 51.73269,
+    "macd": 1.32131,
+    "macd_signal": 3.86244,
+    "sma20": 4122.31192
+  },
+  "analysis": {
+    "zh": {
+      "title": "黄金/美元技术分析：[震荡整理态势]",
+      "content": "当前黄金/美元(XAU/USD)的价格在4120.84附近波动，表明市场仍处于震荡整理的态势。价格接近20日简单移动平均线(SMA)的4122.31，这可能会成为短期内的关键阻力位。若价格突破该水平，有望进一步挑战4125.00的心理关口，反之则可能向下回调。\n\n在技术指标方面，MACD为1.32131，显示出一定的上行动能，但没有信号线的对比数据，因此难以判断是否形成明确的买入信号。RSI(14)未提供数据，但一般而言，RSI若在70以上则可能超买，低于30则可能超卖，需密切关注后续走势。\n\n支撑位方面，当前低点4112.57是重要的支撑区域，如若跌破，可能引发更深的回调，目标可能在4100.00附近。投资者应注意确认支撑位的有效性。若市场反弹并突破阻力位，建议适度布局多头策略，但需设定止损以控制风险。\n\n综上所述，黄金/美元目前显示出震荡整理的特征，投资者应保持谨慎，关注技术指标及支撑/阻力位的变化，以便灵活调整交易策略。"
+    },
+    "en": {
+      "title": "Gold vs US Dollar Technical Analysis",
+      "content": "The current price of XAU/USD stands at 4120.84, reflecting a slight upward movement of 0.09% over the last 24 hours. Analyzing the recent price action, gold appears to be trading within a narrow range, with a high of 4122.18 and a low of 4112.58. This consolidation suggests indecision among traders, and a breakout from this range could signal the next directional move. If the price sustains above 4122.18, we may see further upside momentum, while a drop below 4112.58 could lead to increased selling pressure.\n\nTechnical indicators provide additional insights into market sentiment. The MACD at 1.32 indicates a bullish trend, albeit without a clear signal line for confirmation. The absence of a robust RSI reading limits our ability to gauge overbought or oversold conditions. However, the SMA(20) is positioned slightly above the current price at 4122.31, suggesting that the market may encounter resistance at this level. A close above this moving average could reinforce bullish sentiment, while a failure to do so may trigger profit-taking by traders.\n\nKey support levels are identified at 4112.58 and the psychological mark of 4100. A breach below these levels could signal a shift in market sentiment, potentially opening the door for a deeper correction. Conversely, resistance is established at the recent high of 4122.18, and a break above this level would likely attract additional buying interest, potentially targeting the 4150 area. Monitoring these levels will be crucial for assessing future price action.\n\nFor traders, a cautious approach is advisable given the current market conditions. A buy signal may be warranted if the price breaks and holds above 4122.18, while a sell position could be considered if the price breaks below 4112.58, especially if accompanied by strong volume. Given the mixed signals from the indicators, employing a wait-and-see strategy may provide more clarity before committing to significant positions."
+    }
+  }
+}
