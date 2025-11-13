@@ -57,7 +57,7 @@ const DummyContent = () => {
   }, [profitImages.length]);
 
   return (
-    <div className="w-full">
+    <div className="w-full -mt-16">
       {/* Hero Section */}
       <div className="relative overflow-hidden h-screen bg-black">
         {/* Boxes Background */}
