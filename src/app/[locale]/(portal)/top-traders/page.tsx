@@ -7,6 +7,8 @@ import { convertDbTraderToDisplay } from '@/lib/topTradersMigration';
 import type { TopTrader as DbTrader } from '@/lib/supabase';
 import { LeaderboardPeriod } from '@/types/top-traders';
 import { motion } from 'motion/react';
+import EmailContactModal from '@/components/custom/EmailContactModal';
+import ShineButton from '@/components/custom/ShineButton';
 
 export default function TopTradersPage() {
   const { language } = useLanguage();
@@ -14,6 +16,7 @@ export default function TopTradersPage() {
   const [traders, setTraders] = useState<TopTrader[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   // Fetch traders from API
   useEffect(() => {
@@ -343,6 +346,279 @@ export default function TopTradersPage() {
           </div>
         </div>
       </div>
+
+      {/* Copy Trading CTA Section */}
+      <section className="relative bg-gradient-to-br from-black via-gray-900 to-black dark:from-gray-950 dark:via-gray-900 dark:to-black border-t-2 border-gray-800 overflow-hidden">
+        {/* Background Pattern */}
+        <div className="absolute inset-0 opacity-5">
+          <div className="absolute inset-0" style={{
+            backgroundImage: 'repeating-linear-gradient(0deg, transparent, transparent 50px, currentColor 50px, currentColor 51px), repeating-linear-gradient(90deg, transparent, transparent 50px, currentColor 50px, currentColor 51px)',
+            color: 'white'
+          }} />
+        </div>
+
+        {/* Animated Border */}
+        <motion.div
+          initial={{ scaleX: 0 }}
+          whileInView={{ scaleX: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 1, ease: "easeOut" }}
+          className="absolute top-0 left-0 right-0 h-1 bg-white dark:bg-white origin-left"
+        />
+        <motion.div
+          initial={{ scaleX: 0 }}
+          whileInView={{ scaleX: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 1, ease: "easeOut", delay: 0.2 }}
+          className="absolute bottom-0 left-0 right-0 h-1 bg-white dark:bg-white origin-right"
+        />
+
+        <div className="max-w-5xl mx-auto px-6 py-20 relative z-10">
+          {/* Badge */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="text-center mb-6"
+          >
+            <span className="inline-block px-6 py-2 bg-white dark:bg-gray-800 text-black dark:text-white text-sm font-bold tracking-wider border-2 border-white dark:border-white">
+              {isZh ? '顶尖交易员跟单服务' : 'TOP TRADER COPY TRADING SERVICE'}
+            </span>
+          </motion.div>
+
+          {/* Title */}
+          <motion.h2
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.1 }}
+            className="text-4xl md:text-6xl font-bold text-center mb-4 text-white dark:text-white"
+          >
+            {isZh ? '跟随高手，稳健盈利' : 'Follow Experts, Steady Profits'}
+          </motion.h2>
+
+          {/* Subtitle */}
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            className="text-xl md:text-2xl text-center mb-6 text-gray-300 dark:text-gray-300"
+          >
+            {isZh ? '跟单天梯排行榜中的顶尖交易员' : 'Copy Trade Top Traders from the Leaderboard'}
+          </motion.p>
+
+          {/* Description */}
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.3 }}
+            className="text-center mb-12 text-gray-400 dark:text-gray-400 max-w-2xl mx-auto"
+          >
+            {isZh
+              ? '通过我们的跟单服务，您可以自动复制榜单上顶尖交易员的交易策略。无需盯盘，专业团队为您把关，让您的资金跟随高手一起成长。'
+              : 'Through our copy trading service, you can automatically replicate the trading strategies of top traders on the leaderboard. No need to monitor the market, our professional team manages everything for you.'}
+          </motion.p>
+
+          {/* Features Grid */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.4 }}
+            className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12"
+          >
+            <motion.div
+              initial={{ opacity: 0, scale: 0.8 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.4, delay: 0.5 }}
+              className="bg-white/10 dark:bg-white/10 backdrop-blur-sm border-2 border-white/20 dark:border-white/20 p-4 text-center hover:bg-white/20 dark:hover:bg-white/20 transition-colors"
+            >
+              <div className="text-3xl mb-2 text-white dark:text-white">💰</div>
+              <div className="text-sm font-bold text-white dark:text-white mb-1">
+                {isZh ? '15万美金起' : '$150K Minimum'}
+              </div>
+              <div className="text-xs text-gray-400 dark:text-gray-400">
+                {isZh ? '起步门槛' : 'Starting Capital'}
+              </div>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, scale: 0.8 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.4, delay: 0.6 }}
+              className="bg-white/10 dark:bg-white/10 backdrop-blur-sm border-2 border-white/20 dark:border-white/20 p-4 text-center hover:bg-white/20 dark:hover:bg-white/20 transition-colors"
+            >
+              <div className="text-3xl mb-2 text-white dark:text-white">🎯</div>
+              <div className="text-sm font-bold text-white dark:text-white mb-1">
+                {isZh ? '实时跟单' : 'Real-time Copy'}
+              </div>
+              <div className="text-xs text-gray-400 dark:text-gray-400">
+                {isZh ? '毫秒级同步' : 'Millisecond Sync'}
+              </div>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, scale: 0.8 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.4, delay: 0.7 }}
+              className="bg-white/10 dark:bg-white/10 backdrop-blur-sm border-2 border-white/20 dark:border-white/20 p-4 text-center hover:bg-white/20 dark:hover:bg-white/20 transition-colors"
+            >
+              <div className="text-3xl mb-2 text-white dark:text-white">🛡️</div>
+              <div className="text-sm font-bold text-white dark:text-white mb-1">
+                {isZh ? '风控保护' : 'Risk Protection'}
+              </div>
+              <div className="text-xs text-gray-400 dark:text-gray-400">
+                {isZh ? '智能止损' : 'Smart Stop Loss'}
+              </div>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, scale: 0.8 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.4, delay: 0.8 }}
+              className="bg-white/10 dark:bg-white/10 backdrop-blur-sm border-2 border-white/20 dark:border-white/20 p-4 text-center hover:bg-white/20 dark:hover:bg-white/20 transition-colors"
+            >
+              <div className="text-3xl mb-2 text-white dark:text-white">📊</div>
+              <div className="text-sm font-bold text-white dark:text-white mb-1">
+                {isZh ? '透明报告' : 'Transparent Reports'}
+              </div>
+              <div className="text-xs text-gray-400 dark:text-gray-400">
+                {isZh ? '每日推送' : 'Daily Updates'}
+              </div>
+            </motion.div>
+          </motion.div>
+
+          {/* Key Points */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.9 }}
+            className="bg-white/5 border-2 border-white/20 p-6 mb-12"
+          >
+            <div className="grid md:grid-cols-2 gap-6 text-sm text-gray-300">
+              <div className="flex items-start gap-3">
+                <div className="text-white text-xl mt-0.5">✓</div>
+                <div>
+                  <strong className="text-white block mb-1">
+                    {isZh ? '精选交易员' : 'Vetted Traders'}
+                  </strong>
+                  {isZh
+                    ? '只跟单天梯排行榜中经过严格筛选的顶尖交易员，确保稳定盈利能力'
+                    : 'Only copy trade rigorously vetted top traders from the leaderboard with proven track records'}
+                </div>
+              </div>
+              <div className="flex items-start gap-3">
+                <div className="text-white text-xl mt-0.5">✓</div>
+                <div>
+                  <strong className="text-white block mb-1">
+                    {isZh ? '资金安全' : 'Capital Security'}
+                  </strong>
+                  {isZh
+                    ? '您的资金在您的券商账户中，我们仅提供信号服务，资金安全可控'
+                    : 'Your funds stay in your broker account, we only provide trading signals for maximum security'}
+                </div>
+              </div>
+              <div className="flex items-start gap-3">
+                <div className="text-white text-xl mt-0.5">✓</div>
+                <div>
+                  <strong className="text-white block mb-1">
+                    {isZh ? '灵活配置' : 'Flexible Settings'}
+                  </strong>
+                  {isZh
+                    ? '可自定义跟单比例、止损止盈等参数，完全控制您的风险偏好'
+                    : 'Customize copy ratio, stop loss/profit parameters to match your risk preferences'}
+                </div>
+              </div>
+              <div className="flex items-start gap-3">
+                <div className="text-white text-xl mt-0.5">✓</div>
+                <div>
+                  <strong className="text-white block mb-1">
+                    {isZh ? '专业团队' : 'Professional Team'}
+                  </strong>
+                  {isZh
+                    ? '专业技术团队7x24小时监控，确保跟单系统稳定运行'
+                    : 'Professional technical team monitors 24/7 to ensure stable copy trading system'}
+                </div>
+              </div>
+            </div>
+          </motion.div>
+
+          {/* CTA Button */}
+          <motion.div
+            initial={{ opacity: 0, scale: 0.9 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 1 }}
+            className="text-center mb-8"
+          >
+            <ShineButton
+              onClick={() => setIsModalOpen(true)}
+              className="inline-block px-12 py-5 bg-white dark:bg-white text-black dark:text-black text-xl font-bold border-4 border-white dark:border-white hover:bg-black hover:text-white dark:hover:bg-gray-800 dark:hover:text-white shadow-2xl"
+            >
+              {isZh ? '立即申请跟单' : 'Apply for Copy Trading Now'}
+              <motion.span
+                animate={{ x: [0, 5, 0] }}
+                transition={{ duration: 1.5, repeat: Infinity }}
+                className="inline-block ml-2"
+              >
+                →
+              </motion.span>
+            </ShineButton>
+          </motion.div>
+
+          {/* Note */}
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 1.1 }}
+            className="text-center text-sm text-gray-500 dark:text-gray-400 italic"
+          >
+            {isZh
+              ? '注：跟单服务最低起步金额为15万美金，提交申请后我们的团队将在24小时内联系您'
+              : 'Note: Minimum starting capital is $150,000 USD. Our team will contact you within 24 hours after submission'}
+          </motion.p>
+        </div>
+
+        {/* Decorative Elements */}
+        <motion.div
+          animate={{
+            rotate: 360,
+          }}
+          transition={{
+            duration: 20,
+            repeat: Infinity,
+            ease: "linear"
+          }}
+          className="absolute top-10 left-10 w-20 h-20 border-4 border-white/10 dark:border-white/10"
+        />
+        <motion.div
+          animate={{
+            rotate: -360,
+          }}
+          transition={{
+            duration: 15,
+            repeat: Infinity,
+            ease: "linear"
+          }}
+          className="absolute bottom-10 right-10 w-32 h-32 border-4 border-white/10 dark:border-white/10"
+        />
+      </section>
+
+      {/* Email Modal */}
+      <EmailContactModal
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+        title={isZh ? '跟单服务申请' : 'Copy Trading Application'}
+      />
     </div>
   );
 }
