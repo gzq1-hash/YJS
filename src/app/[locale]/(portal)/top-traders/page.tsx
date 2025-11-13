@@ -618,6 +618,7 @@ export default function TopTradersPage() {
         isOpen={isModalOpen}
         onClose={() => setIsModalOpen(false)}
         title={isZh ? '跟单服务申请' : 'Copy Trading Application'}
+        emailSubject={isZh ? '跟单咨询' : 'Copy Trading Inquiry'}
       />
     </div>
   );

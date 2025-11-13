@@ -8,14 +8,15 @@ interface EmailContactModalProps {
   isOpen: boolean;
   onClose: () => void;
   title?: string;
+  emailSubject?: string;
 }
 
-export default function EmailContactModal({ isOpen, onClose, title }: EmailContactModalProps) {
+export default function EmailContactModal({ isOpen, onClose, title, emailSubject: customEmailSubject }: EmailContactModalProps) {
   const { t } = useLanguage();
   const emailAddress = "x.stark.dylan@gmail.com";
 
   const displayTitle = title || t('email.default.title');
-  const emailSubject = t('email.subject');
+  const emailSubject = customEmailSubject || t('email.subject');
 
   const handleSendEmail = () => {
     window.location.href = `mailto:${emailAddress}?subject=${encodeURIComponent(emailSubject)}`;
