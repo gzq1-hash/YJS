@@ -1,0 +1,30 @@
+{
+  "symbol": "NZD/USD",
+  "name": "New Zealand Dollar vs US Dollar",
+  "nameCn": "纽元/美元",
+  "timestamp": "2025-11-13T18:59:32.903Z",
+  "price": {
+    "close": "0.56554687",
+    "high": "0.56750470",
+    "low": "0.56541896",
+    "open": "0.56750470",
+    "change": "-0.32",
+    "datetime": "2025-11-14 05:00:00"
+  },
+  "indicators": {
+    "rsi": 43.78579,
+    "macd": 0.00023780805,
+    "macd_signal": 0.00030087435,
+    "sma20": 0.56652428
+  },
+  "analysis": {
+    "zh": {
+      "title": "纽元/美元技术分析：[震荡整理趋势]",
+      "content": "当前纽元/美元(NZD/USD)的市场表现显示出震荡整理的趋势。最新价格为0.5655，24小时变化为-0.32%。在高点0.5675和低点0.5654之间的波动，表明市场尚未形成明确的方向。短期内，投资者应关注价格是否能够突破这一区间，以确定后续的走势。\n\n从技术指标来看，虽然RSI(14)数据缺失，但MACD指标显示出微弱的正值，暗示出潜在的买入兴趣。然而，SMA(20)为0.5665，当前价格略低于此水平，表明短期内可能面临一定的卖压。投资者应耐心等待确认信号，避免在不确定的市场环境中做出决策。\n\n支撑位方面，0.5654是一个关键的支撑线，若价格跌破该水平，可能会引发进一步的下行压力。相对的，若价格能突破0.5675的阻力位，或将引发更多的买盘，助力上涨。因此，交易者应密切关注这两个重要价位的表现。\n\n基于当前的市场状况，建议交易者采取观望态度，等待价格突破关键支撑或阻力位后再进行交易决策。短期内，保持灵活应对市场变化，制定合适的止损策略，以降低潜在风险。"
+    },
+    "en": {
+      "title": "New Zealand Dollar vs US Dollar Technical Analysis",
+      "content": "The NZD/USD currency pair is currently exhibiting a slight bearish trend, with the latest price at 0.56554687 reflecting a 24-hour decline of 0.32%. The recent high of 0.56750470 and low of 0.56541896 suggest a narrow trading range, indicating a lack of strong momentum. This consolidation phase could precede a more decisive move, with traders closely monitoring external factors that could influence the pair's direction, particularly economic data from both New Zealand and the United States.\n\nIn terms of technical indicators, the absence of an RSI reading limits our ability to assess overbought or oversold conditions. However, the MACD at 0.00023780805 indicates a potential for upward momentum, albeit weak. The 20-period Simple Moving Average (SMA) at 0.56652428 serves as a near-term resistance level. A sustained move above this SMA could suggest a shift in sentiment, while a failure to breach this level may reinforce the prevailing bearish bias.\n\nSupport levels appear to be forming around the recent low of 0.56541896, which may provide a floor for the pair should selling pressure intensify. If this level is breached, the next significant support might be found at 0.564000. Conversely, a rally above the SMA could target the previous high of 0.56750470 as a potential resistance level. Traders should remain vigilant for breakout opportunities around these key levels.\n\nFor trading strategies, a cautious approach is advisable given the current market conditions. Traders might consider entering short positions near the SMA, with a tight stop-loss above 0.56750470. Alternatively, if bullish momentum materializes, a breakout above the SMA could present a buying opportunity, targeting the higher resistance level with an appropriate risk management strategy in place."
+    }
+  }
+}

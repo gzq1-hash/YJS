@@ -1,0 +1,30 @@
+{
+  "symbol": "EUR/USD",
+  "name": "Euro vs US Dollar",
+  "nameCn": "欧元/美元",
+  "timestamp": "2025-11-13T18:54:46.156Z",
+  "price": {
+    "close": "1.16395",
+    "high": "1.16521",
+    "low": "1.16386",
+    "open": "1.16519",
+    "change": "-0.10",
+    "datetime": "2025-11-14 05:00:00"
+  },
+  "indicators": {
+    "rsi": 64.32609,
+    "macd": 0.0015100593,
+    "macd_signal": 0.001159857,
+    "sma20": 1.16114
+  },
+  "analysis": {
+    "zh": {
+      "title": "欧元/美元技术分析：[震荡整理中]",
+      "content": "当前欧元/美元(EUR/USD)在1.16395附近震荡整理，短期内表现出一定的疲态。价格在1.16521和1.16386之间波动，显示出市场参与者对未来走势的谨慎态度。整体上看，当前市场似乎缺乏明确的方向，需要关注即将公布的经济数据和市场消息。\n\n从技术指标来看，当前未提供RSI和MACD的详细信息，但根据SMA(20)的值1.16114，价格仍然位于其上方，这表明短期内多头情绪依然占优。然而，价格未能突破近期高点，意味着多头需谨慎以防回调风险。若RSI数据可用，建议关注其是否接近超买或超卖区域。\n\n在支撑和阻力方面，1.16500是短期阻力位，而1.16100则是关键支撑位。若价格突破1.16500，可能会进一步向上测试1.16800的区域；反之，跌破1.16100则可能引发更深幅度的调整，甚至测试1.15800。交易者应灵活应对价格波动，设置合理止损位以降低风险。\n\n总体而言，欧元/美元在当前区间内震荡整理，建议关注市场情绪和关键经济数据的发布，寻找合适的入场时机。短期可考虑在支撑位附近寻找买入机会，而在阻力位附近则可考虑卖出。"
+    },
+    "en": {
+      "title": "Euro vs US Dollar Technical Analysis",
+      "content": "The current price of EUR/USD at 1.16395 indicates a slight bearish sentiment, with a 24-hour change of -0.10%. This minor decline suggests that the market may be experiencing consolidation after a recent upward movement. Observing the high of 1.16521 and the low of 1.16386, the pair appears to be trading within a narrow range, highlighting a lack of decisive momentum in either direction. Traders should monitor for any breakout above the high or breakdown below the low to gauge the next significant move.\n\nFrom a technical perspective, the absence of a defined RSI(14) complicates momentum analysis, but the MACD value of 0.0015100593 indicates a potential bullish crossover if the MACD line continues to rise. The Simple Moving Average (SMA) of 20 at 1.16114 serves as a critical support level; any movement below this could invite further selling pressure. Conversely, a sustained move above the SMA could signal a shift toward bullish sentiment, prompting traders to consider long positions.\n\nKey support levels to watch include the SMA at 1.16114 and the psychological level of 1.1600. Resistance is currently at the recent high of 1.16521. A breakout above this level could attract buyers, potentially targeting higher resistance levels around 1.1670. Conversely, if the price fails to maintain above the SMA, it may test the support level at 1.1600, warranting caution for long positions.\n\nIn light of the current market conditions, traders may consider a wait-and-see approach until a clear breakout occurs. Setting alerts for significant price movements around the identified support and resistance levels can create opportunities for trading. If a bullish signal emerges, traders might look to enter long positions, while a bearish signal could prompt short entries, particularly if the price falls consistently below the SMA."
+    }
+  }
+}
