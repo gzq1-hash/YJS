@@ -1,0 +1,30 @@
+{
+  "symbol": "USD/CHF",
+  "name": "US Dollar vs Swiss Franc",
+  "nameCn": "美元/瑞郎",
+  "timestamp": "2025-11-13T17:46:04.536Z",
+  "price": {
+    "close": "0.79136997",
+    "high": "0.79184997",
+    "low": "0.79101002",
+    "open": "0.79167002",
+    "change": "-0.04",
+    "datetime": "2025-11-14 04:00:00"
+  },
+  "indicators": {
+    "rsi": 23.71866,
+    "macd": -0.0016609106,
+    "macd_signal": -0.0011794451,
+    "sma20": 0.79621551
+  },
+  "analysis": {
+    "zh": {
+      "title": "美元/瑞郎技术分析：[震荡整理趋势]",
+      "content": "当前美元/瑞郎在0.7913附近震荡整理，短期内走势相对平稳。24小时变化率为-0.04%，显示出市场参与者的谨慎态度。价格在高点0.7918和低点0.7910之间波动，表明短期内缺乏强烈的趋势信号，可能需要更多的市场动能来推动价格突破当前区间。\n\n从技术指标来看，MACD显示出轻微的负值，表明下行压力存在，但尚未形成明确的卖出信号。虽然RSI指标未提供具体数值，但若其处于中性区域，可能意味着市场尚未进入超买或超卖状态。因此，投资者应密切关注市场情绪变化，以便及时调整交易策略。\n\n支撑位方面，0.7910是关键支撑区域，若价格跌破该水平，可能引发进一步回调，甚至测试0.7900的心理关口。相对的，0.7920一线则是重要的阻力位，若价格突破，将可能引发一波反弹行情。交易者可以考虑在支撑位附近寻找买入机会，而在接近阻力位时则采取谨慎态度。\n\n综合来看，建议投资者在当前震荡区间内保持灵活的交易策略，关注市场消息和技术指标的变化，以便把握潜在的交易机会。在价格突破关键支撑或阻力位之前，保持观望态度可能是更为稳妥的选择。"
+    },
+    "en": {
+      "title": "US Dollar vs Swiss Franc Technical Analysis",
+      "content": "The current market data for USD/CHF indicates a slight bearish trend, with the latest price at 0.79137, reflecting a 24-hour change of -0.04%. The price has fluctuated within a narrow range, establishing a high of 0.79185 and a low of 0.79101. This limited range suggests a period of consolidation, which could precede a significant price movement. Traders should remain vigilant for breakout opportunities, as the current environment indicates indecision among market participants.\n\nIn terms of technical indicators, the MACD shows a negative value of -0.00166, suggesting bearish momentum; however, the absence of the signal line complicates the interpretation. The RSI is not available, but it would typically provide insight into overbought or oversold conditions. The SMA(20) stands at 0.7962, indicating that the recent price action is below this moving average, further supporting a bearish outlook. A sustained move below this level could trigger additional selling pressure.\n\nKey support levels can be identified at the recent low of 0.79101, which, if broken, could lead to further declines. Conversely, resistance is evident around the SMA(20) at 0.7962, which may act as a barrier for any upward momentum. Traders should monitor these levels closely, as they will be critical in determining the next direction for USD/CHF. Any failure to maintain above support could lead to a test of lower levels.\n\nGiven the current market dynamics, a cautious approach is advisable. Short positions may be considered if the price breaks below support, with targets set toward 0.7900. Conversely, should the price manage to reclaim the SMA(20), a long position may be warranted, targeting previous highs. Risk management is essential, with stop-loss orders strategically placed to limit potential losses in this volatile environment."
+    }
+  }
+}
