@@ -61,7 +61,7 @@ export default function LiveTradingClient({ members }: LiveTradingClientProps) {
       </div>
 
       {/* Matrix Grid - Full Width Mosaic, No Gaps */}
-      <div className="grid grid-cols-1 lg:grid-cols-3 bg-black">
+      <div className="grid grid-cols-1 lg:grid-cols-3 bg-white dark:bg-black">
         {members.map((member) => {
           // Parse video URL for multi-platform support
           const videoEmbed = member.liveUrl ? parseVideoUrl(member.liveUrl) : null;
@@ -70,7 +70,7 @@ export default function LiveTradingClient({ members }: LiveTradingClientProps) {
           return (
             <div
               key={member.id}
-              className="relative bg-black border-r border-b border-gray-800 last:border-r-0 lg:last:border-r lg:[&:nth-child(3n)]:border-r-0 overflow-hidden group"
+              className="relative bg-black border-r border-b border-gray-300 dark:border-gray-700 last:border-r-0 lg:last:border-r lg:[&:nth-child(3n)]:border-r-0 overflow-hidden group"
               style={{ aspectRatio: '16/9' }}
             >
               {isLive && videoEmbed ? (
@@ -125,22 +125,22 @@ export default function LiveTradingClient({ members }: LiveTradingClientProps) {
                 </>
               ) : (
                 // Offline Placeholder
-                <div className="absolute inset-0 bg-gray-900 flex flex-col items-center justify-center">
-                  <div className="w-16 h-16 mb-4 bg-gray-800 rounded-full flex items-center justify-center">
-                    <svg className="w-8 h-8 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="absolute inset-0 bg-gray-100 dark:bg-gray-900 flex flex-col items-center justify-center">
+                  <div className="w-16 h-16 mb-4 bg-gray-300 dark:bg-gray-800 rounded-full flex items-center justify-center">
+                    <svg className="w-8 h-8 text-gray-500 dark:text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
                     </svg>
                   </div>
-                  <div className="px-4 py-1.5 bg-gray-800 text-sm font-medium text-gray-400 mb-4">
+                  <div className="px-4 py-1.5 bg-gray-300 dark:bg-gray-800 text-sm font-medium text-gray-600 dark:text-gray-400 mb-4">
                     {isZh ? '离线' : 'Offline'}
                   </div>
 
                   {/* Member Info */}
                   <div className="text-center px-6">
-                    <h3 className="font-bold text-base text-white mb-1">
+                    <h3 className="font-bold text-base text-black dark:text-white mb-1">
                       {member.name}
                     </h3>
-                    <p className="text-sm text-gray-400 mb-2">
+                    <p className="text-sm text-gray-600 dark:text-gray-400 mb-2">
                       {member.specialty}
                     </p>
                     {member.lastLive && (
