@@ -65,7 +65,7 @@ const DummyContent = () => {
           <Boxes />
         </div>
         {/* Background overlay for better text readability */}
-        <div className="absolute inset-0 w-full h-full bg-black/50 z-[1]" />
+        <div className="absolute inset-0 w-full h-full bg-black/50 z-[1] pointer-events-none" />
 
         {/* Content Overlay - Centered in viewport */}
         <div className="relative z-10 flex items-center h-full">
