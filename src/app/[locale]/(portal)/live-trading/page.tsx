@@ -58,7 +58,7 @@ export default async function LiveTradingPage() {
       youtubeId: null,
       specialty: '剥头皮交易 / Scalping',
       lastLive: '2025-11-10 14:30',
-      liveUrl: null,
+      liveUrl: undefined,
     },
     {
       id: 3,
@@ -67,7 +67,7 @@ export default async function LiveTradingPage() {
       youtubeId: null,
       specialty: '波段交易 / Swing Trading',
       lastLive: '2025-11-09 09:15',
-      liveUrl: null,
+      liveUrl: undefined,
     },
     {
       id: 4,
@@ -76,7 +76,7 @@ export default async function LiveTradingPage() {
       youtubeId: null,
       specialty: '日内交易 / Day Trading',
       lastLive: '2025-11-08 16:45',
-      liveUrl: null,
+      liveUrl: undefined,
     },
     {
       id: 5,
@@ -85,7 +85,7 @@ export default async function LiveTradingPage() {
       youtubeId: null,
       specialty: '突破交易 / Breakout Trading',
       lastLive: '2025-11-07 11:20',
-      liveUrl: null,
+      liveUrl: undefined,
     },
     {
       id: 6,
@@ -94,7 +94,7 @@ export default async function LiveTradingPage() {
       youtubeId: null,
       specialty: '新闻交易 / News Trading',
       lastLive: '2025-11-06 08:00',
-      liveUrl: null,
+      liveUrl: undefined,
     },
   ];
 

@@ -5,25 +5,7 @@ import { useRouter } from 'next/navigation';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { motion } from 'motion/react';
 import InterviewCTA from '@/components/custom/InterviewCTA';
-
-interface BlogPost {
-  id?: number;
-  title: string;
-  title_en: string;
-  content: string;
-  content_en: string;
-  author: string;
-  remark: string;
-  tags: string;
-  tags_en: string;
-  rel_1: number | null;
-  rel_2: number | null;
-  rel_3: number | null;
-  recommand: boolean;
-  top: boolean;
-  created_at?: string;
-  updated_at?: string;
-}
+import type { BlogPost } from '@/lib/supabase';
 
 interface BlogDetailClientProps {
   post: BlogPost;

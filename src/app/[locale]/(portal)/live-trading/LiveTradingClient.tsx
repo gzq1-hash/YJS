@@ -117,10 +117,8 @@ export default function LiveTradingClient({ members }: LiveTradingClientProps) {
                         <iframe
                           src={videoEmbed.embedUrl}
                           className="w-full h-full"
-                          scrolling="no"
-                          border="0"
-                          frameBorder="no"
                           allowFullScreen
+                          style={{ border: 0 }}
                         />
                       ) : (
                         // Generic iframe for other platforms

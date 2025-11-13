@@ -1,25 +1,7 @@
 import { getLanguageFromLocale, generateBilingualMetadata } from '@/lib/getServerLanguage';
-import { supabase } from '@/lib/supabase';
+import { supabase, BlogPost } from '@/lib/supabase';
 import { notFound } from 'next/navigation';
 import BlogDetailClient from './BlogDetailClient';
-
-interface BlogPost {
-  id?: number;
-  title: string;
-  title_en: string;
-  content: string;
-  content_en: string;
-  author: string;
-  remark: string;
-  tags: string;
-  rel_1: number | null;
-  rel_2: number | null;
-  rel_3: number | null;
-  recommand: boolean;
-  top: boolean;
-  created_at?: string;
-  updated_at?: string;
-}
 
 // Generate metadata for SEO
 export async function generateMetadata({ params }: { params: Promise<{ locale: string; id: string }> }) {
@@ -128,7 +110,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
           .filter((p: any) => {
             if (p.id === post.id) return false;
             if (!p.tags) return false;
-            const pTags = p.tags.split(/[,，]/).map(tag => tag.trim()).filter(tag => tag);
+            const pTags = p.tags.split(/[,，]/).map((tag: string) => tag.trim()).filter((tag: string) => tag);
             return pTags.includes(firstTag);
           })
           .slice(0, 3) as BlogPost[];

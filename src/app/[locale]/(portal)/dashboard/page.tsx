@@ -9,53 +9,8 @@ import BlogManager from './components/BlogManager';
 import ConfigManager from './components/ConfigManager';
 import TopTradersManager from './components/TopTradersManager';
 import { useLanguage } from '@/contexts/LanguageContext';
-import type { TradingConfig } from '@/lib/trading/types';
-
-// 默认配置 - 回调策略
-const defaultConfig: TradingConfig = {
-  symbol: 'XAUUSDT',
-  interval: '1m',
-  strategy: {
-    aggressiveness: 3,
-    trailingActivation: 1.5,
-    trailingDistance: 1.0,
-    indicators: {
-      keltner: {
-        maPeriod: 20,
-        atrPeriod: 14,
-        atrMultiple: 1.5,
-      },
-      bollinger: {
-        period: 20,
-        deviation: 2.0,
-      },
-      macd: {
-        fastPeriod: 12,
-        slowPeriod: 26,
-        signalPeriod: 9,
-      },
-      cci: {
-        period: 14,
-      },
-      supertrend: {
-        period: 10,
-        multiplier: 3.0,
-      },
-    },
-  },
-  risk: {
-    maxDailyLoss: 90000,
-    maxDrawdown: 0.50,
-    maxPositions: 1,
-    positionSize: 0.01,
-    leverage: 20,
-    stopLossMultiple: 2.0,
-    takeProfitLevels: [3.0, 6.0, 9.0],
-  },
-};
 
 export default function TradingDashboard() {
-  const [tradingConfig, setTradingConfig] = useState<TradingConfig>(defaultConfig);
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [activeTab, setActiveTab] = useState('strategy');
   const { language, t } = useLanguage();
@@ -85,21 +40,7 @@ export default function TradingDashboard() {
     if (authenticated === 'true') {
       setIsAuthenticated(true);
     }
-
-    const savedConfig = localStorage.getItem('trading_config');
-    if (savedConfig) {
-      try {
-        const parsedConfig = JSON.parse(savedConfig);
-        setTradingConfig(parsedConfig);
-      } catch (error) {
-        console.error('Failed to load saved config:', error);
-      }
-    }
   }, []);
-
-  useEffect(() => {
-    localStorage.setItem('trading_config', JSON.stringify(tradingConfig));
-  }, [tradingConfig]);
 
   const handleLogout = () => {
     localStorage.removeItem('dashboard_authenticated');
@@ -118,7 +59,7 @@ export default function TradingDashboard() {
             <h1 className="text-3xl font-black text-black dark:text-white mb-6">
               {language === 'zh' ? '天梯趋势' : 'Tianti Trend'}
             </h1>
-            <TiantiPanel config={tradingConfig} onConfigChange={setTradingConfig} />
+            <TiantiPanel />
           </div>
         );
       case 'livestream':

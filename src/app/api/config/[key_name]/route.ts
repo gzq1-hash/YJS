@@ -15,10 +15,10 @@ const CACHE_DURATION = 5 * 60 * 1000; // 5 minutes
  */
 export async function GET(
   request: Request,
-  { params }: { params: { key_name: string } }
+  { params }: { params: Promise<{ key_name: string }> }
 ) {
   try {
-    const { key_name } = params;
+    const { key_name } = await params;
     const { searchParams } = new URL(request.url);
     const refresh = searchParams.get('refresh') === 'true';
 
