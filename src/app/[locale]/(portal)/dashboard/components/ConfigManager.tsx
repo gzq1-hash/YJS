@@ -96,6 +96,21 @@ export default function ConfigManager() {
     setShowForm(true);
   };
 
+  // Predefined model options for OPENAI_BLOG_MODEL
+  const BLOG_MODEL_OPTIONS = [
+    { value: 'gpt-4o-mini', label: 'GPT-4o Mini (推荐 - 性价比高)' },
+    { value: 'gpt-4o', label: 'GPT-4o (平衡)' },
+    { value: 'gpt-4-turbo', label: 'GPT-4 Turbo (强大)' },
+    { value: 'gpt-4', label: 'GPT-4 (稳定)' },
+    { value: 'gpt-3.5-turbo', label: 'GPT-3.5 Turbo (快速)' },
+    { value: 'o3-mini', label: 'O3 Mini (推理模型)' },
+    { value: 'o1-preview', label: 'O1 Preview (高级推理)' },
+    { value: 'o1-mini', label: 'O1 Mini (推理)' },
+  ];
+
+  // Check if current config is OPENAI_BLOG_MODEL
+  const isModelConfig = formData.key_name === 'OPENAI_BLOG_MODEL';
+
   return (
     <div className="p-8">
       <div className="mb-6 flex justify-between items-center">
@@ -134,14 +149,37 @@ export default function ConfigManager() {
               <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
                 {language === 'zh' ? '配置值 (Key Content)' : 'Key Content'}
               </label>
-              <textarea
-                value={formData.key_content}
-                onChange={(e) => setFormData({ ...formData, key_content: e.target.value })}
-                className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white"
-                rows={4}
-                required
-                placeholder={language === 'zh' ? '配置的具体内容...' : 'Configuration value...'}
-              />
+              {isModelConfig ? (
+                <div className="space-y-2">
+                  <select
+                    value={formData.key_content}
+                    onChange={(e) => setFormData({ ...formData, key_content: e.target.value })}
+                    className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white"
+                    required
+                  >
+                    <option value="">{language === 'zh' ? '选择模型...' : 'Select model...'}</option>
+                    {BLOG_MODEL_OPTIONS.map(option => (
+                      <option key={option.value} value={option.value}>
+                        {option.label}
+                      </option>
+                    ))}
+                  </select>
+                  <p className="text-xs text-gray-500 dark:text-gray-400">
+                    {language === 'zh'
+                      ? '💡 推荐: gpt-4o-mini (性价比最高) 或 gpt-4o (综合性能好)'
+                      : '💡 Recommended: gpt-4o-mini (best value) or gpt-4o (balanced)'}
+                  </p>
+                </div>
+              ) : (
+                <textarea
+                  value={formData.key_content}
+                  onChange={(e) => setFormData({ ...formData, key_content: e.target.value })}
+                  className="w-full px-4 py-2 border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-black dark:text-white"
+                  rows={4}
+                  required
+                  placeholder={language === 'zh' ? '配置的具体内容...' : 'Configuration value...'}
+                />
+              )}
             </div>
 
             <div>
