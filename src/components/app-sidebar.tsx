@@ -160,9 +160,9 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
               asChild
               className="data-[slot=sidebar-menu-button]:!p-1.5"
             >
-              <a href="#">
-                <IconInnerShadowTop className="!size-5" />
-                <span className="text-base font-semibold">Acme Inc.</span>
+              <a href="/">
+                <img src="/logos/yuanjinshi.png" alt="元金石" className="size-8 object-contain" />
+                <span className="text-base font-semibold">元金石</span>
               </a>
             </SidebarMenuButton>
           </SidebarMenuItem>

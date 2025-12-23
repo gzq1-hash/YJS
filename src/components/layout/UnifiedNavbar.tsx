@@ -121,7 +121,8 @@ export default function UnifiedNavbar() {
         <div className="flex items-center justify-between h-16">
           {/* Logo - 靠左 */}
           <div className="flex items-center space-x-6">
-            <LocaleLink href="/" className="flex items-center group">
+            <LocaleLink href="/" className="flex items-center group gap-2">
+              <img src="/logos/yuanjinshi.png" alt="元金石" className="h-8 w-auto object-contain" />
               <span className="text-2xl"><BrandName inNavbar={true} /></span>
             </LocaleLink>
 
