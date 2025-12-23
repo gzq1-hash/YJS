@@ -1,10 +1,10 @@
 ---
 title: "USD: Tariffs, inflation, and loss of purchasing power – Commerzbank"
 date: "2025-11-13 10:47:15"
-description: "Regular readers of our Daily Currency Briefing will already be familiar with one of my favorited charts, which illustrat. Free forex trading training by FX Killer."
-keywords: ["forex","trading","market analysis","forex news","forex training","trader incubation","FX Killer"]
+description: "Regular readers of our Daily Currency Briefing will already be familiar with one of my favorited charts, which illustrat. Free forex trading training by AurumFoundry."
+keywords: ["forex","trading","market analysis","forex news","forex training","trader incubation","AurumFoundry"]
 category: "Forex News"
-source: "FX Killer Analysis Team"
+source: "AurumFoundry Analysis Team"
 language: "en"
 ---
 
@@ -14,15 +14,15 @@ Recent movements in the EUR/USD pair highlight a tug-of-war between inflation co
 
 ---
 
-#### About FX Killer Trader Incubation Program
+#### About AurumFoundry Trader Incubation Program
 
-Want to become a professional trader? FX Killer offers a **completely free** professional trader training program. We provide systematic courses, practical training, and professional mentorship to help you grow from beginner to full-time trader.
+Want to become a professional trader? AurumFoundry offers a **completely free** professional trader training program. We provide systematic courses, practical training, and professional mentorship to help you grow from beginner to full-time trader.
 
 👉 [Join Free Training Program](/splan/join-us) | [Trading Psychology Assessment](/splan/psychology-test)
 
 ---
 
-**Data Source**: FX Killer Analysis Team
+**Data Source**: AurumFoundry Analysis Team
 **Updated**: 2025-11-13 10:47
 
 **Disclaimer**: This article is for reference only and does not constitute investment advice. Forex trading involves risks; please make decisions carefully.

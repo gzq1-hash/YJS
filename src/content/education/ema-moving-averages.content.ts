@@ -2,7 +2,7 @@ import { EducationPageContent } from './forex-basics.content';
 
 export const emaMovingAveragesContent = {
   zh: {
-    title: 'EMA指数移动平均线完整指南丨汇刃丨外汇交易员培训、全职交易员培训',
+    title: 'EMA指数移动平均线完整指南丨元金石丨外汇交易员培训、全职交易员培训',
     description: '深入讲解EMA指数移动平均线：计算公式、与SMA的区别、常用周期。外汇交易员和全职交易员培训必学的EMA均线交叉策略和多周期分析。',
     keywords: '外汇交易员培训, 全职交易员培训, EMA均线, 指数移动平均线, EMA策略, 均线交叉, 趋势指标',
 
@@ -70,7 +70,7 @@ export const emaMovingAveragesContent = {
     ],
 
     ctaTitle: '想要系统学习技术分析？',
-    ctaDescription: '加入 FX Killer 培训计划，掌握更多实战技术指标应用',
+    ctaDescription: '加入 AurumFoundry 培训计划，掌握更多实战技术指标应用',
     ctaPrimaryButton: '了解培训计划',
     ctaSecondaryButton: '免费心理测评',
 
@@ -81,7 +81,7 @@ export const emaMovingAveragesContent = {
   } as EducationPageContent,
 
   en: {
-    title: 'Complete EMA Moving Averages Guide丨FX Killer丨Forex Trader Training, Full-Time Trader Training',
+    title: 'Complete EMA Moving Averages Guide丨AurumFoundry丨Forex Trader Training, Full-Time Trader Training',
     description: 'In-depth explanation of Exponential Moving Average: calculation formulas, differences from SMA, common periods (8, 21, 55, 200). Forex trader training and full-time trader training essential curriculum for mastering EMA crossover strategies and multi-timeframe analysis.',
     keywords: 'Forex Trader Training, Full-Time Trader Training, EMA, moving averages, EMA strategy, trend indicator',
 
@@ -149,7 +149,7 @@ export const emaMovingAveragesContent = {
     ],
 
     ctaTitle: 'Want to Systematically Learn Technical Analysis?',
-    ctaDescription: 'Join FX Killer training to master more practical technical indicator applications',
+    ctaDescription: 'Join AurumFoundry training to master more practical technical indicator applications',
     ctaPrimaryButton: 'Learn About Training',
     ctaSecondaryButton: 'Free Psychology Test',
 

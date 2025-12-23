@@ -2,7 +2,7 @@ import { EducationPageContent } from './forex-basics.content';
 
 export const priceActionContent = {
   zh: {
-    title: '价格行为交易策略丨汇刃丨外汇交易员培训、全职交易员培训',
+    title: '价格行为交易策略丨元金石丨外汇交易员培训、全职交易员培训',
     description: '深入讲解价格行为交易：Pin Bar、Inside Bar、Rejection Candle、供需区域。外汇交易员和全职交易员培训课程分享裸K交易策略，无需指标的纯价格分析。',
     keywords: '外汇交易员培训, 全职交易员培训, 价格行为, Pin Bar, Inside Bar, 供需区域, 裸K交易',
 
@@ -70,7 +70,7 @@ export const priceActionContent = {
     ],
 
     ctaTitle: '想要掌握价格行为交易的精髓？',
-    ctaDescription: '加入FX Killer专业培训，学习裸K交易和供需区域策略',
+    ctaDescription: '加入AurumFoundry专业培训，学习裸K交易和供需区域策略',
     ctaPrimaryButton: '了解培训计划',
     ctaSecondaryButton: '免费心理测评',
 
@@ -81,7 +81,7 @@ export const priceActionContent = {
   } as EducationPageContent,
 
   en: {
-    title: 'Price Action Trading Strategy丨FX Killer丨Forex Trader Training, Full-Time Trader Training',
+    title: 'Price Action Trading Strategy丨AurumFoundry丨Forex Trader Training, Full-Time Trader Training',
     description: 'In-depth explanation of price action trading: Pin Bar, Inside Bar, Rejection Candle, Supply/Demand zones, naked chart trading strategies. Forex trader training and full-time trader training curriculum for mastering pure price analysis without indicators.',
     keywords: 'Forex Trader Training, Full-Time Trader Training, price action, Pin Bar, Inside Bar, supply demand zones',
 
@@ -149,7 +149,7 @@ export const priceActionContent = {
     ],
 
     ctaTitle: 'Want to Master the Essence of Price Action Trading?',
-    ctaDescription: 'Join FX Killer professional training to learn naked trading and supply/demand strategies',
+    ctaDescription: 'Join AurumFoundry professional training to learn naked trading and supply/demand strategies',
     ctaPrimaryButton: 'Learn About Training',
     ctaSecondaryButton: 'Free Psychology Test',
 

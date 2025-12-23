@@ -2,7 +2,7 @@ import { EducationPageContent } from './forex-basics.content';
 
 export const keltnerChannelsContent = {
   zh: {
-    title: '肯特纳通道指标完整指南丨汇刃丨职业交易员培训、全职交易员培训',
+    title: '肯特纳通道指标完整指南丨元金石丨职业交易员培训、全职交易员培训',
     description: '深入讲解肯特纳通道（Keltner Channels）指标：计算公式、参数设置、与布林带的区别。职业交易员和全职交易员培训必学的KC指标突破策略和趋势跟踪应用。',
     keywords: '职业交易员培训, 全职交易员培训, 肯特纳通道, Keltner Channels, KC指标, ATR通道',
 
@@ -70,7 +70,7 @@ export const keltnerChannelsContent = {
     ],
 
     ctaTitle: '想要系统学习技术分析？',
-    ctaDescription: '加入 FX Killer 培训计划，掌握更多实战技术指标应用',
+    ctaDescription: '加入 AurumFoundry 培训计划，掌握更多实战技术指标应用',
     ctaPrimaryButton: '了解培训计划',
     ctaSecondaryButton: '免费心理测评',
 
@@ -81,7 +81,7 @@ export const keltnerChannelsContent = {
   } as EducationPageContent,
 
   en: {
-    title: 'Complete Keltner Channels Guide丨FX Killer丨Professional Trader Training, Full-Time Trader Training',
+    title: 'Complete Keltner Channels Guide丨AurumFoundry丨Professional Trader Training, Full-Time Trader Training',
     description: 'In-depth explanation of Keltner Channels indicator: calculation formulas, parameter settings, differences from Bollinger Bands. Professional trader training and full-time trader training essential curriculum for mastering KC breakout strategies and trend following.',
     keywords: 'Professional Trader Training, Full-Time Trader Training, Keltner Channels, KC indicator, ATR channels',
 
@@ -149,7 +149,7 @@ export const keltnerChannelsContent = {
     ],
 
     ctaTitle: 'Want to Systematically Learn Technical Analysis?',
-    ctaDescription: 'Join FX Killer training to master more practical technical indicator applications',
+    ctaDescription: 'Join AurumFoundry training to master more practical technical indicator applications',
     ctaPrimaryButton: 'Learn About Training',
     ctaSecondaryButton: 'Free Psychology Test',
 

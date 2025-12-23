@@ -32,7 +32,7 @@ export default function PageLoader() {
     };
   }, []);
 
-  const text = "汇刃 FxKiller";
+  const text = "元金石 AurumFoundry";
   const chars = text.split("");
   const textColor = isDark ? "#ffffff" : "#000000";
 

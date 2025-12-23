@@ -2,7 +2,7 @@ import { EducationPageContent } from './forex-basics.content';
 
 export const supportResistanceContent = {
   zh: {
-    title: '支撑阻力与趋势线丨汇刃丨职业交易员培训、外汇交易员培训',
+    title: '支撑阻力与趋势线丨元金石丨职业交易员培训、外汇交易员培训',
     description: '深入讲解支撑阻力位：水平支撑阻力、动态支撑阻力、趋势线画法、通道交易。职业交易员和外汇交易员培训必备的关键位置交易技巧。',
     keywords: '职业交易员培训, 外汇交易员培训, 支撑阻力, 趋势线, 水平支撑, 突破交易, 假突破, 通道交易',
 
@@ -70,7 +70,7 @@ export const supportResistanceContent = {
     ],
 
     ctaTitle: '想要精通支撑阻力交易？',
-    ctaDescription: '加入FX Killer培训，学习专业支撑阻力识别与突破交易策略',
+    ctaDescription: '加入AurumFoundry培训，学习专业支撑阻力识别与突破交易策略',
     ctaPrimaryButton: '了解培训计划',
     ctaSecondaryButton: '免费技术分析工具',
 
@@ -81,7 +81,7 @@ export const supportResistanceContent = {
   } as EducationPageContent,
 
   en: {
-    title: 'Support Resistance & Trend Lines丨FX Killer丨Professional Trader Training, Forex Trader Training',
+    title: 'Support Resistance & Trend Lines丨AurumFoundry丨Professional Trader Training, Forex Trader Training',
     description: 'In-depth explanation of support and resistance: horizontal S/R, dynamic S/R (MA), trendline drawing, channel trading, breakout and false breakout identification. Professional trader training and forex trader training essential knowledge for key level trading techniques.',
     keywords: 'Professional Trader Training, Forex Trader Training, support resistance, trendlines, horizontal support, breakout trading',
 
@@ -149,7 +149,7 @@ export const supportResistanceContent = {
     ],
 
     ctaTitle: 'Want to Master Support Resistance Trading?',
-    ctaDescription: 'Join FX Killer training to learn professional S/R identification and breakout strategies',
+    ctaDescription: 'Join AurumFoundry training to learn professional S/R identification and breakout strategies',
     ctaPrimaryButton: 'Learn About Training',
     ctaSecondaryButton: 'Free Technical Analysis Tools',
 

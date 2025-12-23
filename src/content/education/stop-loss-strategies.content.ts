@@ -2,7 +2,7 @@ import { EducationPageContent } from './forex-basics.content';
 
 export const stopLossStrategiesContent = {
   zh: {
-    title: '止损策略大全丨汇刃丨外汇交易员培训、日内交易员培训',
+    title: '止损策略大全丨元金石丨外汇交易员培训、日内交易员培训',
     description: '深入讲解外汇交易止损策略：固定点数止损、ATR动态止损、技术位止损、追踪止损。外汇交易员和日内交易员培训必备的实战止损设置技巧，保护资金优化盈利。',
     keywords: '外汇交易员培训, 日内交易员培训, 止损策略, 止损设置, ATR止损, 技术止损, 追踪止损',
 
@@ -73,7 +73,7 @@ export const stopLossStrategiesContent = {
     ],
 
     ctaTitle: '想要优化你的止损策略？',
-    ctaDescription: '使用 FX Killer 专业止损工具，实现自动化止损管理',
+    ctaDescription: '使用 AurumFoundry 专业止损工具，实现自动化止损管理',
     ctaPrimaryButton: '免费使用工具',
     ctaSecondaryButton: '了解培训计划',
 
@@ -84,7 +84,7 @@ export const stopLossStrategiesContent = {
   } as EducationPageContent,
 
   en: {
-    title: 'Complete Stop Loss Strategies丨FX Killer丨Forex Trader Training, Day Trader Training',
+    title: 'Complete Stop Loss Strategies丨AurumFoundry丨Forex Trader Training, Day Trader Training',
     description: 'Comprehensive guide to forex stop-loss strategies: fixed pip stops, percentage stops, ATR dynamic stops, technical stops, time stops, trailing stops. Professional trader shares practical stop-loss setting techniques to protect capital and optimize profits.',
     keywords: 'Forex Trader Training, Day Trader Training, stop loss strategies, ATR stop loss, trailing stop',
 
@@ -155,7 +155,7 @@ export const stopLossStrategiesContent = {
     ],
 
     ctaTitle: 'Want to Optimize Your Stop-Loss Strategy?',
-    ctaDescription: 'Use FX Killer professional stop-loss tools for automated stop management',
+    ctaDescription: 'Use AurumFoundry professional stop-loss tools for automated stop management',
     ctaPrimaryButton: 'Use Tools Free',
     ctaSecondaryButton: 'Learn About Training',
 

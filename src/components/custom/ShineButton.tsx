@@ -36,7 +36,7 @@ export default function ShineButton({
       {!disabled && (
         <span className="absolute inset-0 z-0">
           <span
-            className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 dark:via-black/30 to-transparent animate-shine"
+            className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent animate-shine"
             style={{
               backgroundSize: '200% 100%',
               animation: 'shine 3s infinite',

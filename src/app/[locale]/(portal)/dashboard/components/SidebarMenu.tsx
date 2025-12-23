@@ -13,12 +13,6 @@ export default function SidebarMenu({ activeTab, onTabChange }: SidebarMenuProps
 
   const menuSections = [
     {
-      title: language === 'zh' ? '量化' : 'Quantitative',
-      items: [
-        { id: 'strategy', label: language === 'zh' ? '天梯趋势' : 'Tianti Trend', icon: '⚙️' },
-      ],
-    },
-    {
       title: language === 'zh' ? '后台管理' : 'Admin',
       items: [
         { id: 'livestream', label: language === 'zh' ? '实时直播管理' : 'Livestream Management', icon: '🎥' },
@@ -30,15 +24,15 @@ export default function SidebarMenu({ activeTab, onTabChange }: SidebarMenuProps
   ];
 
   return (
-    <div className="w-64 bg-white dark:bg-gray-800 border-r-2 border-gray-200 dark:border-gray-700 h-screen overflow-y-auto">
+    <div className="w-64 border-r-2 border-white/10 h-screen overflow-y-auto bg-brand-bg">
       <div className="p-6">
-        <h2 className="text-2xl font-black text-black dark:text-white mb-6">
-          {language === 'zh' ? '汇刃控制台' : 'FX Killer Dashboard'}
+        <h2 className="text-2xl font-black text-white mb-6">
+          {language === 'zh' ? '元金石控制台' : 'AurumFoundry Dashboard'}
         </h2>
 
         {menuSections.map((section, idx) => (
           <div key={idx} className="mb-8">
-            <h3 className="text-xs font-bold text-gray-500 dark:text-gray-400 uppercase tracking-wider mb-3">
+            <h3 className="text-xs font-bold text-white/60 uppercase tracking-wider mb-3">
               {section.title}
             </h3>
             <div className="space-y-1">
@@ -48,8 +42,8 @@ export default function SidebarMenu({ activeTab, onTabChange }: SidebarMenuProps
                   onClick={() => onTabChange(item.id)}
                   className={`w-full flex items-center gap-3 px-4 py-3 text-left transition-all ${
                     activeTab === item.id
-                      ? 'bg-black dark:bg-white text-white dark:text-black font-bold'
-                      : 'text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700'
+                      ? 'bg-brand-accent text-white font-bold'
+                      : 'text-white/80 hover:bg-white/10'
                   }`}
                 >
                   <span className="text-xl">{item.icon}</span>

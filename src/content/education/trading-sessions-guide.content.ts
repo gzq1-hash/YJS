@@ -2,7 +2,7 @@ import { EducationPageContent } from './forex-basics.content';
 
 export const tradingSessionsContent = {
   zh: {
-    title: '全球外汇交易时段详解丨汇刃丨日内交易员培训、外汇交易员培训',
+    title: '全球外汇交易时段详解丨元金石丨日内交易员培训、外汇交易员培训',
     description: '深入解析全球外汇市场四大交易时段：悉尼、东京、伦敦、纽约。日内交易员和外汇交易员培训必备的最佳交易时间窗口、货币对活跃时段分析。',
     keywords: '日内交易员培训, 外汇交易员培训, 外汇交易时段, 外汇交易时间, 伦敦交易时段, 最佳交易时间',
 
@@ -70,7 +70,7 @@ export const tradingSessionsContent = {
     ],
 
     ctaTitle: '想要系统学习时段交易策略？',
-    ctaDescription: '加入 FX Killer 培训计划，获取实时市场分析和专业指导',
+    ctaDescription: '加入 AurumFoundry 培训计划，获取实时市场分析和专业指导',
     ctaPrimaryButton: '了解培训计划',
     ctaSecondaryButton: '免费心理测评',
 
@@ -81,7 +81,7 @@ export const tradingSessionsContent = {
   } as EducationPageContent,
 
   en: {
-    title: 'Global Forex Trading Sessions Guide丨FX Killer丨Day Trader Training, Forex Trader Training',
+    title: 'Global Forex Trading Sessions Guide丨AurumFoundry丨Day Trader Training, Forex Trader Training',
     description: 'In-depth analysis of the four major forex trading sessions: Sydney, Tokyo, London, and New York. Day trader training and forex trader training essential knowledge for optimal trading windows, currency pair activity, and market liquidity patterns.',
     keywords: 'Day Trader Training, Forex Trader Training, forex trading sessions, London session, best trading times',
 
@@ -149,7 +149,7 @@ export const tradingSessionsContent = {
     ],
 
     ctaTitle: 'Want to Master Session-Based Trading?',
-    ctaDescription: 'Join FX Killer training for real-time market analysis and professional guidance',
+    ctaDescription: 'Join AurumFoundry training for real-time market analysis and professional guidance',
     ctaPrimaryButton: 'Learn About Training',
     ctaSecondaryButton: 'Free Psychology Test',
 

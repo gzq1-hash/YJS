@@ -3,7 +3,6 @@
 import React, { useState, useEffect } from 'react';
 import AdminLogin from './components/AdminLogin';
 import SidebarMenu from './components/SidebarMenu';
-import TiantiPanel from './components/TiantiPanel';
 import LivestreamManager from './components/LivestreamManager';
 import BlogManager from './components/BlogManager';
 import ConfigManager from './components/ConfigManager';
@@ -12,7 +11,7 @@ import { useLanguage } from '@/contexts/LanguageContext';
 
 export default function TradingDashboard() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
-  const [activeTab, setActiveTab] = useState('strategy');
+  const [activeTab, setActiveTab] = useState('livestream');
   const { language, t } = useLanguage();
 
   // Hide navbar when authenticated, show when logged out
@@ -53,15 +52,6 @@ export default function TradingDashboard() {
 
   const renderContent = () => {
     switch (activeTab) {
-      case 'strategy':
-        return (
-          <div className="p-8">
-            <h1 className="text-3xl font-black text-black dark:text-white mb-6">
-              {language === 'zh' ? '天梯趋势' : 'Tianti Trend'}
-            </h1>
-            <TiantiPanel />
-          </div>
-        );
       case 'livestream':
         return <LivestreamManager />;
       case 'blog':
@@ -76,18 +66,18 @@ export default function TradingDashboard() {
   };
 
   return (
-    <div className="flex h-screen bg-gray-50 dark:bg-gray-900 fixed inset-0 z-50">
+    <div className="flex h-screen fixed inset-0 z-50 bg-brand-bg">
       {/* Sidebar */}
       <SidebarMenu activeTab={activeTab} onTabChange={setActiveTab} />
 
       {/* Main Content */}
       <div className="flex-1 flex flex-col overflow-hidden">
         {/* Top Bar */}
-        <div className="bg-white dark:bg-gray-800 border-b-2 border-gray-200 dark:border-gray-700 px-8 py-4">
+        <div className="border-b-2 border-white/10 px-8 py-4 bg-brand-bg">
           <div className="flex items-center justify-between">
             <div>
-              <h2 className="text-lg font-bold text-black dark:text-white">
-                {language === 'zh' ? '汇刃控制台' : 'FX Killer Dashboard'}
+              <h2 className="text-lg font-bold text-white">
+                {language === 'zh' ? '元金石控制台' : 'AurumFoundry Dashboard'}
               </h2>
             </div>
             <button

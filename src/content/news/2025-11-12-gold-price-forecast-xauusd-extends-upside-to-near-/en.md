@@ -1,10 +1,10 @@
 ---
 title: "Gold Price Forecast: XAU/USD extends upside to near $4,150 as ADP report shows US job losses"
 date: "2025-11-12 01:25:05"
-description: "Gold price (XAU/USD) extends the rally to around $4,140 during the early Asian session on Wednesday. The precious metal . Free forex trading training by FX Killer."
-keywords: ["forex","trading","market analysis","forex news","forex training","trader incubation","FX Killer"]
+description: "Gold price (XAU/USD) extends the rally to around $4,140 during the early Asian session on Wednesday. The precious metal . Free forex trading training by AurumFoundry."
+keywords: ["forex","trading","market analysis","forex news","forex training","trader incubation","AurumFoundry"]
 category: "Forex News"
-source: "FX Killer Analysis Team"
+source: "AurumFoundry Analysis Team"
 language: "en"
 ---
 
@@ -14,15 +14,15 @@ The bullish movement in gold highlights a shift in market sentiment towards safe
 
 ---
 
-#### About FX Killer Trader Incubation Program
+#### About AurumFoundry Trader Incubation Program
 
-Want to become a professional trader? FX Killer offers a **completely free** professional trader training program. We provide systematic courses, practical training, and professional mentorship to help you grow from beginner to full-time trader.
+Want to become a professional trader? AurumFoundry offers a **completely free** professional trader training program. We provide systematic courses, practical training, and professional mentorship to help you grow from beginner to full-time trader.
 
 👉 [Join Free Training Program](/splan/join-us) | [Trading Psychology Assessment](/splan/psychology-test)
 
 ---
 
-**Data Source**: FX Killer Analysis Team
+**Data Source**: AurumFoundry Analysis Team
 **Updated**: 2025-11-12 01:25
 
 **Disclaimer**: This article is for reference only and does not constitute investment advice. Forex trading involves risks; please make decisions carefully.

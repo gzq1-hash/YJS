@@ -3,32 +3,204 @@
 @tailwind utilities;
 
 @layer base {
-  /* 告诉浏览器我们已经处理了暗色模式，不要自动转换颜色 */
   :root {
-    color-scheme: light;
-    /* Tailwind 颜色变量用于 background-boxes */
-    --sky-300: 125 211 252;
-    --pink-300: 249 168 212;
-    --green-300: 134 239 172;
-    --yellow-300: 253 224 71;
-    --red-300: 252 165 165;
-    --purple-300: 216 180 254;
-    --blue-300: 147 197 253;
-    --indigo-300: 165 180 252;
-    --violet-300: 196 181 253;
+    color-scheme: dark;
+
+    /* Brand palette (Hex for reference/usage in non-HSL contexts) */
+    --brand-bg: #0d1a1f;
+    --brand-bg-secondary: #102832;
+    --brand-bg-tertiary: #14323d;
+    --brand-surface: rgba(19, 43, 51, 0.86);
+    --brand-card: rgba(25, 52, 60, 0.9);
+    --brand-elevation: rgba(176, 139, 79, 0.22);
+    --brand-elevation-strong: rgba(176, 139, 79, 0.35);
+    --brand-accent: #b08b4f;
+    --brand-accent-soft: #d3b675;
+    --brand-highlight: #f5d996;
+    --brand-text: #e6edf1;
+    --brand-text-muted: #a1b6c1;
+    --brand-border: rgba(176, 139, 79, 0.32);
+    --brand-border-soft: rgba(176, 139, 79, 0.16);
+
+    /* Shadcn / Tailwind design tokens (H S L) */
+    /* Dark Mode (Default) - Xuan Qing */
+    --background: 200 45% 9%; /* #0d1a1f */
+    --foreground: 200 20% 92%; /* #e6edf1 */
+    
+    --card: 200 32% 12%; /* Slightly lighter than bg */
+    --card-foreground: 200 20% 92%;
+    
+    --popover: 200 45% 9%;
+    --popover-foreground: 200 20% 92%;
+    
+    --primary: 32 40% 52%; /* #b08b4f Bronze */
+    --primary-foreground: 42 52% 96%;
+    
+    --secondary: 200 32% 16%;
+    --secondary-foreground: 200 20% 92%;
+    
+    --muted: 200 25% 18%;
+    --muted-foreground: 200 12% 66%;
+    
+    --accent: 32 40% 52%; /* Bronze */
+    --accent-foreground: 42 52% 96%;
+    
+    --destructive: 0 62% 30%;
+    --destructive-foreground: 200 20% 92%;
+    
+    --border: 32 32% 25%; /* Bronze-ish dark border */
+    --input: 200 28% 20%;
+    --ring: 32 40% 52%;
+    
+    --radius: 0.5rem;
   }
 
-  :root.dark {
-    color-scheme: dark;
+  :root.light {
+    color-scheme: light;
+    
+    /* Light Mode - Off-white / Pale Grey */
+    --background: 210 20% 98%; /* #f9fafb */
+    --foreground: 200 45% 9%; /* #0d1a1f */
+    
+    --card: 0 0% 100%;
+    --card-foreground: 200 45% 9%;
+    
+    --popover: 0 0% 100%;
+    --popover-foreground: 200 45% 9%;
+    
+    --primary: 32 40% 52%; /* Bronze */
+    --primary-foreground: 42 52% 96%;
+    
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    
+    --accent: 32 40% 52%;
+    --accent-foreground: 42 52% 96%;
+    
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 32 40% 52%;
   }
 
   * {
-    @apply border-gray-200;
+    border-color: var(--brand-border-soft);
   }
 
   body {
-    @apply bg-white text-gray-900;
+    @apply bg-background text-foreground;
     font-family: var(--font-inter), system-ui, sans-serif;
+    min-height: 100vh;
+    line-height: 1.6;
+  }
+
+  main,
+  section,
+  article,
+  header,
+  footer {
+    background: transparent;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: var(--brand-text);
+  }
+
+  p,
+  span,
+  li,
+  label,
+  blockquote {
+    color: var(--brand-text-muted);
+  }
+
+  a {
+    color: var(--brand-highlight);
+  }
+
+  strong,
+  b {
+    color: var(--brand-text);
+  }
+
+  [data-slot="card"],
+  .bg-card {
+    background: var(--brand-card) !important;
+    backdrop-filter: blur(14px);
+  }
+
+  /* Surface overrides for legacy classes */
+  .bg-white,
+  .bg-gray-50,
+  .bg-gray-100,
+  .bg-slate-50,
+  .bg-neutral-50,
+  .bg-white\/5,
+  .bg-white\/10,
+  .bg-white\/20,
+  .bg-white\/40,
+  .dark\:bg-white,
+  .dark\:bg-gray-900,
+  .dark\:bg-gray-800 {
+    background-color: var(--brand-surface) !important;
+    backdrop-filter: blur(16px);
+  }
+
+  .bg-black,
+  .dark\:bg-black {
+    background-color: rgba(6, 13, 18, 0.85) !important;
+  }
+
+  .border-gray-200,
+  .border-gray-300,
+  .border-gray-800,
+  .dark\:border-gray-800,
+  .dark\:border-gray-700 {
+    border-color: var(--brand-border) !important;
+  }
+
+  .text-gray-900,
+  .text-black,
+  .dark\:text-white {
+    color: var(--brand-text) !important;
+  }
+
+  .text-gray-700,
+  .text-gray-600,
+  .text-gray-500,
+  .text-gray-400,
+  .dark\:text-gray-300,
+  .dark\:text-gray-400,
+  .dark\:text-gray-500 {
+    color: var(--brand-text-muted) !important;
+  }
+
+  .shadow-sm,
+  .shadow,
+  .shadow-md,
+  .shadow-lg,
+  .shadow-xl {
+    box-shadow: 0 20px 45px rgba(5, 12, 18, 0.45);
+  }
+
+  .ring-1,
+  .ring-2,
+  .ring-4,
+  .ring,
+  .focus\:ring-2,
+  .focus-visible\:ring-2,
+  .focus\:outline-none:focus-visible {
+    --tw-ring-color: rgba(176, 139, 79, 0.45);
   }
 }
 
@@ -41,5 +213,16 @@
 
   .animate-shake {
     animation: shake 3s ease-in-out infinite;
+  }
+
+  .brand-panel {
+    background: linear-gradient(145deg, rgba(12, 28, 35, 0.95) 0%, rgba(21, 44, 52, 0.9) 100%);
+    border: 1px solid var(--brand-border);
+    box-shadow: 0 30px 60px rgba(4, 10, 15, 0.45);
+  }
+
+  .brand-divider {
+    background: linear-gradient(90deg, transparent, rgba(176, 139, 79, 0.45), transparent);
+    height: 1px;
   }
 }

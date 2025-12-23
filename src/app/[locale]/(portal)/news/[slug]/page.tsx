@@ -116,8 +116,8 @@ export async function generateMetadata({ params }: NewsPageProps) {
   }
 
   return generateBilingualMetadata(
-    newsZh.title + '丨汇刃丨职业交易员培训、日内交易员培训',
-    newsEn.title + '丨FX Killer丨Professional Trader Training, Day Trader Training',
+    newsZh.title + '丨元金石丨职业交易员培训、日内交易员培训',
+    newsEn.title + '丨AurumFoundry丨Professional Trader Training, Day Trader Training',
     newsZh.description,
     newsEn.description,
     newsZh.keywords.join(', ') + ', 职业交易员培训, 日内交易员培训',
@@ -450,15 +450,7 @@ export default async function NewsDetailPage({ params }: NewsPageProps) {
               })}
             </div>
 
-            {/* View All Blogs Link */}
-            <div className="text-center mt-8">
-              <LocaleLink
-                href="/splan/blog"
-                className="inline-flex items-center gap-2 px-6 py-3 bg-black dark:bg-white text-white dark:text-black font-bold hover:opacity-80 transition-opacity"
-              >
-                {isZh ? '查看所有博客文章 →' : 'View All Blog Posts →'}
-              </LocaleLink>
-            </div>
+            {/* View All Blogs Link - REMOVED since blog section was deleted */}
           </div>
         </div>
       )}

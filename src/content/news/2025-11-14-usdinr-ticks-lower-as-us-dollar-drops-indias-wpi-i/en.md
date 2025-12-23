@@ -1,10 +1,10 @@
 ---
 title: "USD/INR ticks lower as US Dollar drops, India's WPI inflation dropped by 1.21%"
 date: "2025-11-14 07:18:48"
-description: "The Indian Rupee (INR) ticks up against the US Dollar (USD) at open on Friday. The USD/INR pair edges lower to near 88.8. Free forex trading training by FX Killer."
-keywords: ["forex","trading","market analysis","forex news","forex training","trader incubation","FX Killer"]
+description: "The Indian Rupee (INR) ticks up against the US Dollar (USD) at open on Friday. The USD/INR pair edges lower to near 88.8. Free forex trading training by AurumFoundry."
+keywords: ["forex","trading","market analysis","forex news","forex training","trader incubation","AurumFoundry"]
 category: "Forex News"
-source: "FX Killer Analysis Team"
+source: "AurumFoundry Analysis Team"
 language: "en"
 ---
 
@@ -14,15 +14,15 @@ Additionally, India's wholesale price index (WPI) inflation showed a notable dec
 
 ---
 
-#### About FX Killer Trader Incubation Program
+#### About AurumFoundry Trader Incubation Program
 
-Want to become a professional trader? FX Killer offers a **completely free** professional trader training program. We provide systematic courses, practical training, and professional mentorship to help you grow from beginner to full-time trader.
+Want to become a professional trader? AurumFoundry offers a **completely free** professional trader training program. We provide systematic courses, practical training, and professional mentorship to help you grow from beginner to full-time trader.
 
 👉 [Join Free Training Program](/splan/join-us) | [Trading Psychology Assessment](/splan/psychology-test)
 
 ---
 
-**Data Source**: FX Killer Analysis Team
+**Data Source**: AurumFoundry Analysis Team
 **Updated**: 2025-11-14 07:18
 
 **Disclaimer**: This article is for reference only and does not constitute investment advice. Forex trading involves risks; please make decisions carefully.

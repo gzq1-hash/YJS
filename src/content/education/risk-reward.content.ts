@@ -2,7 +2,7 @@ import { EducationPageContent } from './forex-basics.content';
 
 export const riskRewardContent = {
   zh: {
-    title: '风险回报比详解丨汇刃丨外汇交易员培训、职业交易员培训',
+    title: '风险回报比详解丨元金石丨外汇交易员培训、职业交易员培训',
     description: '深入讲解外汇交易风险回报比：R:R计算公式、盈亏比与胜率关系、期望值计算、目标设定。外汇交易员和职业交易员培训必备的盈亏比优化技巧，实现长期稳定盈利。',
     keywords: '外汇交易员培训, 职业交易员培训, 风险回报比, 盈亏比, R:R比例, 期望值, 胜率平衡',
 
@@ -84,7 +84,7 @@ export const riskRewardContent = {
   } as EducationPageContent,
 
   en: {
-    title: 'Risk-Reward Ratio Guide丨FX Killer丨Forex Trader Training, Professional Trader Training',
+    title: 'Risk-Reward Ratio Guide丨AurumFoundry丨Forex Trader Training, Professional Trader Training',
     description: 'Comprehensive guide to forex risk-reward ratio: R:R calculation formula, profit/loss ratio and win rate relationship, expectancy calculation, target setting strategies. Forex trader training and professional trader training essential curriculum for practical R:R optimization techniques.',
     keywords: 'Forex Trader Training, Professional Trader Training, risk reward ratio, R:R ratio, expectancy, win rate balance',
 

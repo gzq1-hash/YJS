@@ -2,7 +2,7 @@ import { EducationPageContent } from './forex-basics.content';
 
 export const positionSizingContent = {
   zh: {
-    title: '仓位控制与资金管理丨汇刃丨职业交易员培训、日内交易员培训',
+    title: '仓位控制与资金管理丨元金石丨职业交易员培训、日内交易员培训',
     description: '深入讲解外汇交易仓位控制：固定比例法、凯利公式、ATR动态调整、最大回撤控制。职业交易员和日内交易员培训必备的实战仓位管理技巧，优化资金利用率。',
     keywords: '职业交易员培训, 日内交易员培训, 仓位控制, 资金管理, 凯利公式, 动态仓位, ATR仓位',
 
@@ -73,7 +73,7 @@ export const positionSizingContent = {
     ],
 
     ctaTitle: '想要优化你的仓位管理？',
-    ctaDescription: '使用 FX Killer 专业仓位计算工具，实现自动化风险控制',
+    ctaDescription: '使用 AurumFoundry 专业仓位计算工具，实现自动化风险控制',
     ctaPrimaryButton: '免费使用工具',
     ctaSecondaryButton: '了解培训计划',
 
@@ -84,7 +84,7 @@ export const positionSizingContent = {
   } as EducationPageContent,
 
   en: {
-    title: 'Position Sizing & Money Management丨FX Killer丨Professional Trader Training, Day Trader Training',
+    title: 'Position Sizing & Money Management丨AurumFoundry丨Professional Trader Training, Day Trader Training',
     description: 'Comprehensive guide to forex position sizing methods: fixed fractional, Kelly Criterion, ATR dynamic adjustment, maximum drawdown control. Professional trader training and day trader training essential curriculum sharing practical position management techniques for optimizing capital efficiency.',
     keywords: 'Professional Trader Training, Day Trader Training, position sizing, money management, Kelly formula, ATR position',
 
@@ -155,7 +155,7 @@ export const positionSizingContent = {
     ],
 
     ctaTitle: 'Want to Optimize Your Position Management?',
-    ctaDescription: 'Use FX Killer professional position calculation tools for automated risk control',
+    ctaDescription: 'Use AurumFoundry professional position calculation tools for automated risk control',
     ctaPrimaryButton: 'Use Tools Free',
     ctaSecondaryButton: 'Learn About Training',
 

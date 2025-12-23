@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { supabase } from '@/lib/supabase';
+import { supabase, isSupabaseConfigured } from '@/lib/supabase';
 import type { Config } from '@/lib/supabase';
 
 export const dynamic = 'force-dynamic';
@@ -18,6 +18,10 @@ export async function GET(
   { params }: { params: Promise<{ key_name: string }> }
 ) {
   try {
+    if (!isSupabaseConfigured) {
+      return NextResponse.json({ error: 'Supabase not configured' }, { status: 404 });
+    }
+
     const { key_name } = await params;
     const { searchParams } = new URL(request.url);
     const refresh = searchParams.get('refresh') === 'true';

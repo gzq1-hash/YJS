@@ -1,10 +1,10 @@
 ---
 title: "澳元/美元：看涨偏向 – OCBC"
 date: "2025-11-13 09:21:10"
-description: "澳大利亚元（AUD）近期走势向上，受益于金属市场的上涨以及优于预期的劳动力市场报告。根据OCBC的外汇分析师Frances Cheung和Christopher Wong的分析，目前该货币对的汇率为0.6577。  分析师指出，澳元的强势反。FX Killer 提供免费外汇交易培训。"
-keywords: ["外汇","交易","市场分析","外汇新闻","外汇培训","交易员孵化","FX Killer"]
+description: "澳大利亚元（AUD）近期走势向上，受益于金属市场的上涨以及优于预期的劳动力市场报告。根据OCBC的外汇分析师Frances Cheung和Christopher Wong的分析，目前该货币对的汇率为0.6577。  分析师指出，澳元的强势反。AurumFoundry 提供免费外汇交易培训。"
+keywords: ["外汇","交易","市场分析","外汇新闻","外汇培训","交易员孵化","AurumFoundry"]
 category: "外汇新闻"
-source: "FX Killer 分析团队"
+source: "AurumFoundry 分析团队"
 language: "zh"
 ---
 
@@ -14,15 +14,15 @@ language: "zh"
 
 ---
 
-#### 关于 FX Killer 交易员孵化计划
+#### 关于 AurumFoundry 交易员孵化计划
 
-想成为专业交易员？FX Killer 提供**完全免费**的职业交易员培训计划。我们提供系统化课程、实战训练、专业导师指导，帮助您从零基础成长为全职交易员。
+想成为专业交易员？AurumFoundry 提供**完全免费**的职业交易员培训计划。我们提供系统化课程、实战训练、专业导师指导，帮助您从零基础成长为全职交易员。
 
 👉 [立即加入免费培训计划](/splan/join-us) | [交易心理测评](/splan/psychology-test)
 
 ---
 
-**数据来源**: FX Killer 分析团队
+**数据来源**: AurumFoundry 分析团队
 **更新时间**: 2025-11-13 09:21
 
 **免责声明**: 本文仅供参考，不构成投资建议。外汇交易存在风险，请谨慎决策。

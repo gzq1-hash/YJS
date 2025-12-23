@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       url: '/education/forex-basics',
       type: 'article',
       section: 'Forex Education - Basics',
-      author: 'FX Killer Education Team',
+      author: 'AurumFoundry Education Team',
       publishedTime: '2024-01-15T00:00:00Z',
       modifiedTime: new Date().toISOString(),
     }
@@ -36,13 +36,13 @@ export default async function ForexBasicsPage({ params }: { params: Promise<{ lo
     <EducationPageTemplate content={content} language={lang}>
       {/* Section 1: What is Forex */}
       <section id="what-is-forex" className="mb-16 scroll-mt-20">
-        <h2 className="text-3xl font-black mb-6 text-black dark:text-white border-l-4 border-black dark:border-white pl-4">
+        <h2 className="text-3xl font-black mb-6 text-white border-l-4 border-brand-accent pl-4">
           {isZh ? '什么是外汇交易？' : 'What is Forex Trading?'}
         </h2>
 
         <div className="prose prose-lg max-w-none">
-          <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
-            <strong className="text-black dark:text-white">
+          <p className="text-white/70 leading-relaxed mb-4">
+            <strong className="text-white">
               {isZh ? '外汇交易（Forex Trading）' : 'Forex Trading'}
             </strong>
             {isZh
@@ -50,7 +50,7 @@ export default async function ForexBasicsPage({ params }: { params: Promise<{ lo
               : ', also known as Foreign Exchange Trading or FX Trading, refers to the investment activity of buying and selling different countries\' currencies to profit from exchange rate fluctuations. The Foreign Exchange Market (Forex or FX) is the world\'s largest and most liquid financial market.'}
           </p>
 
-          <div className="bg-black dark:bg-white text-white dark:text-black p-6 my-6 border-2 border-black dark:border-white">
+          <div className="bg-white/5 text-white p-6 my-6 border border-white/10">
             <h3 className="text-xl font-bold mb-4">
               {isZh ? '💡 核心概念' : '💡 Core Concept'}
             </h3>
@@ -67,14 +67,14 @@ export default async function ForexBasicsPage({ params }: { params: Promise<{ lo
             </p>
           </div>
 
-          <h3 className="text-2xl font-bold mt-8 mb-4 text-black dark:text-white">
+          <h3 className="text-2xl font-bold mt-8 mb-4 text-white">
             {isZh ? '外汇市场的规模' : 'Scale of the Forex Market'}
           </h3>
-          <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
+          <p className="text-white/70 leading-relaxed mb-4">
             {isZh
               ? '根据国际清算银行（BIS）2022年的数据，全球外汇市场日均交易量超过'
               : 'According to the Bank for International Settlements (BIS) 2022 data, the global forex market\'s average daily trading volume exceeds '}
-            <strong className="text-black dark:text-white">
+            <strong className="text-white">
               {isZh ? '7.5万亿美元' : '$7.5 trillion'}
             </strong>
             {isZh
@@ -84,20 +84,20 @@ export default async function ForexBasicsPage({ params }: { params: Promise<{ lo
 
           <ul className="list-none space-y-3 mb-6">
             <li className="flex items-start gap-3">
-              <span className="text-black dark:text-white font-bold">✓</span>
-              <span className="text-gray-700 dark:text-gray-300">
+              <span className="text-brand-accent font-bold">✓</span>
+              <span className="text-white/70">
                 {isZh ? '订单执行速度快，几乎无滑点' : 'Fast order execution with minimal slippage'}
               </span>
             </li>
             <li className="flex items-start gap-3">
-              <span className="text-black dark:text-white font-bold">✓</span>
-              <span className="text-gray-700 dark:text-gray-300">
+              <span className="text-brand-accent font-bold">✓</span>
+              <span className="text-white/70">
                 {isZh ? '买卖价差（点差）极小，交易成本低' : 'Extremely tight bid-ask spreads, low trading costs'}
               </span>
             </li>
             <li className="flex items-start gap-3">
-              <span className="text-black dark:text-white font-bold">✓</span>
-              <span className="text-gray-700 dark:text-gray-300">
+              <span className="text-brand-accent font-bold">✓</span>
+              <span className="text-white/70">
                 {isZh ? '市场难以被操纵，价格公正透明' : 'Market is difficult to manipulate, prices are fair and transparent'}
               </span>
             </li>
@@ -751,7 +751,7 @@ export default async function ForexBasicsPage({ params }: { params: Promise<{ lo
 
           <div className="bg-gray-50 dark:bg-gray-900 border-2 border-black dark:border-white p-8 my-8">
             <h3 className="text-2xl font-bold mb-6 text-black dark:text-white">
-              {isZh ? '🎯 FX Killer 推荐学习路径' : '🎯 FX Killer Recommended Learning Path'}
+              {isZh ? '🎯 AurumFoundry 推荐学习路径' : '🎯 AurumFoundry Recommended Learning Path'}
             </h3>
             <div className="space-y-4">
               <div className="flex items-center gap-4">

@@ -1,10 +1,10 @@
 ---
 title: "US Dollar Index hovers around 99.50 before US House vote on government shutdown bill"
 date: "2025-11-12 08:27:07"
-description: "The US Dollar Index (DXY), which measures the value of the US Dollar (USD) against six major currencies, is remaining fl. Free forex trading training by FX Killer."
-keywords: ["forex","trading","market analysis","forex news","forex training","trader incubation","FX Killer"]
+description: "The US Dollar Index (DXY), which measures the value of the US Dollar (USD) against six major currencies, is remaining fl. Free forex trading training by AurumFoundry."
+keywords: ["forex","trading","market analysis","forex news","forex training","trader incubation","AurumFoundry"]
 category: "Forex News"
-source: "FX Killer Analysis Team"
+source: "AurumFoundry Analysis Team"
 language: "en"
 ---
 
@@ -14,15 +14,15 @@ As trading continues during the European session on Wednesday, investors are clo
 
 ---
 
-#### About FX Killer Trader Incubation Program
+#### About AurumFoundry Trader Incubation Program
 
-Want to become a professional trader? FX Killer offers a **completely free** professional trader training program. We provide systematic courses, practical training, and professional mentorship to help you grow from beginner to full-time trader.
+Want to become a professional trader? AurumFoundry offers a **completely free** professional trader training program. We provide systematic courses, practical training, and professional mentorship to help you grow from beginner to full-time trader.
 
 👉 [Join Free Training Program](/splan/join-us) | [Trading Psychology Assessment](/splan/psychology-test)
 
 ---
 
-**Data Source**: FX Killer Analysis Team
+**Data Source**: AurumFoundry Analysis Team
 **Updated**: 2025-11-12 08:27
 
 **Disclaimer**: This article is for reference only and does not constitute investment advice. Forex trading involves risks; please make decisions carefully.

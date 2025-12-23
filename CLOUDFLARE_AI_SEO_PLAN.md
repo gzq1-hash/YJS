@@ -510,7 +510,7 @@ jobs:
       - name: Commit and push
         run: |
           git config --global user.name 'SEO Content Bot'
-          git config --global user.email 'seo@fxkiller.com'
+          git config --global user.email 'seo@yuanjinshi.com'
           git add src/content/news/
           git diff --quiet && git diff --staged --quiet || (
             git commit -m "chore: Auto-generate forex news $(date +'%Y-%m-%d %H:%M')" &&

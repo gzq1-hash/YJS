@@ -5,7 +5,7 @@ import matter from 'gray-matter'
 import { supabase } from '@/lib/supabase'
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const baseUrl = 'https://fxkiller.com'
+  const baseUrl = 'https://yuanjinshi.com'
   const lastModified = new Date()
   const languages = ['zh', 'en']
 
@@ -25,14 +25,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
     // 市场分析页面
     { path: '/market-analysis', priority: 0.95, changeFrequency: 'hourly' as const },
-
-    { path: '/economic-calendar', priority: 0.9, changeFrequency: 'daily' as const },
-    { path: '/top-traders', priority: 0.85, changeFrequency: 'daily' as const },
-
-    // 工具页面
-    { path: '/tools/position-calculator', priority: 0.9, changeFrequency: 'weekly' as const },
-    { path: '/tools/pip-calculator', priority: 0.9, changeFrequency: 'weekly' as const },
-    { path: '/tools/risk-reward-calculator', priority: 0.9, changeFrequency: 'weekly' as const },
 
     // 培训计划页面
     { path: '/splan/join-us', priority: 0.95, changeFrequency: 'weekly' as const },
@@ -152,39 +144,44 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   }
 
   // 添加动态博客文章（从 Supabase 获取）
-  try {
-    const { data: blogs, error } = await supabase
-      .from('Blog')
-      .select('id, created_at, updated_at')
-      .order('created_at', { ascending: false })
+  // 只在 Supabase 配置存在时尝试获取
+  if (process.env.SUPABASE_URL && process.env.SUPABASE_KEY) {
+    try {
+      const { data: blogs, error } = await supabase
+        .from('Blog')
+        .select('id, created_at, updated_at')
+        .order('created_at', { ascending: false })
 
-    if (!error && blogs && blogs.length > 0) {
-      blogs.forEach(blog => {
-        const articleDate = blog.updated_at
-          ? new Date(blog.updated_at)
-          : blog.created_at
-            ? new Date(blog.created_at)
-            : lastModified
+      if (!error && blogs && blogs.length > 0) {
+        blogs.forEach(blog => {
+          const articleDate = blog.updated_at
+            ? new Date(blog.updated_at)
+            : blog.created_at
+              ? new Date(blog.created_at)
+              : lastModified
 
-        // 为每个语言版本添加sitemap条目
-        languages.forEach(lang => {
-          sitemap.push({
-            url: `${baseUrl}/${lang}/splan/blog/${blog.id}`,
-            lastModified: articleDate,
-            changeFrequency: 'weekly',
-            priority: 0.7,
-            alternates: {
-              languages: {
-                zh: `${baseUrl}/zh/splan/blog/${blog.id}`,
-                en: `${baseUrl}/en/splan/blog/${blog.id}`,
+          // 为每个语言版本添加sitemap条目
+          languages.forEach(lang => {
+            sitemap.push({
+              url: `${baseUrl}/${lang}/splan/blog/${blog.id}`,
+              lastModified: articleDate,
+              changeFrequency: 'weekly',
+              priority: 0.7,
+              alternates: {
+                languages: {
+                  zh: `${baseUrl}/zh/splan/blog/${blog.id}`,
+                  en: `${baseUrl}/en/splan/blog/${blog.id}`,
+                },
               },
-            },
+            })
           })
         })
-      })
+      }
+    } catch (error) {
+      console.error('Error fetching blogs for sitemap:', error)
     }
-  } catch (error) {
-    console.error('Error fetching blogs for sitemap:', error)
+  } else {
+    console.warn('Supabase not configured, skipping dynamic blog entries in sitemap')
   }
 
   // 添加根域名（重定向到默认语言）

@@ -80,31 +80,31 @@ export default function FlashNewsSidebar() {
   };
 
   return (
-    <div className="bg-white dark:bg-gray-900 border-2 border-gray-200 dark:border-gray-700 h-full flex flex-col">
+    <div className="bg-white/5 border border-white/10 h-full flex flex-col">
       {/* Header */}
-      <div className="sticky top-0 bg-black dark:bg-white px-4 py-3 border-b-2 border-black dark:border-white z-10">
+      <div className="sticky top-0 bg-brand-accent px-4 py-3 border-b border-white/10 z-10">
         <div className="flex items-center justify-between mb-2">
-          <h3 className="text-lg font-bold text-white dark:text-black">
+          <h3 className="text-lg font-bold text-white">
             {isZh ? '实时快讯' : 'Flash News'}
           </h3>
           <div className="flex items-center gap-2">
-            <div className="w-2 h-2 bg-red-500 rounded-full animate-pulse"></div>
-            <span className="text-xs text-white dark:text-black">
+            <div className="w-2 h-2 bg-white rounded-full animate-pulse"></div>
+            <span className="text-xs text-white">
               {isZh ? '实时' : 'Live'}
             </span>
           </div>
         </div>
 
         {/* Countdown Timer */}
-        <div className="flex items-center justify-center gap-2 pt-2 border-t border-white/20 dark:border-black/20">
-          <span className="text-xs font-mono text-white dark:text-black">
+        <div className="flex items-center justify-center gap-2 pt-2 border-t border-white/20">
+          <span className="text-xs font-mono text-white">
             {isZh ? '下次刷新: ' : 'Next refresh: '}
             <span className="font-bold tabular-nums">{countdown}s</span>
           </span>
           {/* Progress Bar */}
-          <div className="flex-1 h-1 bg-white/20 dark:bg-black/20 rounded-full overflow-hidden ml-2">
+          <div className="flex-1 h-1 bg-black/20 rounded-full overflow-hidden ml-2">
             <div
-              className="h-full bg-white dark:bg-black transition-all duration-1000 ease-linear"
+              className="h-full bg-white transition-all duration-1000 ease-linear"
               style={{ width: `${(countdown / 30) * 100}%` }}
             />
           </div>
@@ -114,32 +114,32 @@ export default function FlashNewsSidebar() {
       {/* Content - Scrollable */}
       <div className="flex-1 overflow-y-auto">
         {loading ? (
-          <div className="p-4 text-center text-gray-500">
+          <div className="p-4 text-center text-white/50">
             {isZh ? '加载中...' : 'Loading...'}
           </div>
         ) : error ? (
           <div className="p-4 text-center text-red-500">{error}</div>
         ) : (
-          <div className="divide-y divide-gray-200 dark:divide-gray-700">
+          <div className="divide-y divide-white/10">
             {news.map((item, index) => (
               <div
                 key={item.id}
-                className="p-4 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors border-b border-gray-200 dark:border-gray-700 last:border-b-2"
+                className="p-4 hover:bg-white/5 transition-colors border-b border-white/10 last:border-b-0"
               >
                 {/* Time and New Badge */}
                 <div className="flex items-center justify-between mb-2">
-                  <span className="text-xs text-gray-500 dark:text-gray-400">
+                  <span className="text-xs text-white/50">
                     {formatTime(item.time)}
                   </span>
                   {index < 3 && (
-                    <span className="text-xs px-2 py-0.5 bg-red-500 text-white font-bold">
+                    <span className="text-xs px-2 py-0.5 bg-brand-accent text-white font-bold">
                       {isZh ? '新' : 'NEW'}
                     </span>
                   )}
                 </div>
 
                 {/* Content */}
-                <p className="text-sm text-gray-900 dark:text-gray-100 leading-relaxed">
+                <p className="text-sm text-white/80 leading-relaxed">
                   {item.content}
                 </p>
               </div>

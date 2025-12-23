@@ -13,9 +13,9 @@ interface EmailContactModalProps {
 
 export default function EmailContactModal({ isOpen, onClose, title, emailSubject: customEmailSubject }: EmailContactModalProps) {
   const { t } = useLanguage();
-  const emailAddress = "x.stark.dylan@gmail.com";
+  const emailAddress = "haiyan679679@gmail.com";
 
-  const displayTitle = title || t('email.default.title');
+  const displayTitle = title || t('joinus.modal.title');
   const emailSubject = customEmailSubject || t('email.subject');
 
   const handleSendEmail = () => {
@@ -43,13 +43,13 @@ export default function EmailContactModal({ isOpen, onClose, title, emailSubject
           animate={{ scale: 1, y: 0 }}
           exit={{ scale: 0.95, y: 20 }}
           onClick={(e) => e.stopPropagation()}
-          className="bg-white dark:bg-gray-900 max-w-md w-full p-6 border-2 border-gray-200 dark:border-gray-700"
+          className="bg-brand-bg max-w-md w-full p-6 border border-white/10"
         >
           <div className="flex items-start justify-between mb-4">
-            <h2 className="text-2xl font-bold text-gray-900 dark:text-white">{displayTitle}</h2>
+            <h2 className="text-2xl font-bold text-white">{displayTitle}</h2>
             <button
               onClick={onClose}
-              className="text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
+              className="text-white/50 hover:text-white transition-colors"
             >
               <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -58,42 +58,42 @@ export default function EmailContactModal({ isOpen, onClose, title, emailSubject
           </div>
 
           <div className="space-y-4">
-            <p className="text-gray-700 dark:text-gray-300">
+            <p className="text-white/70">
               {t('email.description')}
             </p>
 
-            <div className="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 p-4">
-              <p className="text-sm text-gray-600 dark:text-gray-400 mb-2">{t('email.address.label')}</p>
+            <div className="bg-white/5 border border-white/10 p-4">
+              <p className="text-sm text-white/50 mb-2">{t('email.address.label')}</p>
               <div className="flex items-center justify-between gap-2">
-                <code className="text-black dark:text-white font-mono text-sm flex-1">
+                <code className="text-brand-accent font-mono text-sm flex-1">
                   {emailAddress}
                 </code>
                 <button
                   onClick={handleCopyEmail}
-                  className="text-black dark:text-white hover:text-gray-600 dark:hover:text-gray-400 text-sm font-semibold whitespace-nowrap"
+                  className="text-white hover:text-brand-accent text-sm font-semibold whitespace-nowrap transition-colors"
                 >
                   {t('email.copy')}
                 </button>
               </div>
             </div>
 
-            <div className="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 p-4">
-              <p className="text-sm text-gray-600 dark:text-gray-400 mb-2">{t('email.subject.label')}</p>
-              <code className="text-gray-900 dark:text-white font-mono text-sm">
+            <div className="bg-white/5 border border-white/10 p-4">
+              <p className="text-sm text-white/50 mb-2">{t('email.subject.label')}</p>
+              <code className="text-white font-mono text-sm">
                 {emailSubject}
               </code>
             </div>
 
-            <div className="bg-gray-100 dark:bg-gray-800 border border-gray-300 dark:border-gray-700 p-4">
-              <p className="text-sm text-gray-800 dark:text-gray-200">
-                <strong>{t('email.tip')}</strong>{t('email.tip.text')}
+            <div className="bg-brand-accent/10 border border-brand-accent/20 p-4">
+              <p className="text-sm text-white/80">
+                <strong className="text-brand-accent">{t('email.tip')}</strong>{t('email.tip.text')}
               </p>
             </div>
 
             <div className="flex gap-3 pt-4">
               <button
                 onClick={handleSendEmail}
-                className="flex-1 px-6 py-3 bg-black dark:bg-white text-white dark:text-black font-semibold hover:bg-gray-800 dark:hover:bg-gray-200 transition-all"
+                className="flex-1 px-6 py-3 bg-brand-accent text-white font-semibold hover:bg-brand-accent/80 transition-all"
               >
                 {t('email.send')}
               </button>

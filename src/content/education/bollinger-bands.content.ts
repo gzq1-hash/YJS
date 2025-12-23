@@ -2,7 +2,7 @@ import { EducationPageContent } from './forex-basics.content';
 
 export const bollingerBandsContent = {
   zh: {
-    title: '布林带指标完整指南丨汇刃丨日内交易员培训、全职交易员培训',
+    title: '布林带指标完整指南丨元金石丨日内交易员培训、全职交易员培训',
     description: '深入讲解布林带（Bollinger Bands）指标：计算公式、参数设置、经典交易策略。日内交易员培训和全职交易员培训必学的波动性指标应用技巧。',
     keywords: '日内交易员培训, 全职交易员培训, 日内交易员, 布林带, Bollinger Bands, BB指标, 布林带策略, 波动性指标',
 
@@ -70,7 +70,7 @@ export const bollingerBandsContent = {
     ],
 
     ctaTitle: '想要系统学习技术分析？',
-    ctaDescription: '加入 FX Killer 培训计划，掌握更多实战技术指标应用',
+    ctaDescription: '加入 AurumFoundry 培训计划，掌握更多实战技术指标应用',
     ctaPrimaryButton: '了解培训计划',
     ctaSecondaryButton: '免费心理测评',
 
@@ -81,7 +81,7 @@ export const bollingerBandsContent = {
   } as EducationPageContent,
 
   en: {
-    title: 'Bollinger Bands Complete Guide丨FX Killer丨Day Trader Training, Full-Time Trader Training',
+    title: 'Bollinger Bands Complete Guide丨AurumFoundry丨Day Trader Training, Full-Time Trader Training',
     description: 'In-depth guide to Bollinger Bands indicator: calculation formula, parameter settings, classic trading strategies. Essential volatility indicator application for day trader training and full-time trader training.',
     keywords: 'day trader training, full-time trader training, day trader, Bollinger Bands, BB indicator, volatility indicator, trading strategy',
 
@@ -149,7 +149,7 @@ export const bollingerBandsContent = {
     ],
 
     ctaTitle: 'Want to Systematically Learn Technical Analysis?',
-    ctaDescription: 'Join FX Killer training to master more practical technical indicator applications',
+    ctaDescription: 'Join AurumFoundry training to master more practical technical indicator applications',
     ctaPrimaryButton: 'Learn About Training',
     ctaSecondaryButton: 'Free Psychology Test',
 

@@ -43,38 +43,12 @@ export default function UnifiedNavbar() {
       link: "/market-analysis",
     },
     {
-      name: t('nav.liveTrading'),
-      link: "/live-trading",
-    },
-    {
-      name: t('nav.blog'),
-      link: "/splan/blog",
-    },
-    {
       name: t('nav.psychology'),
       link: "/splan/psychology-test",
     },
     {
       name: t('nav.dashboard'),
       link: "/dashboard",
-    },
-    {
-      name: language === 'zh' ? '日历' : 'Calendar',
-      link: "/economic-calendar",
-    },
-    {
-      name: language === 'zh' ? '天梯' : 'Leaderboard',
-      link: "/top-traders",
-    },
-    {
-      name: t('nav.tradingTools'),
-      link: "/tools/position-calculator",
-      hasDropdown: true,
-      dropdownItems: [
-        { name: language === 'zh' ? '仓位计算器' : 'Position Calculator', link: '/tools/position-calculator' },
-        { name: language === 'zh' ? '风险回报计算器' : 'Risk/Reward Calculator', link: '/tools/risk-reward-calculator' },
-        { name: language === 'zh' ? '点值计算器' : 'Pip Calculator', link: '/tools/pip-calculator' },
-      ]
     },
     {
       name: t('nav.faq'),
@@ -137,11 +111,11 @@ export default function UnifiedNavbar() {
       initial={{ y: -100 }}
       animate={{ y: isHomePage() ? (scrolled ? 0 : -100) : 0 }}
       transition={{ duration: 0.3, ease: 'easeInOut' }}
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled
-          ? 'bg-white/95 dark:bg-gray-900/95 backdrop-blur-md shadow-lg'
-          : 'bg-white dark:bg-gray-900'
-      } border-b border-gray-200 dark:border-gray-800`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 backdrop-blur-xl border-b border-border ${
+        scrolled 
+          ? 'bg-background/95 shadow-lg' 
+          : 'bg-background/60'
+      }`}
     >
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex items-center justify-between h-16">
@@ -165,10 +139,10 @@ export default function UnifiedNavbar() {
                   className="relative px-3 py-2 text-sm font-medium transition-colors group flex items-center gap-1"
                 >
                   <span
-                    className={`relative z-10 ${
+                    className={`relative z-10 transition-colors ${
                       isActive(item.link)
-                        ? 'text-black dark:text-white font-bold'
-                        : 'text-gray-600 dark:text-gray-400 group-hover:text-black dark:group-hover:text-white'
+                        ? 'font-semibold text-primary'
+                        : 'text-muted-foreground group-hover:text-primary'
                     }`}
                   >
                     {item.name}
@@ -179,8 +153,8 @@ export default function UnifiedNavbar() {
                         openDropdown === item.name ? 'rotate-180' : ''
                       } ${
                         isActive(item.link)
-                          ? 'text-black dark:text-white'
-                          : 'text-gray-600 dark:text-gray-400 group-hover:text-black dark:group-hover:text-white'
+                          ? 'text-primary'
+                          : 'text-muted-foreground group-hover:text-primary'
                       }`}
                       fill="none"
                       stroke="currentColor"
@@ -192,8 +166,8 @@ export default function UnifiedNavbar() {
                   {isActive(item.link) && !item.hasDropdown && (
                     <motion.div
                       layoutId="navbar-indicator"
-                      className="absolute bottom-0 left-0 right-0 h-0.5 bg-black dark:bg-white"
-                      transition={{ type: "spring", bounce: 0.2, duration: 0.6 }}
+                      className="absolute bottom-0 left-0 right-0 h-0.5 bg-primary"
+                      transition={{ type: "spring", bounce: 0.25, duration: 0.6 }}
                     />
                   )}
                 </LocaleLink>
@@ -207,13 +181,13 @@ export default function UnifiedNavbar() {
                         animate={{ opacity: 1, y: 0 }}
                         exit={{ opacity: 0, y: -10 }}
                         transition={{ duration: 0.2 }}
-                        className="absolute top-full left-0 mt-1 w-56 bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 shadow-lg z-50"
+                        className="absolute top-full left-0 mt-1 w-56 rounded-xl border border-border bg-popover/95 backdrop-blur-xl shadow-xl z-50"
                       >
                         {item.dropdownItems.map((dropdownItem, dropdownIndex) => (
                           <LocaleLink
                             key={dropdownIndex}
                             href={dropdownItem.link}
-                            className="block px-4 py-3 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 hover:text-black dark:hover:text-white transition-colors border-b border-gray-100 dark:border-gray-800 last:border-b-0"
+                            className="block px-4 py-3 text-sm text-muted-foreground hover:text-primary transition-colors border-b border-border/50 last:border-b-0 hover:bg-accent/10 rounded-lg"
                           >
                             {dropdownItem.name}
                           </LocaleLink>
@@ -232,7 +206,7 @@ export default function UnifiedNavbar() {
             {/* Theme Toggle */}
             <button
               onClick={toggleTheme}
-              className="p-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+              className="p-2 border border-border text-muted-foreground hover:text-foreground hover:bg-accent/10 transition-colors rounded-md"
               title={theme === 'light' ? (language === 'zh' ? '切换到深色模式' : 'Switch to Dark Mode') : (language === 'zh' ? '切换到浅色模式' : 'Switch to Light Mode')}
               aria-label={theme === 'light' ? 'Dark mode' : 'Light mode'}
             >
@@ -253,7 +227,7 @@ export default function UnifiedNavbar() {
             <button
               onClick={handleLanguageToggle}
               disabled={switchingLanguage}
-              className="px-3 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors text-sm font-medium flex items-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
+              className="px-3 py-2 border border-border text-muted-foreground hover:text-foreground hover:bg-accent/10 transition-colors text-sm font-medium flex items-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed rounded-md"
               title={language === 'zh' ? 'Switch to English' : '切换到中文'}
             >
               {switchingLanguage && (
@@ -285,7 +259,7 @@ export default function UnifiedNavbar() {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="md:hidden p-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+            className="md:hidden p-2 border border-border text-muted-foreground hover:text-foreground hover:bg-accent/10 transition-colors rounded-md"
             aria-label="Toggle menu"
           >
             <svg
@@ -322,7 +296,7 @@ export default function UnifiedNavbar() {
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.2 }}
-            className="md:hidden border-t border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900"
+            className="md:hidden border-t border-border bg-background"
           >
             <div className="px-4 py-4 space-y-2">
               {navItems.map((item, index) => (
@@ -331,10 +305,10 @@ export default function UnifiedNavbar() {
                     <div>
                       <button
                         onClick={() => setOpenDropdown(openDropdown === item.name ? null : item.name)}
-                        className={`w-full flex items-center justify-between px-4 py-3 text-sm font-medium transition-colors ${
+                        className={`w-full flex items-center justify-between px-4 py-3 text-sm font-medium transition-colors rounded-md ${
                           isActive(item.link)
-                            ? 'bg-gray-100 dark:bg-gray-800 text-black dark:text-white font-bold'
-                            : 'text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800'
+                            ? 'bg-accent/10 text-primary font-bold'
+                            : 'text-muted-foreground hover:bg-accent/5 hover:text-foreground'
                         }`}
                       >
                         <span>{item.name}</span>
@@ -355,7 +329,7 @@ export default function UnifiedNavbar() {
                             <LocaleLink
                               key={dropdownIndex}
                               href={dropdownItem.link}
-                              className="block px-4 py-2 text-sm text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 hover:text-black dark:hover:text-white transition-colors"
+                              className="block px-4 py-2 text-sm text-muted-foreground hover:bg-accent/5 hover:text-foreground transition-colors rounded-md"
                             >
                               {dropdownItem.name}
                             </LocaleLink>
@@ -366,10 +340,10 @@ export default function UnifiedNavbar() {
                   ) : (
                     <LocaleLink
                       href={item.link}
-                      className={`block px-4 py-3 text-sm font-medium transition-colors ${
+                      className={`block px-4 py-3 text-sm font-medium transition-colors rounded-md ${
                         isActive(item.link)
-                          ? 'bg-gray-100 dark:bg-gray-800 text-black dark:text-white font-bold'
-                          : 'text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800'
+                          ? 'bg-accent/10 text-primary font-bold'
+                          : 'text-muted-foreground hover:bg-accent/5 hover:text-foreground'
                       }`}
                     >
                       {item.name}
@@ -383,7 +357,7 @@ export default function UnifiedNavbar() {
                 {/* Theme Toggle */}
                 <button
                   onClick={toggleTheme}
-                  className="w-full px-4 py-3 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors text-sm font-medium flex items-center justify-center gap-2"
+                  className="w-full px-4 py-3 border border-border text-muted-foreground hover:bg-accent/10 hover:text-foreground transition-colors text-sm font-medium flex items-center justify-center gap-2 rounded-md"
                   aria-label={theme === 'light' ? 'Dark mode' : 'Light mode'}
                 >
                   {theme === 'light' ? (
@@ -407,7 +381,7 @@ export default function UnifiedNavbar() {
                 <button
                   onClick={handleLanguageToggle}
                   disabled={switchingLanguage}
-                  className="w-full px-4 py-3 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors text-sm font-medium flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
+                  className="w-full px-4 py-3 border border-border text-muted-foreground hover:bg-accent/10 hover:text-foreground transition-colors text-sm font-medium flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed rounded-md"
                 >
                   {switchingLanguage && (
                     <svg

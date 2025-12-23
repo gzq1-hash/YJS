@@ -2,7 +2,7 @@ import { EducationPageContent } from './forex-basics.content';
 
 export const leverageMarginContent = {
   zh: {
-    title: '杠杆与保证金详解丨汇刃丨日内交易员培训、外汇交易员培训',
+    title: '杠杆与保证金详解丨元金石丨日内交易员培训、外汇交易员培训',
     description: '全面讲解外汇杠杆和保证金机制：杠杆比例选择、保证金计算、强制平仓规则、爆仓风险管理。日内交易员和外汇交易员培训必备的杠杆使用技巧，实现稳健盈利。',
     keywords: '日内交易员培训, 外汇交易员培训, 外汇杠杆, 保证金交易, 杠杆比例, 强制平仓, 保证金计算',
 
@@ -70,7 +70,7 @@ export const leverageMarginContent = {
     ],
 
     ctaTitle: '想要学习专业的杠杆管理策略？',
-    ctaDescription: '加入 FX Killer 培训，掌握职业交易员的风险控制技巧',
+    ctaDescription: '加入 AurumFoundry 培训，掌握职业交易员的风险控制技巧',
     ctaPrimaryButton: '了解培训计划',
     ctaSecondaryButton: '免费心理测评',
 
@@ -81,7 +81,7 @@ export const leverageMarginContent = {
   } as EducationPageContent,
 
   en: {
-    title: 'Leverage and Margin Explained丨FX Killer丨Day Trader Training, Forex Trader Training',
+    title: 'Leverage and Margin Explained丨AurumFoundry丨Day Trader Training, Forex Trader Training',
     description: 'Comprehensive explanation of forex leverage and margin: leverage ratio selection, margin calculation, margin call rules, liquidation risk management. Day trader training and forex trader training essential knowledge for learning to use leverage rationally for stable profitability.',
     keywords: 'Day Trader Training, Forex Trader Training, forex leverage, margin trading, leverage ratio, margin call',
 
@@ -149,7 +149,7 @@ export const leverageMarginContent = {
     ],
 
     ctaTitle: 'Want to Master Professional Leverage Management?',
-    ctaDescription: 'Join FX Killer training to learn professional risk control techniques',
+    ctaDescription: 'Join AurumFoundry training to learn professional risk control techniques',
     ctaPrimaryButton: 'Learn About Training',
     ctaSecondaryButton: 'Free Psychology Test',
 

@@ -1,10 +1,10 @@
 ---
 title: "Refined products push Oil higher – ING"
 date: "2025-11-12 09:21:32"
-description: "Oil prices rallied yesterday, with ICE Brent settling more than 1.4% higher on the day, moving back above $65/bbl.. Free forex trading training by FX Killer."
-keywords: ["forex","trading","market analysis","forex news","forex training","trader incubation","FX Killer"]
+description: "Oil prices rallied yesterday, with ICE Brent settling more than 1.4% higher on the day, moving back above $65/bbl.. Free forex trading training by AurumFoundry."
+keywords: ["forex","trading","market analysis","forex news","forex training","trader incubation","AurumFoundry"]
 category: "Forex News"
-source: "FX Killer Analysis Team"
+source: "AurumFoundry Analysis Team"
 language: "en"
 ---
 
@@ -14,15 +14,15 @@ The movement in oil prices can have notable implications for currency pairs, par
 
 ---
 
-#### About FX Killer Trader Incubation Program
+#### About AurumFoundry Trader Incubation Program
 
-Want to become a professional trader? FX Killer offers a **completely free** professional trader training program. We provide systematic courses, practical training, and professional mentorship to help you grow from beginner to full-time trader.
+Want to become a professional trader? AurumFoundry offers a **completely free** professional trader training program. We provide systematic courses, practical training, and professional mentorship to help you grow from beginner to full-time trader.
 
 👉 [Join Free Training Program](/splan/join-us) | [Trading Psychology Assessment](/splan/psychology-test)
 
 ---
 
-**Data Source**: FX Killer Analysis Team
+**Data Source**: AurumFoundry Analysis Team
 **Updated**: 2025-11-12 09:21
 
 **Disclaimer**: This article is for reference only and does not constitute investment advice. Forex trading involves risks; please make decisions carefully.

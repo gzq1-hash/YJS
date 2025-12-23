@@ -2,7 +2,7 @@ import { EducationPageContent } from './forex-basics.content';
 
 export const scalpingContent = {
   zh: {
-    title: '剥头皮交易完整指南丨汇刃丨日内交易员培训、外汇交易员培训',
+    title: '剥头皮交易完整指南丨元金石丨日内交易员培训、外汇交易员培训',
     description: '深入讲解剥头皮交易（Scalping）：M1/M5超短线分析、快速入场出场、点差成本控制。日内交易员和外汇交易员培训课程分享专业剥头皮交易系统。',
     keywords: '日内交易员培训, 外汇交易员培训, 剥头皮交易, Scalping, M1交易, M5交易, 超短线交易, 快速交易',
 
@@ -70,7 +70,7 @@ export const scalpingContent = {
     ],
 
     ctaTitle: '想要学习专业交易策略？',
-    ctaDescription: '加入 FX Killer 培训计划，从基础策略开始系统学习',
+    ctaDescription: '加入 AurumFoundry 培训计划，从基础策略开始系统学习',
     ctaPrimaryButton: '了解培训计划',
     ctaSecondaryButton: '免费心理测评',
 
@@ -81,7 +81,7 @@ export const scalpingContent = {
   } as EducationPageContent,
 
   en: {
-    title: 'Complete Scalping Trading Guide丨FX Killer丨Day Trader Training, Forex Trader Training',
+    title: 'Complete Scalping Trading Guide丨AurumFoundry丨Day Trader Training, Forex Trader Training',
     description: 'In-depth explanation of Scalping: M1/M5 ultra-short-term analysis, rapid entry/exit, spread cost control. Day trader training and forex trader training curriculum sharing professional scalping trading systems.',
     keywords: 'Day Trader Training, Forex Trader Training, scalping, M1 trading, M5 trading, ultra-short-term trading',
 
@@ -149,7 +149,7 @@ export const scalpingContent = {
     ],
 
     ctaTitle: 'Want to Learn Professional Trading Strategies?',
-    ctaDescription: 'Join FX Killer training to systematically learn from foundational strategies',
+    ctaDescription: 'Join AurumFoundry training to systematically learn from foundational strategies',
     ctaPrimaryButton: 'Learn About Training',
     ctaSecondaryButton: 'Free Psychology Test',
 

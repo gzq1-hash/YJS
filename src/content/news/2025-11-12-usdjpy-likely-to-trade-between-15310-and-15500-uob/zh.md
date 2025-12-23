@@ -1,10 +1,10 @@
 ---
 title: "美元/日元汇率预期将在153.10至155.00之间波动"
 date: "2025-11-12 10:47:50"
-description: "根据大华银行（UOB Group）外汇分析师Quek Ser Leang和Peter Chia的观点，美元/日元（USD/JPY）汇率在短期内可能会在153.10和155.00之间进行交易。他们指出，当前市场状况以及投资者对未来经济走势的预。FX Killer 提供免费外汇交易培训。"
-keywords: ["外汇","交易","市场分析","外汇新闻","外汇培训","交易员孵化","FX Killer"]
+description: "根据大华银行（UOB Group）外汇分析师Quek Ser Leang和Peter Chia的观点，美元/日元（USD/JPY）汇率在短期内可能会在153.10和155.00之间进行交易。他们指出，当前市场状况以及投资者对未来经济走势的预。AurumFoundry 提供免费外汇交易培训。"
+keywords: ["外汇","交易","市场分析","外汇新闻","外汇培训","交易员孵化","AurumFoundry"]
 category: "外汇新闻"
-source: "FX Killer 分析团队"
+source: "AurumFoundry 分析团队"
 language: "zh"
 ---
 
@@ -14,15 +14,15 @@ language: "zh"
 
 ---
 
-#### 关于 FX Killer 交易员孵化计划
+#### 关于 AurumFoundry 交易员孵化计划
 
-想成为专业交易员？FX Killer 提供**完全免费**的职业交易员培训计划。我们提供系统化课程、实战训练、专业导师指导，帮助您从零基础成长为全职交易员。
+想成为专业交易员？AurumFoundry 提供**完全免费**的职业交易员培训计划。我们提供系统化课程、实战训练、专业导师指导，帮助您从零基础成长为全职交易员。
 
 👉 [立即加入免费培训计划](/splan/join-us) | [交易心理测评](/splan/psychology-test)
 
 ---
 
-**数据来源**: FX Killer 分析团队
+**数据来源**: AurumFoundry 分析团队
 **更新时间**: 2025-11-12 10:47
 
 **免责声明**: 本文仅供参考，不构成投资建议。外汇交易存在风险，请谨慎决策。

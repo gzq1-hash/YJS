@@ -2,7 +2,7 @@ import { EducationPageContent } from './forex-basics.content';
 
 export const macdIndicatorContent = {
   zh: {
-    title: 'MACD指标完整指南丨汇刃丨外汇交易员培训、全职交易员培训',
+    title: 'MACD指标完整指南丨元金石丨外汇交易员培训、全职交易员培训',
     description: '深入讲解MACD指标：DIF、DEA、MACD柱状图计算公式，金叉死叉信号，背离形态。外汇交易员和全职交易员培训必备的趋势确认和动能分析工具。',
     keywords: '外汇交易员培训, 全职交易员培训, MACD指标, MACD策略, 金叉死叉, MACD背离, 趋势指标',
 
@@ -70,7 +70,7 @@ export const macdIndicatorContent = {
     ],
 
     ctaTitle: '想要系统学习技术分析？',
-    ctaDescription: '加入 FX Killer 培训计划，掌握更多实战技术指标应用',
+    ctaDescription: '加入 AurumFoundry 培训计划，掌握更多实战技术指标应用',
     ctaPrimaryButton: '了解培训计划',
     ctaSecondaryButton: '免费心理测评',
 
@@ -81,7 +81,7 @@ export const macdIndicatorContent = {
   } as EducationPageContent,
 
   en: {
-    title: 'Complete MACD Indicator Guide丨FX Killer丨Forex Trader Training, Full-Time Trader Training',
+    title: 'Complete MACD Indicator Guide丨AurumFoundry丨Forex Trader Training, Full-Time Trader Training',
     description: 'In-depth explanation of MACD indicator: DIF, DEA, histogram calculations, golden/death cross signals, divergence pattern recognition. Forex trader training and full-time trader training essential curriculum for mastering MACD trend confirmation and momentum analysis.',
     keywords: 'Forex Trader Training, Full-Time Trader Training, MACD indicator, MACD strategy, golden cross, MACD divergence',
 
@@ -149,7 +149,7 @@ export const macdIndicatorContent = {
     ],
 
     ctaTitle: 'Want to Systematically Learn Technical Analysis?',
-    ctaDescription: 'Join FX Killer training to master more practical technical indicator applications',
+    ctaDescription: 'Join AurumFoundry training to master more practical technical indicator applications',
     ctaPrimaryButton: 'Learn About Training',
     ctaSecondaryButton: 'Free Psychology Test',
 

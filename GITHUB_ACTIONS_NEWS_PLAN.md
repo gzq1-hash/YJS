@@ -79,8 +79,8 @@ jobs:
 
       - name: Commit and push if changed
         run: |
-          git config --global user.name 'FX Killer News Bot'
-          git config --global user.email 'bot@fxkiller.com'
+          git config --global user.name 'AurumFoundry News Bot'
+          git config --global user.email 'bot@yuanjinshi.com'
           git add src/app/\\[locale\\]/news/
           git diff --quiet && git diff --staged --quiet || (git commit -m "📰 Auto: Add latest forex news" && git push)
 \`\`\`
@@ -164,7 +164,7 @@ async function generateMDXFile(news, processed) {
 title: "\${processed.enTitle}"
 title_zh: "\${processed.zhTitle}"
 date: "\${timestamp}"
-author: "FX Killer News Bot"
+author: "AurumFoundry News Bot"
 category: "\${processed.category}"
 tags: \${JSON.stringify(processed.tags)}
 source: "\${news.link}"

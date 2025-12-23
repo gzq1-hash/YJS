@@ -5,14 +5,11 @@ import "@/app/globals.css";
 import UnifiedNavbar from "@/components/layout/UnifiedNavbar";
 import SplanFooter from "@/components/splan/SplanFooter";
 import SubscriptionNotification from "@/components/custom/SubscriptionNotification";
-import FloatingContactForm from "@/components/custom/FloatingContactForm";
 import WelcomeModalWrapper from "@/components/custom/WelcomeModalWrapper";
 import CalendlyWidget from "@/components/custom/CalendlyWidget";
 import StructuredData from "@/components/seo/StructuredData";
 import Providers from "@/components/providers/Providers";
-import MouseFollower from "@/components/effects/MouseFollower";
 import ScrollProgress, { BackToTop } from "@/components/effects/ScrollProgress";
-import PageLoader from "@/components/effects/PageLoader";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import DarkModeBackground from "@/components/layout/DarkModeBackground";
@@ -24,15 +21,15 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://fxkiller.com'),
+  metadataBase: new URL('https://yuanjinshi.com'),
   title: {
-    default: "FX Killer - Professional FX Trader Training Platform | 汇刃·外汇交易职业交易员培训",
-    template: "%s | FX Killer"
+    default: "AurumFoundry - Professional FX Trader Training Platform | 元金石·外汇交易职业交易员培训",
+    template: "%s | AurumFoundry"
   },
-  description: "FX Killer (汇刃) - 专注于外汇交易的职业交易员培训平台。提供系统化外汇交易培训、实战训练和资金支持。通过专业考核即可获得资金管理权限，分润比例高达90%。培养真正适合外汇市场的专业交易员。",
+  description: "AurumFoundry (元金石) - 专注于外汇交易的职业交易员培训平台。提供系统化外汇交易培训、实战训练和资金支持。通过专业考核即可获得资金管理权限，分润比例高达90%。培养真正适合外汇市场的专业交易员。",
   keywords: [
-    "FX Killer",
-    "汇刃",
+    "AurumFoundry",
+    "元金石",
     "外汇交易",
     "外汇培训",
     "职业交易员",
@@ -55,35 +52,35 @@ export const metadata: Metadata = {
     "资金管理",
     "技术分析",
   ],
-  authors: [{ name: "FX Killer Team" }],
-  creator: "FX Killer",
-  publisher: "FX Killer",
+  authors: [{ name: "AurumFoundry Team" }],
+  creator: "AurumFoundry",
+  publisher: "AurumFoundry",
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
   alternates: {
-    canonical: "https://fxkiller.com",
+    canonical: "https://yuanjinshi.com",
     languages: {
-      'zh-CN': 'https://fxkiller.com/zh',
-      'en-US': 'https://fxkiller.com/en',
+      'zh-CN': 'https://yuanjinshi.com/zh',
+      'en-US': 'https://yuanjinshi.com/en',
     },
   },
   openGraph: {
     type: "website",
     locale: "zh_CN",
     alternateLocale: ["en_US"],
-    url: "https://fxkiller.com",
-    siteName: "FX Killer | 汇刃",
-    title: "FX Killer - Professional FX Trader Training Platform | 汇刃·职业交易员培训",
+    url: "https://yuanjinshi.com",
+    siteName: "AurumFoundry | 元金石",
+    title: "AurumFoundry - Professional FX Trader Training Platform | 元金石·职业交易员培训",
     description: "专注于外汇交易的职业交易员培训平台。提供系统化外汇交易培训、实战训练和资金支持。通过专业考核即可获得资金管理权限，分润比例高达90%。",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "FX Killer - Professional FX Trader Training Platform",
+        alt: "AurumFoundry - Professional FX Trader Training Platform",
         type: "image/jpeg",
       }
     ],
@@ -92,7 +89,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@fxkiller",
     creator: "@fxkiller",
-    title: "FX Killer - Professional FX Trader Training Platform",
+    title: "AurumFoundry - Professional FX Trader Training Platform",
     description: "专注于外汇交易的职业交易员培训平台。提供系统化外汇交易培训、实战训练和资金支持。",
     images: ["/og-image.jpg"],
   },
@@ -157,8 +154,6 @@ export default async function PortalLayout({
         <Providers>
           <DarkModeBackground />
           <StructuredData />
-          <PageLoader />
-          <MouseFollower />
           <ScrollProgress />
           <UnifiedNavbar />
           <main className="pt-16 relative">
@@ -168,7 +163,6 @@ export default async function PortalLayout({
           </main>
           <SplanFooter />
           <BackToTop />
-          <FloatingContactForm />
           <WelcomeModalWrapper />
           <CalendlyWidget />
           <SubscriptionNotification />

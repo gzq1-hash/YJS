@@ -2,7 +2,7 @@ import { EducationPageContent } from './forex-basics.content';
 
 export const currencyPairsGuideContent = {
   zh: {
-    title: '货币对完整解析丨汇刃丨外汇交易员培训、全职交易员培训',
+    title: '货币对完整解析丨元金石丨外汇交易员培训、全职交易员培训',
     description: '深入讲解外汇货币对：EUR/USD、GBP/USD、USD/JPY等主要货币对特性、相关性分析、点值计算。外汇交易员和全职交易员培训必备的货币对选择与交易技巧。',
     keywords: '外汇交易员培训, 全职交易员培训, 货币对, 主要货币对, EUR/USD, GBP/USD, 货币对相关性',
 
@@ -35,7 +35,7 @@ export const currencyPairsGuideContent = {
       },
       {
         question: 'Q3: 如何计算不同货币对的点值？',
-        answer: '公式：点值 = (0.0001 / 当前汇率) × 手数 × 合约单位。EUR/USD交易1标准手（100,000单位），当前价格1.1000，点值 = (0.0001 / 1.1000) × 1 × 100,000 = $9.09。USD/JPY以日元报价，1标准手点值固定约$9.09（汇率145时）。使用FX Killer仓位计算器可自动计算点值和仓位。'
+        answer: '公式：点值 = (0.0001 / 当前汇率) × 手数 × 合约单位。EUR/USD交易1标准手（100,000单位），当前价格1.1000，点值 = (0.0001 / 1.1000) × 1 × 100,000 = $9.09。USD/JPY以日元报价，1标准手点值固定约$9.09（汇率145时）。使用AurumFoundry仓位计算器可自动计算点值和仓位。'
       },
       {
         question: 'Q4: 什么是货币对相关性？为什么要关注？',
@@ -81,7 +81,7 @@ export const currencyPairsGuideContent = {
   } as EducationPageContent,
 
   en: {
-    title: 'Complete Currency Pairs Analysis丨FX Killer丨Forex Trader Training, Full-Time Trader Training',
+    title: 'Complete Currency Pairs Analysis丨AurumFoundry丨Forex Trader Training, Full-Time Trader Training',
     description: 'In-depth explanation of forex currency pairs: EUR/USD, GBP/USD, USD/JPY characteristics, correlation analysis, pip value calculation. Forex trader training and full-time trader training essential knowledge for currency pair selection and trading.',
     keywords: 'Forex Trader Training, Full-Time Trader Training, currency pairs, major pairs, EUR/USD, GBP/USD',
 
@@ -114,7 +114,7 @@ export const currencyPairsGuideContent = {
       },
       {
         question: 'Q3: How to calculate pip value for different currency pairs?',
-        answer: 'Formula: Pip Value = (0.0001 / Current Rate) × Lot Size × Contract Size. EUR/USD trading 1 standard lot (100,000 units), current price 1.1000, pip value = (0.0001 / 1.1000) × 1 × 100,000 = $9.09. USD/JPY quoted in yen, 1 standard lot pip value fixed ~$9.09 (at 145 rate). Use FX Killer position calculator to automatically calculate pip values and positions.'
+        answer: 'Formula: Pip Value = (0.0001 / Current Rate) × Lot Size × Contract Size. EUR/USD trading 1 standard lot (100,000 units), current price 1.1000, pip value = (0.0001 / 1.1000) × 1 × 100,000 = $9.09. USD/JPY quoted in yen, 1 standard lot pip value fixed ~$9.09 (at 145 rate). Use AurumFoundry position calculator to automatically calculate pip values and positions.'
       },
       {
         question: 'Q4: What is currency correlation and why should I care?',

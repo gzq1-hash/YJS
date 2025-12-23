@@ -2,7 +2,7 @@ import { EducationPageContent } from './forex-basics.content';
 
 export const brokerSelectionContent = {
   zh: {
-    title: '外汇经纪商选择指南丨汇刃丨日内交易员培训、全职交易员培训',
+    title: '外汇经纪商选择指南丨元金石丨日内交易员培训、全职交易员培训',
     description: '全面讲解外汇经纪商选择标准：监管资质识别、平台类型对比（MM/STP/ECN）、资金安全保障。日内交易员和全职交易员培训必知的经纪商选择技巧，避开黑平台。',
     keywords: '日内交易员培训, 全职交易员培训, 外汇经纪商, 外汇平台选择, 经纪商监管, ECN经纪商',
 
@@ -64,13 +64,13 @@ export const brokerSelectionContent = {
       {
         href: '/partners/brokers',
         icon: '🤝',
-        title: 'FX Killer合作经纪商',
+        title: 'AurumFoundry合作经纪商',
         description: '查看我们推荐的受监管经纪商'
       }
     ],
 
     ctaTitle: '寻找可靠的外汇经纪商？',
-    ctaDescription: 'FX Killer只推荐受严格监管、信誉良好的合作经纪商',
+    ctaDescription: 'AurumFoundry只推荐受严格监管、信誉良好的合作经纪商',
     ctaPrimaryButton: '查看合作经纪商',
     ctaSecondaryButton: '免费心理测评',
 
@@ -81,7 +81,7 @@ export const brokerSelectionContent = {
   } as EducationPageContent,
 
   en: {
-    title: 'Forex Broker Selection Guide丨FX Killer丨Day Trader Training, Full-Time Trader Training',
+    title: 'Forex Broker Selection Guide丨AurumFoundry丨Day Trader Training, Full-Time Trader Training',
     description: 'Comprehensive guide to forex broker selection criteria: regulation verification, broker type comparison (MM/STP/ECN), fund security. Day trader training and full-time trader training essential knowledge to avoid scam brokers.',
     keywords: 'Day Trader Training, Full-Time Trader Training, forex broker, broker selection, forex regulation, ECN broker',
 
@@ -143,13 +143,13 @@ export const brokerSelectionContent = {
       {
         href: '/partners/brokers',
         icon: '🤝',
-        title: 'FX Killer Partner Brokers',
+        title: 'AurumFoundry Partner Brokers',
         description: 'View our recommended regulated brokers'
       }
     ],
 
     ctaTitle: 'Looking for Reliable Forex Brokers?',
-    ctaDescription: 'FX Killer only recommends strictly regulated, reputable partner brokers',
+    ctaDescription: 'AurumFoundry only recommends strictly regulated, reputable partner brokers',
     ctaPrimaryButton: 'View Partner Brokers',
     ctaSecondaryButton: 'Free Psychology Test',
 

@@ -1,11 +1,15 @@
 import { NextResponse } from 'next/server';
-import { supabase, Config } from '@/lib/supabase';
+import { supabase, Config, isSupabaseConfigured } from '@/lib/supabase';
 
 export const dynamic = 'force-dynamic';
 
 // GET: 获取所有配置或单个配置
 export async function GET(request: Request) {
   try {
+    if (!isSupabaseConfigured) {
+      return NextResponse.json({ error: 'Supabase not configured' }, { status: 404 });
+    }
+
     const { searchParams } = new URL(request.url);
     const keyName = searchParams.get('key_name');
 

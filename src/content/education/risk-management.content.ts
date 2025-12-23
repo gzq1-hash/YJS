@@ -2,7 +2,7 @@ import { EducationPageContent } from './forex-basics.content';
 
 export const riskManagementContent = {
   zh: {
-    title: '外汇风险管理基础丨汇刃丨日内交易员培训、全职交易员培训',
+    title: '外汇风险管理基础丨元金石丨日内交易员培训、全职交易员培训',
     description: '深入讲解外汇交易风险管理核心知识：2%规则、风险回报比、仓位控制、最大回撤。日内交易员和全职交易员培训必备的实战风险管理策略，助你长期稳定盈利。',
     keywords: '日内交易员培训, 全职交易员培训, 风险管理, 仓位控制, 资金管理, 止损设置, 风险回报比, 2%规则',
 
@@ -73,7 +73,7 @@ export const riskManagementContent = {
     ],
 
     ctaTitle: '想要系统学习风险管理？',
-    ctaDescription: '加入 FX Killer 培训计划，获取专业风险管理工具和一对一指导',
+    ctaDescription: '加入 AurumFoundry 培训计划，获取专业风险管理工具和一对一指导',
     ctaPrimaryButton: '了解培训计划',
     ctaSecondaryButton: '免费心理测评',
 
@@ -84,7 +84,7 @@ export const riskManagementContent = {
   } as EducationPageContent,
 
   en: {
-    title: 'Forex Risk Management Fundamentals丨FX Killer丨Day Trader Training, Full-Time Trader Training',
+    title: 'Forex Risk Management Fundamentals丨AurumFoundry丨Day Trader Training, Full-Time Trader Training',
     description: 'Comprehensive forex risk management guide: 2% rule, risk-reward ratio, position sizing, maximum drawdown. Day trader training and full-time trader training essential practical risk management strategies for long-term trading success.',
     keywords: 'Day Trader Training, Full-Time Trader Training, risk management, position control, money management, stop loss',
 
@@ -155,7 +155,7 @@ export const riskManagementContent = {
     ],
 
     ctaTitle: 'Want to Systematically Learn Risk Management?',
-    ctaDescription: 'Join FX Killer training program for professional risk management tools and one-on-one guidance',
+    ctaDescription: 'Join AurumFoundry training program for professional risk management tools and one-on-one guidance',
     ctaPrimaryButton: 'Learn About Training',
     ctaSecondaryButton: 'Free Psychology Assessment',
 

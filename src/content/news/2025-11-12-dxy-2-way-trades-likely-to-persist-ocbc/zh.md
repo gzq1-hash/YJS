@@ -1,10 +1,10 @@
 ---
 title: "美元汇率波动加剧，短期交易或将持续"
 date: "2025-11-12 08:51:23"
-description: "近期美元（USD）在缺乏新催化剂的情况下，保持了混合交易的态势。根据华侨银行（OCBC）外汇分析师Frances Cheung和Christopher Wong的分析，美元指数（DXY）最新报99.50。这表明市场对美元的强弱态度相对分歧，。FX Killer 提供免费外汇交易培训。"
-keywords: ["外汇","交易","市场分析","外汇新闻","外汇培训","交易员孵化","FX Killer"]
+description: "近期美元（USD）在缺乏新催化剂的情况下，保持了混合交易的态势。根据华侨银行（OCBC）外汇分析师Frances Cheung和Christopher Wong的分析，美元指数（DXY）最新报99.50。这表明市场对美元的强弱态度相对分歧，。AurumFoundry 提供免费外汇交易培训。"
+keywords: ["外汇","交易","市场分析","外汇新闻","外汇培训","交易员孵化","AurumFoundry"]
 category: "外汇新闻"
-source: "FX Killer 分析团队"
+source: "AurumFoundry 分析团队"
 language: "zh"
 ---
 
@@ -14,15 +14,15 @@ language: "zh"
 
 ---
 
-#### 关于 FX Killer 交易员孵化计划
+#### 关于 AurumFoundry 交易员孵化计划
 
-想成为专业交易员？FX Killer 提供**完全免费**的职业交易员培训计划。我们提供系统化课程、实战训练、专业导师指导，帮助您从零基础成长为全职交易员。
+想成为专业交易员？AurumFoundry 提供**完全免费**的职业交易员培训计划。我们提供系统化课程、实战训练、专业导师指导，帮助您从零基础成长为全职交易员。
 
 👉 [立即加入免费培训计划](/splan/join-us) | [交易心理测评](/splan/psychology-test)
 
 ---
 
-**数据来源**: FX Killer 分析团队
+**数据来源**: AurumFoundry 分析团队
 **更新时间**: 2025-11-12 08:51
 
 **免责声明**: 本文仅供参考，不构成投资建议。外汇交易存在风险，请谨慎决策。

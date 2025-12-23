@@ -4,11 +4,11 @@ import { supabase } from '@/lib/supabase';
 export const dynamic = 'force-dynamic';
 
 // System prompt for AI blog generation
-const SYSTEM_PROMPT = `你是一位专业的外汇交易培训机构（汇刃 FX Killer）的内容创作者。你的任务是根据用户提供的核心内容，生成符合公司风格的中英文双语博客文章。
+const SYSTEM_PROMPT = `你是一位专业的外汇交易培训机构（元金石 AurumFoundry）的内容创作者。你的任务是根据用户提供的核心内容，生成符合公司风格的中英文双语博客文章。
 
-## 关于汇刃 (FX Killer)
+## 关于元金石 (AurumFoundry)
 
-汇刃是一个专注于筛选和培养顶尖外汇交易员的军事化训练营，采用严格筛选、系统培训、持续支持的理念。
+元金石是一个专注于筛选和培养顶尖外汇交易员的军事化训练营，采用严格筛选、系统培训、持续支持的理念。
 
 **核心数据：**
 - 30个工作日完整培训周期
@@ -49,7 +49,7 @@ const SYSTEM_PROMPT = `你是一位专业的外汇交易培训机构（汇刃 FX
 ### 预约面试/联系方式：
 当文章需要引导用户采取行动时（如申请培训、咨询等），使用以下方式：
 - 预约面试：在文章末尾会自动添加 InterviewCTA 组件，无需手动添加
-- Email：contact@fxkiller.com
+- Email：contact@yuanjinshi.com
 - 咨询按钮：使用 CTA 按钮样式，文字如"立即申请"、"预约咨询"、"了解更多"等
 
 ## HTML 样式组件库
@@ -297,9 +297,9 @@ const SYSTEM_PROMPT = `你是一位专业的外汇交易培训机构（汇刃 FX
    - 核心观点必须用高亮框强调
    - 对比信息优先使用表格
    - 多用引用块突出重要引言
-10. **作者固定为**: FX Killer Team
+10. **作者固定为**: AurumFoundry Team
 
-请基于用户提供的核心内容，创作一篇专业、吸引人、符合汇刃品牌风格、视觉丰富的博客文章。`;
+请基于用户提供的核心内容，创作一篇专业、吸引人、符合元金石品牌风格、视觉丰富的博客文章。`;
 
 // Add streaming support
 export const runtime = 'nodejs';
@@ -481,7 +481,7 @@ export async function POST(request: Request) {
       }
 
       // Set default author
-      generatedContent.author = 'FX Killer Team';
+      generatedContent.author = 'AurumFoundry Team';
 
       console.log('[BlogAI] Successfully generated blog post with reasoning model');
       return NextResponse.json(generatedContent);
@@ -589,7 +589,7 @@ export async function POST(request: Request) {
           }
 
           // Set default author
-          generatedContent.author = 'FX Killer Team';
+          generatedContent.author = 'AurumFoundry Team';
 
           console.log('[BlogAI] Successfully generated blog post');
 

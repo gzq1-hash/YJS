@@ -25,7 +25,7 @@ const getFAQData = (language: 'zh' | 'en'): FAQData => {
     return {
       course: [
         {
-          question: '什么是 FX Killer 外汇交易员培训？',
+          question: '什么是 AurumFoundry 外汇交易员培训？',
           answer: '我们是一个专注于筛选和培养顶尖外汇交易员的专业培训平台。我们致力于用最短的时间从大量人群中筛选出少数适合做交易的人才并进行培养。我们将在<strong> 30个工作日</strong>内判断新人是否是做交易的可塑之才。通过考核者将获得资金支持，成为独立交易员或基金经理。'
         },
         {
@@ -52,11 +52,11 @@ const getFAQData = (language: 'zh' | 'en'): FAQData => {
         },
         {
           question: '需要什么样的基础条件？',
-          answer: '<ul><li>大专学历以上，35岁以下</li><li>认真、细心、耐心、心理健康</li><li>连续30个工作日可投入</li><li>Windows电脑，独立的交易环境</li><li>周一到周五，每天最低保证 13:30 - 21:30 在线</li><li>北京时间20:00参加团队长会议室复盘</li></ul>'
+          answer: '<ul><li>本科学历以上，30岁以下</li><li>认真、细心、耐心、心理健康</li><li>连续30个工作日可投入</li><li>Windows电脑，独立的交易环境</li><li>周一到周五，每天最低保证 13:30 - 23:00 在线</li><li>北京时间22:00参加团队长会议室复盘</li></ul>'
         },
         {
-          question: '3天不能完成规则考核会怎样？',
-          answer: '3天不能完成规则考核，将<strong>酌情劝退处理</strong>。我们的筛选机制非常严格，如果连基本规则都无法快速掌握，说明可能不适合这个行业。这是为了保护你，避免浪费更多时间。'
+          question: '5天不能完成规则考核会怎样？',
+          answer: '5天不能完成规则考核，将<strong>酌情劝退处理</strong>。我们的筛选机制非常严格，如果连基本规则都无法快速掌握，说明可能不适合这个行业。这是为了保护你，避免浪费更多时间。'
         },
         {
           question: '通过考核后可以获得什么？',
@@ -64,7 +64,7 @@ const getFAQData = (language: 'zh' | 'en'): FAQData => {
         },
         {
           question: '学习过程中可以提问吗？',
-          answer: '可以。每天北京时间20:00有团队长会议室复盘，可以直接开麦与团队长沟通。其他时间可以通过微信与团队长联系。但请注意：<strong>学员之间不得加微信、电话等联系方式</strong>，这是纪律红线。'
+          answer: '可以。每天北京时间22:00有团队长会议室复盘，可以直接开麦与团队长沟通。其他时间可以通过微信与团队长联系。但请注意：<strong>学员之间不得加微信、电话等联系方式</strong>，这是纪律红线。'
         }
       ],
       pricing: [
@@ -114,7 +114,7 @@ const getFAQData = (language: 'zh' | 'en'): FAQData => {
         },
         {
           question: '我可以一边工作一边参加培训吗？',
-          answer: '不可以。培训要求<strong>连续30个工作日</strong>，周一到周五每天最低保证 13:30 - 21:30 在线。这是全职投入的筛选和培养过程。如果无法保证时间投入，建议不要申请，因为这会浪费双方的时间。'
+          answer: '不可以。培训要求<strong>连续30个工作日</strong>，周一到周五每天最低保证 13:30 - 23:00 在线。这是全职投入的筛选和培养过程。如果无法保证时间投入，建议不要申请，因为这会浪费双方的时间。'
         },
         {
           question: '通过考核后还需要每天在线吗？',
@@ -127,7 +127,7 @@ const getFAQData = (language: 'zh' | 'en'): FAQData => {
     return {
       course: [
         {
-          question: 'What is FX Killer Forex Trader Training?',
+          question: 'What is AurumFoundry Forex Trader Training?',
           answer: 'We are a professional training platform focused on selecting and cultivating elite forex traders. We are committed to identifying, in the shortest time possible, the few individuals from a large population who are suited for trading, and providing them with cultivation. Within <strong>30 working days</strong>, we will determine whether newcomers have the potential to become traders. Those who pass the assessment will receive capital support and become independent traders or fund managers.'
         },
         {

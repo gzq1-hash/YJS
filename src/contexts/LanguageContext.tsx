@@ -18,15 +18,14 @@ const LanguageContext = createContext<LanguageContextType | undefined>(undefined
 const translations: Record<Language, Record<string, string>> = {
   zh: {
     // 品牌名
-    'brand.name': '汇刃',
-    'brand.full': 'FX Killer',
+    'brand.name': '元金石',
+    'brand.full': 'AurumFoundry',
 
     // 导航栏
     'nav.home': '首页',
     'nav.training': '免费培训',
     'nav.liveTrading': '实盘',
     'nav.tradingTools': '工具',
-    'nav.blog': '博客',
     'nav.psychology': '测评',
     'nav.dashboard': '量化',
     'nav.faq': 'FAQ',
@@ -35,12 +34,12 @@ const translations: Record<Language, Record<string, string>> = {
 
     // Hero Section
     'hero.title': 'Professional FX Trader Training Platform',
-    'hero.subtitle': '精准、专业、高效 - 免费培养真正的外汇交易专家',
+    'hero.subtitle': '交易育英，链动未来 - 职业交易员的“铸剑谷”与“试金石”',
     'hero.cta.learn': '了解外汇培训',
     'hero.cta.dashboard': '进入交易系统',
 
     // Why Choose Section
-    'why.title': '为什么选择汇刃',
+    'why.title': '为什么选择元金石',
     'why.subtitle': '专注筛选和培养顶尖外汇交易员，培养真正适合的人，留下极少数，劝返大多数',
 
     // Advantages
@@ -53,10 +52,10 @@ const translations: Record<Language, Record<string, string>> = {
 
     // Comparison
     'comparison.vs': 'VS 传统外汇培训',
-    'comparison.fxkiller': '汇刃',
+    'comparison.fxkiller': '元金石',
     'comparison.traditional': '传统培训机构',
     'comparison.free': '完全免费 - 无任何培训费用',
-    'comparison.practical': '实战培养 - 30天系统化职业训练',
+    'comparison.practical': '实战培养 - 45天系统化职业训练',
     'comparison.selection': '精准筛选 - 不适合直接劝退，避免浪费时间',
     'comparison.funding': '资金支持 - 通过考核后提供交易资金',
     'comparison.share': '高额分成 - 盈利60%-90%归你所有',
@@ -96,7 +95,7 @@ const translations: Record<Language, Record<string, string>> = {
     'req.subtitle': '严格的准入标准，确保外汇培训质量 - 每个人只有一次进入的机会',
     'req.profile.title': ' 人群画像',
     'req.profile.education': '学历与年龄',
-    'req.profile.education.desc': '大专学历以上，35岁以下',
+    'req.profile.education.desc': '本科学历以上，30岁以下',
     'req.profile.psychology': '心理素质',
     'req.profile.psychology.desc': '认真、细心、耐心、心理健康',
     'req.profile.character': '性格特质',
@@ -110,9 +109,9 @@ const translations: Record<Language, Record<string, string>> = {
     'req.time.environment.desc': '独立的交易环境，专注不被打扰',
     'req.online.title': ' 在线时间',
     'req.online.hours': '交易时段',
-    'req.online.hours.desc': '周一到周五 13:30-21:30',
+    'req.online.hours.desc': '周一到周五 13:30-23:00',
     'req.online.debrief': '团队复盘',
-    'req.online.debrief.desc': '每天20:00团队长会议室复盘',
+    'req.online.debrief.desc': '每天22:00团队长会议室复盘',
     'req.notice.title': '重要提醒',
     'req.notice.once': '每个人只有一次进入的机会',
     'req.notice.desc': '请在充分了解并确认自己符合全部条件后再申请。',
@@ -165,7 +164,7 @@ const translations: Record<Language, Record<string, string>> = {
     'footer.contact.focus': '专注外汇交易培训',
     'footer.contact.cultivate': '培养职业外汇交易员',
     'footer.contact.apply': '立即申请',
-    'footer.copyright': '© 汇刃 · 专业外汇交易员培训平台 · fxkiller.com',
+    'footer.copyright': '© 元金石 · 专业外汇交易员培训平台 · yuanjinshi.com',
     'footer.disclaimer': ' 外汇交易有风险，投资需谨慎 · 本站内容仅供学习参考，不构成投资建议',
     'footer.partners.title': '合作伙伴',
     'footer.partners.brokers': '合作经纪商',
@@ -177,7 +176,7 @@ const translations: Record<Language, Record<string, string>> = {
 
     // Join Us Page
     'joinus.hero.badge': 'PROFESSIONAL TRADER TRAINING',
-    'joinus.hero.title1': '汇刃',
+    'joinus.hero.title1': '元金石',
     'joinus.hero.title2': '外汇交易员培训',
     'joinus.hero.subtitle': '培养真正适合的人，留下极少数，劝返大多数',
     'joinus.hero.stat1': '通过率',
@@ -219,13 +218,13 @@ const translations: Record<Language, Record<string, string>> = {
     'joinus.profile.income.title': '关于收入、社保、底薪和薪资结构',
     'joinus.profile.income.desc': '任何盈利导向的企业，都不会做亏本买卖。即使高薪聘请一个一无所知的应届生，也源于政府补贴或对该人潜力的判断。在我们这个极简行业，所有价值都源于二级市场的买卖差价——简单、直接、残酷。在你证明盈利能力（通过考核）之前，我们不会投入一分钱。考核通过后，你的实际收入，绝不会超过你在"战场"（二级市场）上缴获的"战利品"。',
     'joinus.profile.basic.title': '基本条件',
-    'joinus.profile.basic.1': '大专学历以上，35岁以下',
+    'joinus.profile.basic.1': '本科学历以上，30岁以下',
     'joinus.profile.basic.2': '认真、细心、耐心、心理健康',
     'joinus.profile.basic.3': '连续30个工作日(约45天)，Windows电脑',
     'joinus.profile.basic.4': '独立的交易环境',
     'joinus.profile.time.title': '时间要求',
-    'joinus.profile.time.1': '周一到周五，每天最低保证 13:30 - 21:30 在线',
-    'joinus.profile.time.2': '北京时间20:00 团队长会议室复盘',
+    'joinus.profile.time.1': '周一到周五，每天最低保证 13:30 - 23:00 在线',
+    'joinus.profile.time.2': '北京时间22:00 团队长会议室复盘',
 
     'joinus.plan.title': '成长计划',
     'joinus.plan.phase1.days': '第 1 - 5 个工作日',
@@ -283,6 +282,7 @@ const translations: Record<Language, Record<string, string>> = {
     'joinus.cta.desc': '如果你愿意给自己一次实现人生理想的机会，那么：',
     'joinus.cta.psychology': '完成心理测评',
     'joinus.cta.interview': '预约面试',
+    'joinus.modal.title': '外汇交易员面试',
 
     // FAQ Page
     'faq.hero.badge': 'FREQUENTLY ASKED QUESTIONS',
@@ -291,7 +291,7 @@ const translations: Record<Language, Record<string, string>> = {
     'faq.hero.desc': '开启职业交易之路前，先读懂这些问题',
     'faq.search.placeholder': '搜索问题...',
     'faq.search.button': '搜索',
-    'faq.category.course': '关于 FX Killer',
+    'faq.category.course': '关于 AurumFoundry',
     'faq.category.learning': '关于培训',
     'faq.category.pricing': '关于收入与分润',
     'faq.category.support': '交易铁律',
@@ -305,7 +305,7 @@ const translations: Record<Language, Record<string, string>> = {
     'donate.hero.badge': 'GLOBAL TRIAL MEMBERSHIP',
     'donate.hero.title1': '全球试用会员',
     'donate.hero.title2': '招募计划',
-    'donate.hero.desc': '自2025年10月1日起全球范围接受捐赠成为90天试用会员',
+    'donate.hero.desc': '自2026年1月1日起全球范围接受捐赠成为90天试用会员',
     'donate.hero.stat1': '试用期',
     'donate.hero.stat2': '教练陪跑',
     'donate.hero.stat3': '晋级机会',
@@ -342,7 +342,7 @@ const translations: Record<Language, Record<string, string>> = {
     'donate.how.step1.title': '完成心理测评',
     'donate.how.step1.desc': '首先完成心理测评，确保您具备成为职业交易员的心理素质',
     'donate.how.step2.title': '发送邮件申请',
-    'donate.how.step2.desc': '邮件至 x.stark.dylan@gmail.com，说明您的意向',
+    'donate.how.step2.desc': '邮件至 haiyan679679@gmail.com，说明您的意向',
     'donate.how.step3.title': '获取捐赠地址',
     'donate.how.step3.desc': '我们将通过邮件回复您具体的 USDT/USDC 捐赠地址',
     'donate.how.step4.title': '完成捐赠并开始培训',
@@ -434,7 +434,7 @@ const translations: Record<Language, Record<string, string>> = {
     'dashboard.tab.tianti': '天梯',
     'dashboard.tab.config': '策略配置',
     'dashboard.footer.warning': ' 仅用于测试环境。实盘交易需要充分测试和风险评估。',
-    'dashboard.footer.copyright': '2024-2025 © FX Killer 专业外汇交易员培训平台',
+    'dashboard.footer.copyright': '2024-2025 © AurumFoundry 专业外汇交易员培训平台',
 
     // Admin Login
     'login.title': '交易控制台',
@@ -493,13 +493,13 @@ const translations: Record<Language, Record<string, string>> = {
     'blog.backToBlog': '返回博客',
     'blog.relatedPosts': '相关文章',
     'blog.cta.title': '准备开始您的交易之旅？',
-    'blog.cta.subtitle': '加入FX Killer，接受专业的交易员培训',
+    'blog.cta.subtitle': '加入AurumFoundry，接受专业的交易员培训',
     'blog.cta.button': '立即加入',
   },
   en: {
     // Brand Name
-    'brand.name': 'FX Killer',
-    'brand.full': 'FX Killer',
+    'brand.name': 'AurumFoundry',
+    'brand.full': 'AurumFoundry',
 
     // Navigation
     'nav.home': 'Home',
@@ -520,7 +520,7 @@ const translations: Record<Language, Record<string, string>> = {
     'hero.cta.dashboard': 'Enter Trading System',
 
     // Why Choose Section
-    'why.title': 'Why Choose FX Killer',
+    'why.title': 'Why Choose AurumFoundry',
     'why.subtitle': 'Focused on selecting and cultivating elite forex traders, nurturing those truly suited, retaining the few, and advising the majority to pursue other paths',
 
     // Advantages
@@ -533,7 +533,7 @@ const translations: Record<Language, Record<string, string>> = {
 
     // Comparison
     'comparison.vs': 'VS Traditional Forex Training',
-    'comparison.fxkiller': 'FX Killer',
+    'comparison.fxkiller': 'AurumFoundry',
     'comparison.traditional': 'Traditional Training Institutions',
     'comparison.free': 'Completely Free - No Training Fees',
     'comparison.practical': 'Practical Training - 30 Days of Systematic Professional Training',
@@ -645,7 +645,7 @@ const translations: Record<Language, Record<string, string>> = {
     'footer.contact.focus': 'Focused on forex training',
     'footer.contact.cultivate': 'Cultivating professional forex traders',
     'footer.contact.apply': 'Apply Now',
-    'footer.copyright': '© FX Killer · Professional Forex Trader Training Platform · fxkiller.com',
+    'footer.copyright': '© AurumFoundry · Professional Forex Trader Training Platform · yuanjinshi.com',
     'footer.disclaimer': ' Forex trading carries risk, investment requires caution · Site content for learning reference only, not investment advice',
     'footer.partners.title': 'Partners',
     'footer.partners.brokers': 'Partner Brokers',
@@ -657,7 +657,7 @@ const translations: Record<Language, Record<string, string>> = {
 
     // Join Us Page
     'joinus.hero.badge': 'PROFESSIONAL TRADER TRAINING',
-    'joinus.hero.title1': 'FX Killer',
+    'joinus.hero.title1': 'AurumFoundry',
     'joinus.hero.title2': 'Forex Trader Training',
     'joinus.hero.subtitle': 'Cultivating those truly suited, retaining the few, advising the majority to pursue other paths',
     'joinus.hero.stat1': 'Pass Rate',
@@ -763,6 +763,7 @@ const translations: Record<Language, Record<string, string>> = {
     'joinus.cta.desc': 'If you\'re willing to give yourself a chance to realize your life ideals, then:',
     'joinus.cta.psychology': 'Complete Psychology Test',
     'joinus.cta.interview': 'Schedule Interview',
+    'joinus.modal.title': 'Forex Trader Interview',
 
     // FAQ Page
     'faq.hero.badge': 'FREQUENTLY ASKED QUESTIONS',
@@ -771,7 +772,7 @@ const translations: Record<Language, Record<string, string>> = {
     'faq.hero.desc': 'Understand these questions before starting your professional trading journey',
     'faq.search.placeholder': 'Search questions...',
     'faq.search.button': 'Search',
-    'faq.category.course': 'About FX Killer',
+    'faq.category.course': 'About AurumFoundry',
     'faq.category.learning': 'About Training',
     'faq.category.pricing': 'About Income & Profit Share',
     'faq.category.support': 'Trading Iron Laws',
@@ -822,7 +823,7 @@ const translations: Record<Language, Record<string, string>> = {
     'donate.how.step1.title': 'Complete Psychology Test',
     'donate.how.step1.desc': 'First complete the psychology test to ensure you possess the psychological qualities to become a professional trader',
     'donate.how.step2.title': 'Send Email Application',
-    'donate.how.step2.desc': 'Email to x.stark.dylan@gmail.com explaining your intention',
+    'donate.how.step2.desc': 'Email to haiyan679679@gmail.com explaining your intention',
     'donate.how.step3.title': 'Obtain Donation Address',
     'donate.how.step3.desc': 'We will reply via email with the specific USDT/USDC donation address',
     'donate.how.step4.title': 'Complete Donation and Begin Training',
@@ -914,7 +915,7 @@ const translations: Record<Language, Record<string, string>> = {
     'dashboard.tab.tianti': 'Leaderboard',
     'dashboard.tab.config': 'Strategy Config',
     'dashboard.footer.warning': ' For testing environment only. Live trading requires thorough testing and risk assessment.',
-    'dashboard.footer.copyright': '2024-2025 © FX Killer Professional Forex Trader Training Platform',
+    'dashboard.footer.copyright': '2024-2025 © AurumFoundry Professional Forex Trader Training Platform',
 
     // Admin Login
     'login.title': 'Trading Dashboard',
@@ -973,7 +974,7 @@ const translations: Record<Language, Record<string, string>> = {
     'blog.backToBlog': 'Back to Blog',
     'blog.relatedPosts': 'Related Posts',
     'blog.cta.title': 'Ready to Start Your Trading Journey?',
-    'blog.cta.subtitle': 'Join FX Killer for professional trader training',
+    'blog.cta.subtitle': 'Join AurumFoundry for professional trader training',
     'blog.cta.button': 'Join Now',
   }
 };

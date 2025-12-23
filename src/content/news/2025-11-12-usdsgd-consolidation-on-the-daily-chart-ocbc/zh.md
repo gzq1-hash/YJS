@@ -1,10 +1,10 @@
 ---
 title: "美元/新加坡元汇率日图显示整理趋势 – OCBC"
 date: "2025-11-12 10:21:41"
-description: "近期，美元/新加坡元（USD/SGD）交易表现平淡，缺乏新的市场催化因素。根据OCBC外汇分析师Frances Cheung和Christopher Wong的观点，该货币对的汇率持续维持在1.3030附近，市场情绪保持谨慎。  分析师指出。FX Killer 提供免费外汇交易培训。"
-keywords: ["外汇","交易","市场分析","外汇新闻","外汇培训","交易员孵化","FX Killer"]
+description: "近期，美元/新加坡元（USD/SGD）交易表现平淡，缺乏新的市场催化因素。根据OCBC外汇分析师Frances Cheung和Christopher Wong的观点，该货币对的汇率持续维持在1.3030附近，市场情绪保持谨慎。  分析师指出。AurumFoundry 提供免费外汇交易培训。"
+keywords: ["外汇","交易","市场分析","外汇新闻","外汇培训","交易员孵化","AurumFoundry"]
 category: "外汇新闻"
-source: "FX Killer 分析团队"
+source: "AurumFoundry 分析团队"
 language: "zh"
 ---
 
@@ -14,15 +14,15 @@ language: "zh"
 
 ---
 
-#### 关于 FX Killer 交易员孵化计划
+#### 关于 AurumFoundry 交易员孵化计划
 
-想成为专业交易员？FX Killer 提供**完全免费**的职业交易员培训计划。我们提供系统化课程、实战训练、专业导师指导，帮助您从零基础成长为全职交易员。
+想成为专业交易员？AurumFoundry 提供**完全免费**的职业交易员培训计划。我们提供系统化课程、实战训练、专业导师指导，帮助您从零基础成长为全职交易员。
 
 👉 [立即加入免费培训计划](/splan/join-us) | [交易心理测评](/splan/psychology-test)
 
 ---
 
-**数据来源**: FX Killer 分析团队
+**数据来源**: AurumFoundry 分析团队
 **更新时间**: 2025-11-12 10:21
 
 **免责声明**: 本文仅供参考，不构成投资建议。外汇交易存在风险，请谨慎决策。

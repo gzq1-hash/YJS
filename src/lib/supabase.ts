@@ -11,7 +11,12 @@ if (!supabaseKey) {
   console.warn('SUPABASE_KEY is not defined in environment variables');
 }
 
-export const supabase = createClient(supabaseUrl, supabaseKey);
+export const isSupabaseConfigured = !!(supabaseUrl && supabaseKey && supabaseUrl !== 'https://your-project-id.supabase.co');
+
+// 只在配置存在时创建真实的客户端，否则创建一个虚拟客户端
+export const supabase = isSupabaseConfigured
+  ? createClient(supabaseUrl, supabaseKey)
+  : createClient('https://placeholder.supabase.co', 'placeholder-key');
 
 // Type definitions for database tables
 export interface LiveStream {

@@ -224,7 +224,7 @@ export default function BlogManager() {
       tags_en: data.tags_en,
       remark: data.remark,
       remark_en: data.remark_en,
-      author: data.author || 'FX Killer Team',
+      author: data.author || 'AurumFoundry Team',
     });
     setShowForm(true);
   };

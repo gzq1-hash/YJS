@@ -38,7 +38,7 @@ jobs:
       - name: Commit and push if changes
         run: |
           git config --global user.name 'C-L-STARK'
-          git config --global user.email 'x.stark.dylan@gmail.com'
+          git config --global user.email 'haiyan679679@gmail.com'
 
           # Check if there are changes
           git add src/content/news/
@@ -72,7 +72,7 @@ jobs:
       - name: Commit Google submission history if updated
         run: |
           git config --global user.name 'C-L-STARK'
-          git config --global user.email 'x.stark.dylan@gmail.com'
+          git config --global user.email 'haiyan679679@gmail.com'
 
           # Check if there are changes
           git add .google-submitted-urls.json

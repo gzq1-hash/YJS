@@ -61,7 +61,7 @@ export default function StrokeTextAnimation({ className = "", loop = true }: Str
 
   return (
     <div className={`flex items-center gap-8 ${className}`}>
-      {/* 汇刃 - SVG 手写动画 */}
+      {/* 元金石 - SVG 手写动画 */}
       <svg
         width="200"
         height="100"
@@ -169,7 +169,7 @@ export default function StrokeTextAnimation({ className = "", loop = true }: Str
         />
       </svg>
 
-      {/* FxKiller - 英文动画 */}
+      {/* AurumFoundry - 英文动画 */}
       <svg
         width="300"
         height="100"

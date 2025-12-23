@@ -15,63 +15,63 @@ export default function EducationPageTemplate({
   // Determine language from prop or fallback to title detection
   const isZh = language ? language === 'zh' : !content.heroTitle.includes('Forex');
   return (
-    <div className="min-h-screen bg-white dark:bg-gray-900">
+    <div className="min-h-screen bg-brand-bg">
       <article className="max-w-4xl mx-auto px-6 py-24">
         {/* Breadcrumb */}
-        <nav className="text-sm text-gray-500 dark:text-gray-400 mb-6">
-          <LocaleLink href="/" className="hover:text-black dark:hover:text-white">
+        <nav className="text-sm text-white/50 mb-6">
+          <LocaleLink href="/" className="hover:text-brand-accent transition-colors">
             {isZh ? '首页' : 'Home'}
           </LocaleLink>
           {' > '}
-          <LocaleLink href="/education" className="hover:text-black dark:hover:text-white">
+          <LocaleLink href="/education" className="hover:text-brand-accent transition-colors">
             {isZh ? '教育中心' : 'Education Center'}
           </LocaleLink>
           {' > '}
-          <span className="text-black dark:text-white">{content.heroTitle}</span>
+          <span className="text-white">{content.heroTitle}</span>
         </nav>
 
         {/* Hero Section */}
-        <header className="mb-12 pb-8 border-b-2 border-black dark:border-white">
-          <h1 className="text-4xl md:text-5xl font-black text-black dark:text-white mb-6 leading-tight">
+        <header className="mb-12 pb-8 border-b border-white/10">
+          <h1 className="text-4xl md:text-5xl font-black text-white mb-6 leading-tight">
             {content.heroTitle}
           </h1>
-          <p className="text-xl text-gray-600 dark:text-gray-400 mb-6">
+          <p className="text-xl text-white/70 mb-6">
             {content.heroDescription}
           </p>
 
           <div className="flex flex-wrap gap-4 text-sm">
-            <div className="flex items-center gap-2 px-4 py-2 bg-gray-100 dark:bg-gray-800 border border-gray-300 dark:border-gray-700">
-              <span className="text-gray-600 dark:text-gray-400">
+            <div className="flex items-center gap-2 px-4 py-2 bg-white/5 border border-white/10">
+              <span className="text-white/60">
                 {isZh ? '📖 阅读时间：' : '📖 Reading Time:'}
               </span>
-              <span className="font-bold text-black dark:text-white">{content.readingTime}</span>
+              <span className="font-bold text-white">{content.readingTime}</span>
             </div>
-            <div className="flex items-center gap-2 px-4 py-2 bg-gray-100 dark:bg-gray-800 border border-gray-300 dark:border-gray-700">
-              <span className="text-gray-600 dark:text-gray-400">
+            <div className="flex items-center gap-2 px-4 py-2 bg-white/5 border border-white/10">
+              <span className="text-white/60">
                 {isZh ? '🎯 难度：' : '🎯 Difficulty:'}
               </span>
-              <span className="font-bold text-black dark:text-white">{content.difficulty}</span>
+              <span className="font-bold text-white">{content.difficulty}</span>
             </div>
-            <div className="flex items-center gap-2 px-4 py-2 bg-gray-100 dark:bg-gray-800 border border-gray-300 dark:border-gray-700">
-              <span className="text-gray-600 dark:text-gray-400">
+            <div className="flex items-center gap-2 px-4 py-2 bg-white/5 border border-white/10">
+              <span className="text-white/60">
                 {isZh ? '📅 更新：' : '📅 Updated:'}
               </span>
-              <span className="font-bold text-black dark:text-white">{content.lastUpdated}</span>
+              <span className="font-bold text-white">{content.lastUpdated}</span>
             </div>
           </div>
         </header>
 
         {/* Table of Contents */}
-        <nav className="mb-12 p-6 bg-gray-50 dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-700">
-          <h2 className="text-2xl font-bold text-black dark:text-white mb-4">{content.tocTitle}</h2>
+        <nav className="mb-12 p-6 bg-white/5 border border-white/10 hover:border-brand-accent/50 transition-colors">
+          <h2 className="text-2xl font-bold text-white mb-4">{content.tocTitle}</h2>
           <ul className="space-y-2">
             {content.tableOfContents.map((item, index) => (
               <li key={item.id}>
                 <a
                   href={`#${item.id}`}
-                  className="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white transition-colors flex items-start gap-2"
+                  className="text-white/70 hover:text-brand-accent transition-colors flex items-start gap-2"
                 >
-                  <span className="text-black dark:text-white font-bold">{index + 1}.</span>
+                  <span className="text-brand-accent font-bold">{index + 1}.</span>
                   <span>{item.title}</span>
                 </a>
               </li>
@@ -80,13 +80,13 @@ export default function EducationPageTemplate({
         </nav>
 
         {/* Main Content - Passed as children */}
-        <div className="prose prose-lg dark:prose-invert max-w-none mb-16">
+        <div className="prose prose-lg prose-invert max-w-none mb-16">
           {children}
         </div>
 
         {/* FAQ Section */}
         <section id="faq" className="mb-16">
-          <h2 className="text-3xl font-black mb-8 text-black dark:text-white border-l-4 border-black dark:border-white pl-4">
+          <h2 className="text-3xl font-black mb-8 text-white border-l-4 border-brand-accent pl-4">
             {content.faqTitle}
           </h2>
 
@@ -94,9 +94,9 @@ export default function EducationPageTemplate({
             {content.faqs.map((faq, index) => (
               <details
                 key={index}
-                className="group border-2 border-black dark:border-white"
+                className="group border border-white/10 bg-white/5"
               >
-                <summary className="cursor-pointer p-6 font-bold text-lg text-black dark:text-white list-none flex justify-between items-center hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors">
+                <summary className="cursor-pointer p-6 font-bold text-lg text-white list-none flex justify-between items-center hover:bg-white/5 transition-colors">
                   <span>{faq.question}</span>
                   <span className="transform group-open:rotate-180 transition-transform">▼</span>
                 </summary>
@@ -115,7 +115,9 @@ export default function EducationPageTemplate({
           </h2>
 
           <div className="grid md:grid-cols-3 gap-6">
-            {content.relatedResources.map((resource, index) => (
+            {content.relatedResources
+              .filter(resource => !resource.href.includes('/tools/'))
+              .map((resource, index) => (
               <LocaleLink
                 key={index}
                 href={resource.href}
@@ -152,7 +154,7 @@ export default function EducationPageTemplate({
                     ? '/splan/psychology-test'
                     : content.ctaPrimaryButton.includes('使用工具') ||
                       content.ctaPrimaryButton.includes('Use Tools')
-                    ? '/tools/position-calculator'
+                    ? '/splan/join-us'
                     : '/splan/join-us'
                 }
                 className="px-10 py-4 bg-white dark:bg-black text-black dark:text-white font-bold text-lg border-2 border-white dark:border-black hover:bg-transparent hover:text-white dark:hover:bg-transparent dark:hover:text-black transition-all inline-block text-center"
@@ -171,7 +173,7 @@ export default function EducationPageTemplate({
                       content.ctaSecondaryButton.includes('Price Action Tools') ||
                       content.ctaSecondaryButton.includes('使用工具') ||
                       content.ctaSecondaryButton.includes('Use Tools')
-                    ? '/tools/position-calculator'
+                    ? '/splan/join-us'
                     : '/splan/join-us'
                 }
                 className="px-10 py-4 bg-transparent text-white dark:text-black font-bold text-lg border-2 border-white dark:border-black hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white transition-all inline-block text-center"

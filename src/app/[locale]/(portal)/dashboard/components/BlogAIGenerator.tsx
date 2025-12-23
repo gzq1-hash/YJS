@@ -90,7 +90,7 @@ export default function BlogAIGenerator({ onGenerated, onClose }: BlogAIGenerato
                 setProgress(Math.min(90, (fullContent.length / estimatedTotal) * 100));
               } else if (data.type === 'complete') {
                 setProgress(100);
-                onGenerated({ ...data.data, author: 'FX Killer Team' });
+                onGenerated({ ...data.data, author: 'AurumFoundry Team' });
                 onClose();
               } else if (data.type === 'error') {
                 throw new Error(data.data);
@@ -201,7 +201,7 @@ export default function BlogAIGenerator({ onGenerated, onClose }: BlogAIGenerato
               </li>
               <li className="text-sm text-gray-600 dark:text-gray-400 flex items-start gap-2">
                 <span className="text-black dark:text-white font-bold">•</span>
-                <span>{language === 'zh' ? '符合汇刃品牌风格的HTML样式' : 'FX Killer brand-style HTML formatting'}</span>
+                <span>{language === 'zh' ? '符合元金石品牌风格的HTML样式' : 'AurumFoundry brand-style HTML formatting'}</span>
               </li>
               <li className="text-sm text-gray-600 dark:text-gray-400 flex items-start gap-2">
                 <span className="text-black dark:text-white font-bold">•</span>

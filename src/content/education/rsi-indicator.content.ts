@@ -2,7 +2,7 @@ import { EducationPageContent } from './forex-basics.content';
 
 export const rsiIndicatorContent = {
   zh: {
-    title: 'RSI相对强弱指标完整指南丨汇刃丨全职交易员培训、职业交易员培训',
+    title: 'RSI相对强弱指标完整指南丨元金石丨全职交易员培训、职业交易员培训',
     description: '深入讲解RSI相对强弱指标：计算公式、超买超卖区域、RSI背离形态。全职交易员和职业交易员培训课程，掌握RSI策略，配合布林带等指标提升交易胜率。',
     keywords: '全职交易员培训, 职业交易员培训, RSI指标, 相对强弱指标, RSI策略, RSI背离, 超买超卖, 技术分析',
 
@@ -70,7 +70,7 @@ export const rsiIndicatorContent = {
     ],
 
     ctaTitle: '想要系统学习技术分析？',
-    ctaDescription: '加入 FX Killer 培训计划，掌握更多实战技术指标应用',
+    ctaDescription: '加入 AurumFoundry 培训计划，掌握更多实战技术指标应用',
     ctaPrimaryButton: '了解培训计划',
     ctaSecondaryButton: '免费心理测评',
 
@@ -81,7 +81,7 @@ export const rsiIndicatorContent = {
   } as EducationPageContent,
 
   en: {
-    title: 'Complete RSI Indicator Guide丨FX Killer丨Full-Time Trader Training, Professional Trader Training',
+    title: 'Complete RSI Indicator Guide丨AurumFoundry丨Full-Time Trader Training, Professional Trader Training',
     description: 'In-depth RSI indicator guide: calculation, overbought/oversold zones, divergence patterns. Full-time trader training and professional trader training curriculum for mastering RSI strategies, combining with Bollinger Bands to improve win rate.',
     keywords: 'Full-Time Trader Training, Professional Trader Training, RSI indicator, relative strength index, RSI strategy, RSI divergence',
 
@@ -149,7 +149,7 @@ export const rsiIndicatorContent = {
     ],
 
     ctaTitle: 'Want to Systematically Learn Technical Analysis?',
-    ctaDescription: 'Join FX Killer training to master more practical technical indicator applications',
+    ctaDescription: 'Join AurumFoundry training to master more practical technical indicator applications',
     ctaPrimaryButton: 'Learn About Training',
     ctaSecondaryButton: 'Free Psychology Test',
 

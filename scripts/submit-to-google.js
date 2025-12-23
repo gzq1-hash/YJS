@@ -2,7 +2,7 @@ const { google } = require('googleapis');
 const fs = require('fs');
 const path = require('path');
 
-const BASE_URL = 'https://fxkiller.com';
+const BASE_URL = 'https://yuanjinshi.com';
 const SUBMITTED_HISTORY_FILE = path.join(__dirname, '../.google-submitted-urls.json');
 
 // 从环境变量或本地文件读取密钥

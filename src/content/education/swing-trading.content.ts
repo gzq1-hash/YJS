@@ -2,7 +2,7 @@ import { EducationPageContent } from './forex-basics.content';
 
 export const swingTradingContent = {
   zh: {
-    title: '波段交易完整指南丨汇刃丨全职交易员培训、日内交易员培训',
+    title: '波段交易完整指南丨元金石丨全职交易员培训、日内交易员培训',
     description: '深入讲解波段交易（Swing Trading）：H4/D1时间框架分析、趋势识别方法、持仓管理技巧。全职交易员和日内交易员培训课程分享多日交易策略和实战案例。',
     keywords: '全职交易员培训, 日内交易员培训, 波段交易, Swing Trading, H4交易, D1交易, 趋势交易, 多日持仓',
 
@@ -70,7 +70,7 @@ export const swingTradingContent = {
     ],
 
     ctaTitle: '想要系统学习波段交易？',
-    ctaDescription: '加入 FX Killer 培训计划，获取专业波段交易策略和中长期趋势分析',
+    ctaDescription: '加入 AurumFoundry 培训计划，获取专业波段交易策略和中长期趋势分析',
     ctaPrimaryButton: '了解培训计划',
     ctaSecondaryButton: '免费心理测评',
 
@@ -81,7 +81,7 @@ export const swingTradingContent = {
   } as EducationPageContent,
 
   en: {
-    title: 'Complete Swing Trading Guide丨FX Killer丨Full-Time Trader Training, Day Trader Training',
+    title: 'Complete Swing Trading Guide丨AurumFoundry丨Full-Time Trader Training, Day Trader Training',
     description: 'In-depth explanation of Swing Trading: H4/D1 timeframe analysis, trend identification methods, position management techniques, multi-day trading strategies. Master complete swing trading system with real cases.',
     keywords: 'Full-Time Trader Training, Day Trader Training, swing trading, H4 trading, D1 trading, trend trading',
 
@@ -149,7 +149,7 @@ export const swingTradingContent = {
     ],
 
     ctaTitle: 'Want to Systematically Learn Swing Trading?',
-    ctaDescription: 'Join FX Killer training for professional swing trading strategies and medium-term trend analysis',
+    ctaDescription: 'Join AurumFoundry training for professional swing trading strategies and medium-term trend analysis',
     ctaPrimaryButton: 'Learn About Training',
     ctaSecondaryButton: 'Free Psychology Test',
 

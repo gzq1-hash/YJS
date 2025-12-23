@@ -2,7 +2,7 @@ import { EducationPageContent } from './forex-basics.content';
 
 export const spreadsCommissionsContent = {
   zh: {
-    title: '外汇点差与佣金详解丨汇刃丨职业交易员培训、全职交易员培训',
+    title: '外汇点差与佣金详解丨元金石丨职业交易员培训、全职交易员培训',
     description: '全面解析外汇交易成本：点差类型、佣金模式、隐藏费用、如何选择低成本经纪商。职业交易员和全职交易员培训必学的降低交易成本技巧，提升长期盈利能力。',
     keywords: '职业交易员培训, 全职交易员培训, 外汇点差, 外汇佣金, 交易成本, 固定点差, 浮动点差',
 
@@ -70,7 +70,7 @@ export const spreadsCommissionsContent = {
     ],
 
     ctaTitle: '想要获得更优质的交易条件？',
-    ctaDescription: 'FX Killer 合作经纪商提供极具竞争力的点差和佣金',
+    ctaDescription: 'AurumFoundry 合作经纪商提供极具竞争力的点差和佣金',
     ctaPrimaryButton: '查看合作经纪商',
     ctaSecondaryButton: '免费心理测评',
 
@@ -81,7 +81,7 @@ export const spreadsCommissionsContent = {
   } as EducationPageContent,
 
   en: {
-    title: 'Forex Spreads & Commissions Explained丨FX Killer丨Professional Trader Training, Full-Time Trader Training',
+    title: 'Forex Spreads & Commissions Explained丨AurumFoundry丨Professional Trader Training, Full-Time Trader Training',
     description: 'Comprehensive analysis of forex trading costs: spread types (fixed vs floating), commission models, hidden fees, and how to choose low-cost brokers. Master cost reduction strategies for long-term profitability.',
     keywords: 'Professional Trader Training, Full-Time Trader Training, forex spreads, forex commissions, trading costs',
 
@@ -149,7 +149,7 @@ export const spreadsCommissionsContent = {
     ],
 
     ctaTitle: 'Want Better Trading Conditions?',
-    ctaDescription: 'FX Killer partner brokers offer highly competitive spreads and commissions',
+    ctaDescription: 'AurumFoundry partner brokers offer highly competitive spreads and commissions',
     ctaPrimaryButton: 'View Partner Brokers',
     ctaSecondaryButton: 'Free Psychology Test',
 

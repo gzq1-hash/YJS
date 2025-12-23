@@ -50,7 +50,7 @@ export interface EducationPageContent {
 
 export const forexBasicsContent = {
   zh: {
-    title: '外汇交易基础知识完整指南丨汇刃丨职业交易员培训、外汇交易员培训',
+    title: '外汇交易基础知识完整指南丨元金石丨职业交易员培训、外汇交易员培训',
     description: '完整的外汇交易入门教程，由职业交易员编写。涵盖外汇市场基础、交易术语、技术分析、风险管理等核心知识，助你快速掌握外汇交易要领。职业交易员培训和外汇交易员培训必备基础课程。',
     keywords: '职业交易员培训, 外汇交易员培训, 职业交易员, 外汇交易员, 外汇基础, 外汇入门, 外汇教程, 外汇市场, 交易知识',
 
@@ -118,7 +118,7 @@ export const forexBasicsContent = {
     ],
 
     ctaTitle: '准备开始你的外汇交易之旅？',
-    ctaDescription: '加入 FX Killer 30天系统化培训，从零基础到职业交易员',
+    ctaDescription: '加入 AurumFoundry 30天系统化培训，从零基础到职业交易员',
     ctaPrimaryButton: '了解培训计划',
     ctaSecondaryButton: '免费心理测评',
 
@@ -129,7 +129,7 @@ export const forexBasicsContent = {
   } as EducationPageContent,
 
   en: {
-    title: 'Complete Forex Basics Guide丨FX Killer丨Professional Trader Training, Forex Trader Training',
+    title: 'Complete Forex Basics Guide丨AurumFoundry丨Professional Trader Training, Forex Trader Training',
     description: 'Comprehensive forex trading tutorial written by professional traders. Covering market basics, trading terminology, technical analysis, and risk management for beginners. Essential foundation course for professional trader training and forex trader training.',
     keywords: 'professional trader training, forex trader training, professional trader, forex trader, forex basics, forex tutorial, forex market',
 
@@ -197,7 +197,7 @@ export const forexBasicsContent = {
     ],
 
     ctaTitle: 'Ready to Start Your Forex Trading Journey?',
-    ctaDescription: 'Join FX Killer 30-day systematic training, from beginner to professional trader',
+    ctaDescription: 'Join AurumFoundry 30-day systematic training, from beginner to professional trader',
     ctaPrimaryButton: 'Learn About Training',
     ctaSecondaryButton: 'Free Psychology Test',
 

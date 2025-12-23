@@ -58,7 +58,7 @@ export default function PartnersLogos() {
   ];
 
   return (
-    <section className="py-16 bg-white dark:bg-gray-950 overflow-hidden">
+    <section className="py-16 overflow-hidden bg-brand-bg">
       <div className="max-w-7xl mx-auto px-6">
         {/* Title */}
         <motion.div
@@ -68,10 +68,10 @@ export default function PartnersLogos() {
           transition={{ duration: 0.6 }}
           className="text-center mb-12"
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-black dark:text-white mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
             {isZh ? '合作伙伴' : 'Our Partners'}
           </h2>
-          <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
+          <p className="text-white/80 max-w-2xl mx-auto">
             {isZh
               ? '与全球领先的金融机构和平台建立战略合作伙伴关系'
               : 'Strategic partnerships with leading global financial institutions and platforms'}
@@ -116,34 +116,34 @@ export default function PartnersLogos() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="bg-white dark:bg-gray-900 border-2 border-black dark:border-white p-6"
+          className="bg-white/5 border border-white/10 p-6 hover:border-brand-accent/50 transition-colors"
         >
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             {/* Left: Description */}
             <div className="text-center md:text-left">
-              <p className="text-base md:text-lg text-black dark:text-white">
+              <p className="text-base md:text-lg text-white">
                 {isZh ? (
                   <>
-                    汇刃是 <span className="font-bold">EC Markets</span>、<span className="font-bold">TickMill</span>、<span className="font-bold">Binance</span>、<span className="font-bold">FTMO</span>、<span className="font-bold">FundedNext</span> 的<span className="font-black text-xl underline decoration-2 underline-offset-4">官方合作伙伴</span>
+                    元金石是 <span className="font-bold text-brand-accent">EC Markets</span>、<span className="font-bold text-brand-accent">TickMill</span>、<span className="font-bold text-brand-accent">Binance</span>、<span className="font-bold text-brand-accent">FTMO</span>、<span className="font-bold text-brand-accent">FundedNext</span> 的<span className="font-black text-xl underline decoration-2 underline-offset-4 decoration-brand-accent">官方合作伙伴</span>
                   </>
                 ) : (
                   <>
-                    FX Killer is an <span className="font-black text-xl underline decoration-2 underline-offset-4">official partner</span> of <span className="font-bold">EC Markets</span>, <span className="font-bold">TickMill</span>, <span className="font-bold">Binance</span>, <span className="font-bold">FTMO</span>, <span className="font-bold">FundedNext</span>
+                    AurumFoundry is an <span className="font-black text-xl underline decoration-2 underline-offset-4 decoration-brand-accent">official partner</span> of <span className="font-bold text-brand-accent">EC Markets</span>, <span className="font-bold text-brand-accent">TickMill</span>, <span className="font-bold text-brand-accent">Binance</span>, <span className="font-bold text-brand-accent">FTMO</span>, <span className="font-bold text-brand-accent">FundedNext</span>
                   </>
                 )}
               </p>
-              <p className="text-sm text-black dark:text-white mt-2">
+              <p className="text-sm text-white/80 mt-2">
                 {isZh ? (
                   <>
-                    使用专属链接注册，享受<span className="font-black bg-black dark:bg-white text-white dark:text-black px-2 py-0.5">平台最高自动返佣</span>、<span className="font-bold underline">超低点差</span>、<span className="font-bold underline">手续费</span>
+                    使用专属链接注册，享受<span className="font-black bg-brand-accent text-white px-2 py-0.5">平台最高自动返佣</span>、<span className="font-bold underline decoration-brand-accent">超低点差</span>、<span className="font-bold underline decoration-brand-accent">手续费</span>
                     <br />
-                    <span className="font-black">FTMO</span> 和 <span className="font-black">FundedNext</span> 更有<span className="font-black text-base bg-black dark:bg-white text-white dark:text-black px-2 py-0.5 ml-1">立减优惠</span>
+                    <span className="font-black text-brand-accent">FTMO</span> 和 <span className="font-black text-brand-accent">FundedNext</span> 更有<span className="font-black text-base bg-brand-accent text-white px-2 py-0.5 ml-1">立减优惠</span>
                   </>
                 ) : (
                   <>
-                    Register with exclusive links for <span className="font-black bg-black dark:bg-white text-white dark:text-black px-2 py-0.5">maximum auto-rebates</span>, <span className="font-bold underline">ultra-low spreads & fees</span>
+                    Register with exclusive links for <span className="font-black bg-brand-accent text-white px-2 py-0.5">maximum auto-rebates</span>, <span className="font-bold underline decoration-brand-accent">ultra-low spreads & fees</span>
                     <br />
-                    <span className="font-black">FTMO</span> & <span className="font-black">FundedNext</span> with <span className="font-black text-base bg-black dark:bg-white text-white dark:text-black px-2 py-0.5 ml-1">instant discounts</span>
+                    <span className="font-black text-brand-accent">FTMO</span> & <span className="font-black text-brand-accent">FundedNext</span> with <span className="font-black text-base bg-brand-accent text-white px-2 py-0.5 ml-1">instant discounts</span>
                   </>
                 )}
               </p>
@@ -163,20 +163,20 @@ export default function PartnersLogos() {
                   transition={{ duration: 0.3, delay: index * 0.05 }}
                   className="group"
                 >
-                  <div className="bg-white dark:bg-gray-800 border-2 border-gray-300 dark:border-gray-600 hover:border-black dark:hover:border-white transition-all px-4 py-2 flex items-center gap-2">
-                    <span className="font-bold text-black dark:text-white text-sm group-hover:underline">
+                  <div className="bg-white/5 border border-white/10 hover:border-brand-accent/50 transition-all px-4 py-2 flex items-center gap-2">
+                    <span className="font-bold text-white text-sm group-hover:text-brand-accent transition-colors">
                       {partner.name}
                     </span>
                     {partner.name === 'FundedNext' && partner.code && (
                       <>
-                        <span className="text-gray-400">|</span>
-                        <code className="text-xs bg-gray-100 dark:bg-gray-700 px-2 py-0.5 text-black dark:text-white font-mono">
+                        <span className="text-white/20">|</span>
+                        <code className="text-xs bg-white/10 px-2 py-0.5 text-white font-mono">
                           {partner.code}
                         </code>
                       </>
                     )}
                     <svg
-                      className="w-4 h-4 text-gray-400 group-hover:text-black dark:group-hover:text-white transition-colors"
+                      className="w-4 h-4 text-white/40 group-hover:text-brand-accent transition-colors"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"

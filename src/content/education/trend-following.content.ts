@@ -2,7 +2,7 @@ import { EducationPageContent } from './forex-basics.content';
 
 export const trendFollowingContent = {
   zh: {
-    title: '趋势跟踪完整指南丨汇刃丨外汇交易员培训、职业交易员培训',
+    title: '趋势跟踪完整指南丨元金石丨外汇交易员培训、职业交易员培训',
     description: '深入讲解趋势跟踪（Trend Following）：趋势识别方法、EMA均线系统、趋势强度判断、加仓策略。外汇交易员和职业交易员培训必备的顺势交易系统。',
     keywords: '外汇交易员培训, 职业交易员培训, 趋势跟踪, Trend Following, EMA均线, 趋势交易, 加仓策略',
 
@@ -70,7 +70,7 @@ export const trendFollowingContent = {
     ],
 
     ctaTitle: '想要系统学习趋势交易？',
-    ctaDescription: '加入 FX Killer 培训计划，获取专业趋势跟踪策略和趋势分析工具',
+    ctaDescription: '加入 AurumFoundry 培训计划，获取专业趋势跟踪策略和趋势分析工具',
     ctaPrimaryButton: '了解培训计划',
     ctaSecondaryButton: '免费心理测评',
 
@@ -81,7 +81,7 @@ export const trendFollowingContent = {
   } as EducationPageContent,
 
   en: {
-    title: 'Complete Trend Following Guide丨FX Killer丨Forex Trader Training, Professional Trader Training',
+    title: 'Complete Trend Following Guide丨AurumFoundry丨Forex Trader Training, Professional Trader Training',
     description: 'In-depth explanation of Trend Following: trend identification methods, EMA system, trend strength judgment, pyramiding strategies. Master professional trend following complete system.',
     keywords: 'Forex Trader Training, Professional Trader Training, trend following, EMA, trend trading, pyramiding strategy',
 
@@ -149,7 +149,7 @@ export const trendFollowingContent = {
     ],
 
     ctaTitle: 'Want to Systematically Learn Trend Trading?',
-    ctaDescription: 'Join FX Killer training for professional trend following strategies and trend analysis tools',
+    ctaDescription: 'Join AurumFoundry training for professional trend following strategies and trend analysis tools',
     ctaPrimaryButton: 'Learn About Training',
     ctaSecondaryButton: 'Free Psychology Test',
 
