@@ -73,8 +73,8 @@ const logoDonts = [
   "不要加入过多细碎细节，避免缩小时失真。",
 ];
 
-export default function BrandPage({ params }: BrandPageProps) {
-  const locale = params?.locale ?? "zh";
+export default async function BrandPage({ params }: BrandPageProps) {
+  const { locale = "zh" } = await params;
   const isEnglish = locale === "en";
 
   if (isEnglish) {
