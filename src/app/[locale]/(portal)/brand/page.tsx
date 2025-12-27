@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 };
 
 type BrandPageProps = {
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 };
 
 const callsToAction = [
